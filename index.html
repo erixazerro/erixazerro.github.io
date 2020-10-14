@@ -28,7 +28,7 @@
 </table>
 
 <hr noshade="noshade">
-<h2><font color="#005128">Project Title: </font><font><font color="#005128">Parallel Techniques for Biological Sequence Alignment Tools</font></font></h2>
+<h2><font color="#005128">Project Title: </font><font><font color="#005128">GPU Enhancements for Protein Sequence Alignment Using BLAST</font></font></h2>
 
 <h2><font><font color="#005128">Name: Eric Arezza</font></font></h2>
 
@@ -45,16 +45,20 @@
 	being submitted, parallel approaches have become a necessity to reduce processing time.
 	</p>
 	<p>
-	Firstly, an assessment of parallel approaches to speeding up sequence alignment tools (BLAST) will provide an overview of current solutions and novelties 
-	of different approaches. These may include hardware acceleration with GPUs and FPGAs, data distribution methods using MPI, or other novel methods. 
+	Firstly, an assessment of GPU-based parallel approaches to speeding up sequence alignment tools (BLAST) will provide an overview of past and current solutions as well as novelties 
+	of different approaches. These may include hardware acceleration with GPUs on BLAST itself, GPU acceleration on sections of BLAST algorithms, or other novel methods. 
 	Secondly, the most recent, best performing, and available techniques for re-implementation will be considered for comparison on various query and database
 	configurations. Finally, the performance of applied approaches will be evaluated and may lead to configuration-specific recommendations or hybrid solutions 
 	for parallelization.
 	</p>
 <p><b><font color="#005128">Startup Paper(s):</font></b>     
-    <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0022283605803602"> Altschul SF, Gish W, Miller W, Myers EW, Lipman DJ. Basic local alignment search tool. J Mol Biol. 1990;215(3):403-410. doi:10.1016/S0022-2836(05)80360-2 </a></li>
-    <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=8697496"> M. Gaikwad and S. Ahirrao, "BLAST Using Big Data Technologies: A Survey," 2018 Fourth International Conference on Computing Communication Control and Automation (ICCUBEA), Pune, India, 2018, pp. 1-5, doi: 10.1109/ICCUBEA.2018.8697496. </a> </li>
-    <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=9139640"> K. Youssef and W. Feng, "SparkLeBLAST: Scalable Parallelization of BLAST Sequence Alignment Using Spark," 2020 20th IEEE/ACM International Symposium on Cluster, Cloud and Internet Computing (CCGRID), Melbourne, Australia, 2020, pp. 539-548, doi: 10.1109/CCGrid49817.2020.00-39. </a> </li>
+    <li><a href="https://ieeexplore.ieee.org/document/7568363"> Accelerating Iterative Protein Sequence Alignment on a Heterogeneous GPU-CPU Platform </a></li>
+    <li><a href="https://www.sciencedirect.com/science/article/pii/S1877050910000542"> Design and Implementation of a CUDA-Compatible GPU-based Core for Gapped BLAST Algorithm </a> </li>
+    <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3018811/"> GPU-BLAST: using graphics processors to accelerate protein sequence alignment </a> </li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/21339531/"> CUDA-BLASTP: Accelerating BLASTP on CUDA-Enabled Graphics Hardware </a> </li>
+    <li><a href="https://academic.oup.com/bioinformatics/article/33/8/1130/2900493"> H-BLAST: a fast protein sequence alignment toolkit on heterogeneous computers with GPUs </a> </li>
+    <li><a href="https://www.semanticscholar.org/paper/CLUS_GPU-BLASTP%3A-accelerated-protein-sequence-using-Rani-Gupta/5b3d7454bfcd0cedf9c6790a48a2023eaff5d862"> CLUS_GPU-BLASTP: accelerated protein sequence alignment using GPU-enabled cluster </a> </li>
+    <li><a href="https://pubmed.ncbi.nlm.nih.gov/26469393/"> cuBLASTP: Fine-Grained Parallelization of Protein Sequence Search on CPU+GPU </a> </li>
 </p>
 
 <p><b><font color="#005128">Deliverables:</font></b></p>
@@ -84,14 +88,15 @@ Paper</font></a> (PDF file created from LATEX template)</div>
 <p><b><font color="#005128">Relevant References:</font></b></p>
 
 <ul>
-
-  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=8854971"> Y. Li and Y. Lu, "BLASTP-ACC: Parallel Architecture and Hardware Accelerator Design for BLAST-Based Protein Sequence Alignment," in IEEE Transactions on Biomedical Circuits and Systems, vol. 13, no. 6, pp. 1771-1782, Dec. 2019, doi: 10.1109/TBCAS.2019.2943539. </a> </li>
-  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=8778371"> M. Bekbolat, S. Kairatova, A. Shymyrbay and K. Vipin, "HBLast: An Open-Source FPGA Library for DNA Sequencing Acceleration," 2019 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW), Rio de Janeiro, Brazil, 2019, pp. 79-82, doi: 10.1109/IPDPSW.2019.00022. </a> </li>
-  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=7296597"> J. Zhang, H. Wang and W. Feng, "cuBLASTP: Fine-Grained Parallelization of Protein Sequence Search on CPU+GPU," in IEEE/ACM Transactions on Computational Biology and Bioinformatics, vol. 14, no. 4, pp. 830-843, 1 July-Aug. 2017, doi: 10.1109/TCBB.2015.2489662. </a> </li>
-  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=8975760"> S. Soundarajan, M. Salomon and J. H. Park, "CPU-GPU Collaborated Computation Models for Biological Sequence Alignment with Mirror-Based Work Load Balancing," 2019 IEEE 25th International Conference on Parallel and Distributed Systems (ICPADS), Tianjin, China, 2019, pp. 240-248, doi: 10.1109/ICPADS47876.2019.00043. </a> </li>
-  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=5645360"> H. Lican and H. Ya, "GPU Based Parallel Computing on Blast Program," 2010 First International Conference on Networking and Distributed Computing, Hangzhou, 2010, pp. 379-380, doi: 10.1109/ICNDC.2010.78. </a> </li>
-  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=6746988"> M. Meng, J. Gao and J. Chen, "Blast-Parallel: The parallelizing implementation of sequence alignment algorithms based on Hadoop platform," 2013 6th International Conference on Biomedical Engineering and Informatics, Hangzhou, 2013, pp. 465-470, doi: 10.1109/BMEI.2013.6746988. </a> </li>
-  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=6693198"> L. Ruan, Q. Zhou, Y. Wu, D. Sui and L. Xiao, "An Empirical Study on BLAST Parallel Acceleration," 2013 International Conference on Cloud and Service Computing, Beijing, 2013, pp. 162-163, doi: 10.1109/CSC.2013.36. </a> </li>
+  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=8697496"> BLAST Using Big Data Technologies: A Survey </a> </li>
+  <li><a href="https://www.cambridge.org/core/books/essential-bioinformatics/D003E841CD01B2F71C96E64C0B25E089"> Essential Bioinformatics </a> </li>
+  <li><a href="https://ieeexplore.ieee.org/document/8854971"> BLASTP-ACC: Parallel Architecture and Hardware Accelerator Design for BLAST-Based Protein Sequence Alignment </a> </li>
+  <li><a href="https://bmcresnotes.biomedcentral.com/articles/10.1186/1756-0500-4-261"> DOPA: GPU-based protein alignment using database and memory access optimizations </a> </li>
+  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=8778371"> HBLast: An Open-Source FPGA Library for DNA Sequencing Acceleration </a> </li>
+  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=8975760"> CPU-GPU Collaborated Computation Models for Biological Sequence Alignment with Mirror-Based Work Load Balancing </a> </li>
+  <li><a href="https://ieeexplore-ieee-org.proxy.library.carleton.ca/stamp/stamp.jsp?tp=&arnumber=6693198"> An Empirical Study on BLAST Parallel Acceleration </a> </li>
+  <li><a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5749749/"> pyPaSWAS: Python-based multi-core CPU and GPU sequence alignment </a> </li>
+  <li><a href="https://link.springer.com/article/10.1007/s10586-019-03035-8"> A scalable multiple pairwise protein sequence alignment acceleration using hybrid CPU–GPU approach </a> </li>
 </ul>
 
 </body></html>
