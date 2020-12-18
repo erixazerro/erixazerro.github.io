@@ -1,0 +1,104 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|Q99M08|CD003_MOUSE Uncharacterized protein C4orf3 homolog OS=Mus
+musculus OX=10090 PE=1 SV=1
+
+Length=65
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+5XYI_K Chain K, Plectin/s10 Domain Containing Protein [Trichomona...  25.8    5.1  
+4M48_A Chain A, Transporter [Drosophila melanogaster]                 25.8    5.4  
+4XPG_A Chain A, Dopamine transporter [Drosophila melanogaster]        25.8    5.4  
+4XNU_A Chain A, Integral Membrane Protein-dopamine Transporter [D...  25.4    6.0  
+
+
+>5XYI_K Chain K, Plectin/s10 Domain Containing Protein [Trichomonas 
+vaginalis]
+Length=141
+
+ Score = 25.8 bits (55),  Expect = 5.1, Method: Compositional matrix adjust.
+ Identities = 12/27 (44%), Positives = 14/27 (52%), Gaps = 0/27 (0%)
+
+Query  7    ASGTDGVRERRGSFEAGRRNQDEAPQS  33
+             +G  G R +RG F   RR Q E PQ 
+Sbjct  114  GNGPRGDRPQRGGFRGPRREQAEQPQQ  140
+
+
+>4M48_A Chain A, Transporter [Drosophila melanogaster]
+Length=543
+
+ Score = 25.8 bits (55),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  35   MNGLPKHSYWLDLWLFILFDLALFVFVYLL  64
+            M G P   YW   W F+     LF+ VYLL
+Sbjct  448  MIGFPPGRYWQVCWRFVAPIFLLFITVYLL  477
+
+
+>4XPG_A Chain A, Dopamine transporter [Drosophila melanogaster]
+Length=543
+
+ Score = 25.8 bits (55),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  35   MNGLPKHSYWLDLWLFILFDLALFVFVYLL  64
+            M G P   YW   W F+     LF+ VYLL
+Sbjct  448  MIGFPPGRYWQVCWRFVAPIFLLFITVYLL  477
+
+
+>4XNU_A Chain A, Integral Membrane Protein-dopamine Transporter 
+[Drosophila melanogaster]
+Length=532
+
+ Score = 25.4 bits (54),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 13/30 (43%), Positives = 15/30 (50%), Gaps = 0/30 (0%)
+
+Query  35   MNGLPKHSYWLDLWLFILFDLALFVFVYLL  64
+            M G P   YW   W F+     LF+ VYLL
+Sbjct  443  MIGFPPGRYWQVCWRFVAPIFLLFITVYLL  472
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 789155743
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

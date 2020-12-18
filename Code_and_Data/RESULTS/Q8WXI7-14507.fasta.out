@@ -1,0 +1,280 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|Q8WXI7|MUC16_HUMAN Mucin-16 OS=Homo sapiens OX=9606 GN=MUC16 PE=1
+SV=3
+
+Length=14507
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+1IVZ_A Chain A, Solution structure of the SEA domain from murine ...  207     2e-60
+3FD3_A Chain A, chromosome replication initiation inhibitor prote...  37.7    0.72 
+6BSC_A Chain A, Mucin-1 [Homo sapiens]                                33.5    1.5  
+6BSB_A Chain A, Mucin-1 [Homo sapiens]                                33.5    1.6  
+
+
+>1IVZ_A Chain A, Solution structure of the SEA domain from murine 
+hypothetical protein homologous to human mucin 16 [Mus musculus]
+Length=132
+
+ Score = 207 bits (526),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 97/115 (84%), Positives = 101/115 (88%), Gaps = 1/115 (1%)
+
+Query  14321  QHFYLNFTITNLPYSQDKAQPGTTNYQRNKRNIEDALNQLFRNSSIKSYFSDCQVSTFRS  14380
+              QHF LNFTITNLPYSQD AQP TT YQ+ KR+IE+ALNQLFRNSSIKSYFSDCQV  FRS
+Sbjct  12     QHFNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRS  71
+
+Query  14381  V-PNRHHTGVDSLCNFSPLARRVDRVAIYEEFLRMTRNGTQLQNFTLDRSSVLVD  14434
+              V  N +HTGVDSLCNFSPLARRVDRVAIYEEFLRMT NGTQL NFTLDR SV VD
+Sbjct  72     VSNNNNHTGVDSLCNFSPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 87.8 bits (216),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 43/115 (37%), Positives = 73/115 (63%), Gaps = 3/115 (3%)
+
+Query  13013  FTLNFTITNLQYGEDMRHPGSRKFNTTERVLQGLLGPLFKNSSVGPLYSGCRLISLRS-E  13071
+              F LNFTITNL Y +D+  P + K+  T+R ++  L  LF+NSS+   +S C++++ RS  
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  13072  KDGAATGVDAICTHHLNPQSPGLDREQLYWQLSQMTNGIKELGPYTLDRNSLYVN  13126
+               +   TGVD++C  + +P +  +DR  +Y +  +MT+   +L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLC--NFSPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 84.7 bits (208),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 42/115 (37%), Positives = 69/115 (60%), Gaps = 3/115 (3%)
+
+Query  13637  FTLNFTITNLRYEENMQHPGSRKFNTTERVLQGLLRSLFKSTSVGPLYSGCRLTLLRP-E  13695
+              F LNFTITNL Y +++  P + K+  T+R ++  L  LF+++S+   +S C++   R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  13696  KDGTATGVDAICTHHPDPKSPRLDREQLYWELSQLTHNITELGPYALDNDSLFVN  13750
+               +   TGVD++C   P  +  R+DR  +Y E  ++THN T+L  + LD  S+FV+
+Sbjct  74     NNNNHTGVDSLCNFSPLAR--RVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 84.3 bits (207),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 42/115 (37%), Positives = 70/115 (61%), Gaps = 3/115 (3%)
+
+Query  12546  FTLNFTITNLKYEEDMHRPGSRKFNTTERVLQTLLGPMFKNTSVGLLYSGCRLTLLRS-E  12604
+              F LNFTITNL Y +D+ +P + K+  T+R ++  L  +F+N+S+   +S C++   RS  
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  12605  KDGAATGVDAICTHRLDPKSPGVDREQLYWELSQLTNGIKELGPYTLDRNSLYVN  12659
+               +   TGVD++C     P +  VDR  +Y E  ++T+   +L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCN--FSPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 84.0 bits (206),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 42/115 (37%), Positives = 70/115 (61%), Gaps = 3/115 (3%)
+
+Query  12701  FTLNFTITNLKYEEDMHCPGSRKFNTTERVLQSLLGPMFKNTSVGPLYSGCRLTLLRS-E  12759
+              F LNFTITNL Y +D+  P + K+  T+R +++ L  +F+N+S+   +S C++   RS  
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  12760  KDGAATGVDAICTHRLDPKSPGVDREQLYWELSQLTNGIKELGPYTLDRNSLYVN  12814
+               +   TGVD++C     P +  VDR  +Y E  ++T+   +L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCN--FSPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 83.2 bits (204),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 40/115 (35%), Positives = 71/115 (62%), Gaps = 3/115 (3%)
+
+Query  12390  FTLNFTITNLQYGEDMGHPGSRKFNTTERVLQGLLGPIFKNTSVGPLYSGCRLTSLRS-E  12448
+              F LNFTITNL Y +D+  P + K+  T+R ++  L  +F+N+S+   +S C++ + RS  
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  12449  KDGAATGVDAICIHHLDPKSPGLNRERLYWELSQLTNGIKELGPYTLDRNSLYVN  12503
+               +   TGVD++C  +  P +  ++R  +Y E  ++T+   +L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLC--NFSPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 82.4 bits (202),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 42/115 (37%), Positives = 70/115 (61%), Gaps = 3/115 (3%)
+
+Query  13325  FTLNFTITNLQYEEDMRRPGSRKFNTTERVLQGLLMPLFKNTSVSSLYSGCRLTLLRP-E  13383
+              F LNFTITNL Y +D+ +P + K+  T+R ++  L  LF+N+S+ S +S C++   R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  13384  KDGAATRVDAVCTHRPDPKSPGLDRERLYWKLSQLTHGITELGPYTLDRHSLYVN  13438
+               +   T VD++C   P  +   +DR  +Y +  ++TH  T+L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCNFSPLARR--VDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 82.0 bits (201),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 40/115 (35%), Positives = 69/115 (60%), Gaps = 3/115 (3%)
+
+Query  12857  FTLNFTITNLQYEEDMHHPGSRKFNTTERVLQGLLGPMFKNTSVGLLYSGCRLTLLRP-E  12915
+              F LNFTITNL Y +D+  P + K+  T+R ++  L  +F+N+S+   +S C++   R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  12916  KNGAATGMDAICSHRLDPKSPGLNREQLYWELSQLTHGIKELGPYTLDRNSLYVN  12970
+               N   TG+D++C+    P +  ++R  +Y E  ++TH   +L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCN--FSPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 80.9 bits (198),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 42/115 (37%), Positives = 69/115 (60%), Gaps = 4/115 (3%)
+
+Query  13793  FTLNFTITNLRYEENM-WPGSRKFNTTERVLQGLLRPLFKNTSVGPLYSGCRLTLLRP-E  13850
+              F LNFTITNL Y +++  P + K+  T+R ++  L  LF+N+S+   +S C++   R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  13851  KDGEATGVDAICTHRPDPTGPGLDREQLYLELSQLTHSITELGPYTLDRDSLYVN  13905
+               +   TGVD++C     P    +DR  +Y E  ++TH+ T+L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCNF--SPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 80.5 bits (197),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 42/115 (37%), Positives = 69/115 (60%), Gaps = 3/115 (3%)
+
+Query  12076  FTLNFTITNLQYEEDMRHPGSRKFNATERELQGLLKPLFRNSSLEYLYSGCRLASLRP-E  12134
+              F LNFTITNL Y +D+  P + K+  T+R ++  L  LFRNSS++  +S C++ + R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  12135  KDSSATAVDAICTHRPDPEDLGLDRERLYWELSNLTNGIQELGPYTLDRNSLYVN  12189
+               +++ T VD++C   P      +DR  +Y E   +T+   +L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCNFSPLAR--RVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 80.5 bits (197),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 39/115 (34%), Positives = 70/115 (61%), Gaps = 3/115 (3%)
+
+Query  13481  FTINFTITNLRYEENMHHPGSRKFNTTERVLQGLLRPVFKNTSVGPLYSGCRLTLLRP-K  13539
+              F +NFTITNL Y +++  P + K+  T+R ++  L  +F+N+S+   +S C++   R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  13540  KDGAATKVDAICTYRPDPKSPGLDREQLYWELSQLTHSITELGPYTLDRDSLYVN  13594
+               +   T VD++C + P  +   +DR  +Y E  ++TH+ T+L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCNFSPLARR--VDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 75.9 bits (185),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 39/115 (34%), Positives = 68/115 (59%), Gaps = 3/115 (3%)
+
+Query  13169  FTLNFTITNLQYEENMGHPGSRKFNITESVLQGLLKPLFKSTSVGPLYSGCRLTLLRP-E  13227
+              F LNFTITNL Y +++  P + K+  T+  ++  L  LF+++S+   +S C++   R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  13228  KDGVATRVDAICTHRPDPKIPGLDRQQLYWELSQLTHSITELGPYTLDRDSLYVN  13282
+               +   T VD++C   P  +   +DR  +Y E  ++TH+ T+L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCNFSPLAR--RVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 72.8 bits (177),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 40/115 (35%), Positives = 67/115 (58%), Gaps = 4/115 (3%)
+
+Query  14077  LTLNFTISNLQYSPDMGKGSAT-FNSTEGVLQHLLRPLFQKSSMGPFYLGCQLISLRP-E  14134
+                LNFTI+NL YS D+ + S T +  T+  +++ L  LF+ SS+  ++  CQ+++ R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  14135  KDGAATGVDTTCTYHPDPVGPGLDIQQLYWELSQLTHGVTQLGFYVLDRDSLFIN  14189
+               +   TGVD+ C +   P+   +D   +Y E  ++TH  TQL  + LDR S+F++
+Sbjct  74     NNNNHTGVDSLCNF--SPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 72.4 bits (176),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 41/117 (35%), Positives = 70/117 (60%), Gaps = 3/117 (3%)
+
+Query  13924  EPFTLNFTINNLRYMADMGQPGSLKFNITDNVMQHLLSPLFQRSSLGARYTGCRVIALRS  13983
+              + F LNFTI NL Y  D+ QP + K+  T   +++ L+ LF+ SS+ + ++ C+V+A RS
+Sbjct  12     QHFNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRS  71
+
+Query  13984  V-KNGAETRVDLLCTYLQPLSGPGLPIKQVFHELSQQTHGITRLGPYSLDKDSLYLN  14039
+              V  N   T VD LC +  PL+     +  ++ E  + TH  T+L  ++LD+ S++++
+Sbjct  72     VSNNNNHTGVDSLCNF-SPLARRVDRVA-IYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+ Score = 71.6 bits (174),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 37/115 (32%), Positives = 67/115 (58%), Gaps = 3/115 (3%)
+
+Query  12232  FTLNFTITNLQYEEDMRRTGSRKFNTMESVLQGLLKPLFKNTSVGPLYSGCRLTLLRP-E  12290
+              F LNFTITNL Y +D+ +  + K+   +  ++  L  LF+N+S+   +S C++   R   
+Sbjct  14     FNLNFTITNLPYSQDIAQPSTTKYQQTKRSIENALNQLFRNSSIKSYFSDCQVLAFRSVS  73
+
+Query  12291  KDGAATGVDAICTHRLDPKSPGLNREQLYWELSKLTNDIEELGPYTLDRNSLYVN  12345
+               +   TGVD++C     P +  ++R  +Y E  ++T++  +L  +TLDR S++V+
+Sbjct  74     NNNNHTGVDSLCN--FSPLARRVDRVAIYEEFLRMTHNGTQLLNFTLDRKSVFVD  126
+
+
+>3FD3_A Chain A, chromosome replication initiation inhibitor protein 
+[Agrobacterium fabrum str. C58]
+Length=208
+
+ Score = 37.7 bits (86),  Expect = 0.72, Method: Composition-based stats.
+ Identities = 28/76 (37%), Positives = 39/76 (51%), Gaps = 6/76 (8%)
+
+Query  3731  DSLSTLDW-DTGRSLSSATATTSAPQGA-TTPQELTLETMISPATSQLPFSIGHITSAVT  3788
+             D   T++W   GR L++ TA     QG   TP    L  +   AT+   F   H    VT
+Sbjct  38    DQDHTVEWLRGGRVLAAVTAHDKPVQGCRVTP----LGVLRYHATASPDFXARHFADGVT  93
+
+Query  3789  PAAMARSSGVTFSRPD  3804
+             PAA+AR+ G+TF++ D
+Sbjct  94    PAALARAPGLTFNQKD  109
+
+
+>6BSC_A Chain A, Mucin-1 [Homo sapiens]
+Length=57
+
+ Score = 33.5 bits (75),  Expect = 1.5, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  14323  FYLNFTITNLPYSQDKAQPGTTNYQRNKRNIEDALNQLFR  14362
+              F+L+F I+NL ++     P T  YQ  +R+I +   Q+++
+Sbjct  3      FFLSFHISNLQFNSSLEDPSTDYYQELQRDISEMFLQIYK  42
+
+
+>6BSB_A Chain A, Mucin-1 [Homo sapiens]
+Length=57
+
+ Score = 33.5 bits (75),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 13/40 (33%), Positives = 24/40 (60%), Gaps = 0/40 (0%)
+
+Query  14323  FYLNFTITNLPYSQDKAQPGTTNYQRNKRNIEDALNQLFR  14362
+              F+L+F I+NL ++     P T  YQ  +R+I +   Q+++
+Sbjct  3      FFLSFHISNLQFNSSLEDPSTDYYQELQRDISEXFLQIYK  42
+
+
+
+Lambda      K        H        a         alpha
+   0.304    0.118    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 223846920082
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

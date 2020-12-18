@@ -1,0 +1,945 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|Q92667|AKAP1_HUMAN A-kinase anchor protein 1, mitochondrial
+OS=Homo sapiens OX=9606 GN=AKAP1 PE=1 SV=1
+
+Length=903
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+5J39_A Chain A, Tudor and KH domain-containing protein [Homo sapi...  65.9    1e-11
+6PI7_A Chain A, Tudor and KH domain-containing protein [Homo sapi...  65.9    2e-11
+6B57_A Chain A, Tudor and KH domain-containing protein [Homo sapi...  65.9    2e-11
+3FDR_A Chain A, Tudor and KH domain-containing protein [Homo sapi...  52.4    6e-08
+2DIQ_A Chain A, Tudor and KH domain-containing protein [Homo sapi...  52.8    7e-08
+4B9X_A Chain A, TUDOR DOMAIN-CONTAINING PROTEIN 1 [Mus musculus]      54.7    1e-07
+4B9W_A Chain A, TUDOR DOMAIN-CONTAINING PROTEIN 1 [Mus musculus] ...  54.3    1e-07
+5VQG_A Chain A, Tudor and KH domain-containing protein homolog [B...  49.7    7e-06
+5M9N_A Chain A, Tudor Domain-containing Protein 1 [Homo sapiens] ...  46.2    7e-05
+5YGB_A Chain A, GH18329p [Drosophila melanogaster] 5YGD_A Chain A...  44.7    2e-04
+5YGC_A Chain A, GH18329p [Drosophila melanogaster]                    44.7    2e-04
+1ZZI_A Chain A, Heterogeneous Nuclear Ribonucleoprotein K [Homo s...  37.4    0.007
+1J5K_A Chain A, Heterogeneous nuclear ribonucleoprotein K [Homo s...  37.7    0.008
+1WVN_A Chain A, Poly(rC)-binding protein 1 [Homo sapiens]             36.6    0.014
+3BDL_A Chain A, Crystal Structure Of A Truncated Human Tudor-Sn [...  40.0    0.016
+2O4X_A Chain A, Crystal Structure Of Human P100 Tudor Domain [Hom...  38.9    0.017
+5M9O_A Chain A, Staphylococcal Nuclease Domain-containing Protein...  38.9    0.019
+2HQE_A Chain A, Crystal Structure Of Human P100 Tudor Domain: Lar...  38.9    0.023
+3OMC_A Chain A, Staphylococcal nuclease domain-containing protein...  38.9    0.025
+6QEY_A Chain A, Insulin-like growth factor 2 mRNA-binding protein...  37.0    0.057
+1WE8_A Chain A, Tudor and KH domain containing protein [Mus muscu...  35.4    0.058
+2P2R_A Chain A, Poly(rC)-binding protein 2 [Homo sapiens]             34.7    0.070
+1X4N_A Chain A, Far upstream element binding protein 1 [Mus muscu...  34.3    0.11 
+1KHM_A Chain A, PROTEIN (HNRNP K) [Homo sapiens]                      33.9    0.14 
+1EC6_A Chain A, Crystal Structure Of Nova-2 Kh3 K-Homology Rna-Bi...  33.9    0.15 
+1DTJ_A Chain A, Crystal Structure Of Nova-2 Kh3 K-Homology Rna-Bi...  33.5    0.18 
+4B8T_A Chain A, KH-TYPE SPLICING REGULATORY PROTEIN [Homo sapiens]    34.3    0.19 
+2HH3_A Chain A, KH-type splicing regulatory protein [Homo sapiens]    33.9    0.22 
+4LIJ_A Chain A, Far upstream element-binding protein 1 [Homo sapi...  33.5    0.25 
+2JVZ_A Chain A, Far upstream element-binding protein 2 [Homo sapi...  34.3    0.34 
+2OPV_A Chain A, KHSRP protein [Homo sapiens]                          32.7    0.36 
+1DT4_A Chain A, Crystal Structure Of Nova-1 Kh3 K-Homology Rna-Bi...  32.0    0.52 
+2OPU_A Chain A, KHSRP protein [Homo sapiens]                          32.3    0.58 
+2O4X_B Chain B, Crystal Structure Of Human P100 Tudor Domain [Hom...  32.0    0.77 
+2ANN_A Chain A, Neuro-oncological Ventral Antigen 1 [Homo sapiens]    33.5    0.87 
+1ZTG_A Chain A, Poly(rc)-binding Protein 1 [Homo sapiens] 1ZTG_B ...  31.2    0.97 
+3VKE_A Chain A, Poly(rc)-binding Protein 1 [Homo sapiens] 3VKE_B ...  31.2    0.98 
+2ANR_A Chain A, Neuro-oncological Ventral Antigen 1 [Homo sapiens]    33.1    0.99 
+2E6N_A Chain A, Staphylococcal nuclease domain-containing protein...  32.0    1.2  
+2Y3A_A Chain A, PHOSPHATIDYLINOSITOL-4,5-BISPHOSPHATE 3-KINASE CA...  33.9    1.3  
+2HH2_A Chain A, KH-type splicing regulatory protein [Homo sapiens]    30.8    2.4  
+3PMT_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]      29.6    2.4  
+2JZX_A Chain A, Poly(rC)-binding protein 2 [Homo sapiens]             31.6    2.9  
+6Y24_A Chain A, Far upstream element-binding protein 1 [Homo sapi...  30.4    2.9  
+2QND_A Chain A, Fmr1 Protein [Homo sapiens] 2QND_B Chain B, Fmr1 ...  31.2    3.6  
+1J4W_A Chain A, FUSE binding protein [Homo sapiens]                   30.8    6.4  
+3S6W_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]      28.1    7.1  
+2LTO_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]      28.1    7.9  
+5YJ8_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]      28.1    8.3  
+3PNW_C Chain C, Tudor domain-containing protein 3 [Homo sapiens] ...  28.9    8.5  
+
+
+>5J39_A Chain A, Tudor and KH domain-containing protein [Homo 
+sapiens] 5J39_B Chain B, Tudor and KH domain-containing protein 
+[Homo sapiens]
+Length=208
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 47/142 (33%), Positives = 75/142 (53%), Gaps = 10/142 (7%)
+
+Query  759  VEITVICAAPG-ADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTL  817
+            V +  I AAP   +G+W+RA+V+ + E  N +++ +VD+G      +  LR +RSDF++L
+Sbjct  64   VHVGDIVAAPLPTNGSWYRARVLGTLENGN-LDLYFVDFGDNGDCPLKDLRALRSDFLSL  122
+
+Query  818  PFQGAEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTA---LLAQVTSYSPTGL---PLIQ  871
+            PFQ  E  L  + P    DQ+  EA      +T       L+A+++SY  TG+   P I 
+Sbjct  123  PFQAIECSLARIAP--SGDQWEEEALDEFDRLTHCADWKPLVAKISSYVQTGISTWPKIY  180
+
+Query  872  LWSVVGDEVVLINRSLVERGLA  893
+            L+     + + I   LV +G A
+Sbjct  181  LYDTSNGKKLDIGLELVHKGYA  202
+
+
+>6PI7_A Chain A, Tudor and KH domain-containing protein [Homo 
+sapiens] 6PI7_D Chain D, Tudor and KH domain-containing protein 
+[Homo sapiens]
+Length=222
+
+ Score = 65.9 bits (159),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 47/142 (33%), Positives = 75/142 (53%), Gaps = 10/142 (7%)
+
+Query  759  VEITVICAAPG-ADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTL  817
+            V +  I AAP   +G+W+RA+V+ + E  N +++ +VD+G      +  LR +RSDF++L
+Sbjct  51   VHVGDIVAAPLPTNGSWYRARVLGTLENGN-LDLYFVDFGDNGDCPLKDLRALRSDFLSL  109
+
+Query  818  PFQGAEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTA---LLAQVTSYSPTGL---PLIQ  871
+            PFQ  E  L  + P    DQ+  EA      +T       L+A+++SY  TG+   P I 
+Sbjct  110  PFQAIECSLARIAP--SGDQWEEEALDEFDRLTHCADWKPLVAKISSYVQTGISTWPKIY  167
+
+Query  872  LWSVVGDEVVLINRSLVERGLA  893
+            L+     + + I   LV +G A
+Sbjct  168  LYDTSNGKKLDIGLELVHKGYA  189
+
+
+>6B57_A Chain A, Tudor and KH domain-containing protein [Homo 
+sapiens] 6B57_B Chain B, Tudor and KH domain-containing protein 
+[Homo sapiens]
+Length=231
+
+ Score = 65.9 bits (159),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 47/142 (33%), Positives = 75/142 (53%), Gaps = 10/142 (7%)
+
+Query  759  VEITVICAAPG-ADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTL  817
+            V +  I AAP   +G+W+RA+V+ + E  N +++ +VD+G      +  LR +RSDF++L
+Sbjct  64   VHVGDIVAAPLPTNGSWYRARVLGTLENGN-LDLYFVDFGDNGDCPLKDLRALRSDFLSL  122
+
+Query  818  PFQGAEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTA---LLAQVTSYSPTGL---PLIQ  871
+            PFQ  E  L  + P    DQ+  EA      +T       L+A+++SY  TG+   P I 
+Sbjct  123  PFQAIECSLARIAP--SGDQWEEEALDEFDRLTHCADWKPLVAKISSYVQTGISTWPKIY  180
+
+Query  872  LWSVVGDEVVLINRSLVERGLA  893
+            L+     + + I   LV +G A
+Sbjct  181  LYDTSNGKKLDIGLELVHKGYA  202
+
+
+>3FDR_A Chain A, Tudor and KH domain-containing protein [Homo 
+sapiens]
+Length=94
+
+ Score = 52.4 bits (124),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 26/66 (39%), Positives = 42/66 (64%), Gaps = 2/66 (3%)
+
+Query  759  VEITVICAAPG-ADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTL  817
+            V +  I AAP   +G+W+RA+V+ + E  N +++ +VD+G      +  LR +RSDF++L
+Sbjct  28   VHVGDIVAAPLPTNGSWYRARVLGTLENGN-LDLYFVDFGDNGDCPLKDLRALRSDFLSL  86
+
+Query  818  PFQGAE  823
+            PFQ  E
+Sbjct  87   PFQAIE  92
+
+
+>2DIQ_A Chain A, Tudor and KH domain-containing protein [Homo 
+sapiens]
+Length=110
+
+ Score = 52.8 bits (125),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 27/69 (39%), Positives = 43/69 (62%), Gaps = 2/69 (3%)
+
+Query  759  VEITVICAAPG-ADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTL  817
+            V +  I AAP   +G+W+RA+V+ + E  N +++ +VD+G      +  LR +RSDF++L
+Sbjct  33   VHVGDIVAAPLPTNGSWYRARVLGTLENGN-LDLYFVDFGDNGDCPLKDLRALRSDFLSL  91
+
+Query  818  PFQGAEVLL  826
+            PFQ  E  L
+Sbjct  92   PFQAIECSL  100
+
+
+>4B9X_A Chain A, TUDOR DOMAIN-CONTAINING PROTEIN 1 [Mus musculus]
+Length=226
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 49/103 (48%), Gaps = 3/103 (3%)
+
+Query  765  CAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTLPFQGAEV  824
+            CA    DG W+RA +V     +  V++ +VDYG  + V  D L+ I   F+ LPFQG + 
+Sbjct  73   CAFFSGDGNWYRA-LVKEILPSGNVKVHFVDYGNVEEVTTDQLQAILPQFLLLPFQGMQC  131
+
+Query  825  LLDSVMPLSDDDQFSPEADAAMSEMTGNTALLAQVTSYSPTGL  867
+             L  + P   +  ++ EA A          L A+V   +  G+
+Sbjct  132  WLVDIQP--PNKHWTKEATARFQACVVGLKLQARVVEITANGV  172
+
+
+>4B9W_A Chain A, TUDOR DOMAIN-CONTAINING PROTEIN 1 [Mus musculus] 
+4B9W_B Chain B, TUDOR DOMAIN-CONTAINING PROTEIN 1 [Mus musculus]
+Length=201
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 49/103 (48%), Gaps = 3/103 (3%)
+
+Query  765  CAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTLPFQGAEV  824
+            CA    DG W+RA +V     +  V++ +VDYG  + V  D L+ I   F+ LPFQG + 
+Sbjct  73   CAFFSGDGNWYRA-LVKEILPSGNVKVHFVDYGNVEEVTTDQLQAILPQFLLLPFQGMQC  131
+
+Query  825  LLDSVMPLSDDDQFSPEADAAMSEMTGNTALLAQVTSYSPTGL  867
+             L  + P   +  ++ EA A          L A+V   +  G+
+Sbjct  132  WLVDIQP--PNKHWTKEATARFQACVVGLKLQARVVEITANGV  172
+
+
+>5VQG_A Chain A, Tudor and KH domain-containing protein homolog 
+[Bombyx mori] 5VQH_A Chain A, Tudor and KH domain-containing 
+protein homolog [Bombyx mori] 5VQH_B Chain B, Tudor and KH 
+domain-containing protein homolog [Bombyx mori] 5VY1_A Chain 
+A, Tudor and KH domain-containing protein homolog [Bombyx 
+mori] 5VY1_B Chain B, Tudor and KH domain-containing protein 
+homolog [Bombyx mori]
+Length=237
+
+ Score = 49.7 bits (117),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 53/211 (25%), Positives = 90/211 (43%), Gaps = 30/211 (14%)
+
+Query  713  IVVNQVNAGHLFVQQHTHPTFHALRSLDQQMYLCYSQPGIPTLPTPVEITV---ICAAPG  769
+            + V+ V++   F  Q   P    L  L   M   YS+       T   ++V   + A   
+Sbjct  25   VYVSAVSSPSRFWVQFVGPQVAQLDDLVAHMTEYYSKKENREAHTLRHVSVGQVVAAVFR  84
+
+Query  770  ADGAWWRAQVV----ASYEETNEV-EIRYVDYGGYKRVKVDVLRQIRSDFVTLPFQGAEV  824
+             DG W+RA+V       ++ + +V ++ Y+DYG  + V    L ++R+D + L FQ  E 
+Sbjct  85   HDGRWYRARVHDIRPNEFDSSQQVADVFYLDYGDSEYVATHELCELRADLLRLRFQAMEC  144
+
+Query  825  LLDSVMPLSDD----------DQFSPEADAAMSEMTGNT---ALLAQVTSYSPTG-----  866
+             L  V P S +          D++ P+A     E+T      AL+++  +Y  T      
+Sbjct  145  FLAGVRPASGEEAVSPSGQRWDKWHPQAVERFEELTQVARWKALVSRTCTYKKTATAEGE  204
+
+Query  867  ----LPLIQLWSVVGDEVVLINRSLVERGLA  893
+                +P I+L+ V  +  + +   LV  G A
+Sbjct  205  KDKEIPGIKLFDVTDEGELDVGAVLVAEGWA  235
+
+
+>5M9N_A Chain A, Tudor Domain-containing Protein 1 [Homo sapiens] 
+5M9N_B Chain B, Tudor Domain-containing Protein 1 [Homo 
+sapiens]
+Length=220
+
+ Score = 46.2 bits (108),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 29/98 (30%), Positives = 46/98 (47%), Gaps = 3/98 (3%)
+
+Query  763  VICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVTLPFQGA  822
+            + CA    D  W+RA V+A Y     V + YVDYG ++ + +  L  I    + LP Q  
+Sbjct  88   ICCAQFSEDDQWYRASVLA-YASEESVLVGYVDYGNFEILSLMRLCPIIPKLLELPMQAI  146
+
+Query  823  EVLLDSVMPLSDDDQFSPEADAAMSEMTGNTALLAQVT  860
+            + +L  V P      ++PEA   M ++  N  +  +V 
+Sbjct  147  KCVLAGVKP--SLGIWTPEAICLMKKLVQNKIITVKVV  182
+
+
+>5YGB_A Chain A, GH18329p [Drosophila melanogaster] 5YGD_A Chain 
+A, GH18329p [Drosophila melanogaster] 5YGF_A Chain A, GH18329p 
+[Drosophila melanogaster]
+Length=223
+
+ Score = 44.7 bits (104),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 42/163 (26%), Positives = 74/163 (45%), Gaps = 13/163 (8%)
+
+Query  713  IVVNQVNAGHLFVQQHTHPTFHALRSLDQQMYLCYSQP---GIPTLPTPVEITVICAAPG  769
+            + V+ V +   F  Q   P    L S+ Q+M   YS         L  P    ++ A   
+Sbjct  7    VYVSAVASPTKFWVQLIGPQSKKLASMVQEMTSYYSSAENRAKHVLTAPYVGQIVAAVFK  66
+
+Query  770  ADGAWWRAQVV----ASYEETNEV-EIRYVDYGGYKRVKVDVLRQIRSDFVTLPFQGAEV  824
+             D  W+RA++V      Y    +V ++ +VDYG  + +    + ++R+DF+TL FQ  E 
+Sbjct  67   FDEKWYRAEIVDIMPNQYNPKEQVIDLYFVDYGDSEYISPADICELRTDFLTLRFQAVEC  126
+
+Query  825  LLDSVMPLSDDDQFS-PEADAA----MSEMTGNTALLAQVTSY  862
+             L +V      +  + P++  A    ++E+     L+A+V +Y
+Sbjct  127  FLANVKSTIQTEPITWPKSSIAKFEELTEVAHWRKLIARVVTY  169
+
+
+>5YGC_A Chain A, GH18329p [Drosophila melanogaster]
+Length=223
+
+ Score = 44.7 bits (104),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 42/163 (26%), Positives = 74/163 (45%), Gaps = 13/163 (8%)
+
+Query  713  IVVNQVNAGHLFVQQHTHPTFHALRSLDQQMYLCYSQP---GIPTLPTPVEITVICAAPG  769
+            + V+ V +   F  Q   P    L S+ Q+M   YS         L  P    ++ A   
+Sbjct  7    VYVSAVASPTKFWVQLIGPQSKKLDSMVQEMTSYYSSAENRAKHVLTAPYVGQIVAAVFK  66
+
+Query  770  ADGAWWRAQVV----ASYEETNEV-EIRYVDYGGYKRVKVDVLRQIRSDFVTLPFQGAEV  824
+             D  W+RA++V      Y    +V ++ +VDYG  + +    + ++R+DF+TL FQ  E 
+Sbjct  67   FDEKWYRAEIVDIMPNQYNPKEQVIDLYFVDYGDSEYISPADICELRTDFLTLRFQAVEC  126
+
+Query  825  LLDSVMPLSDDDQFS-PEADAA----MSEMTGNTALLAQVTSY  862
+             L +V      +  + P++  A    ++E+     L+A+V +Y
+Sbjct  127  FLANVKSTIQTEPITWPKSSIAKFEELTEVAHWRKLIARVVTY  169
+
+
+>1ZZI_A Chain A, Heterogeneous Nuclear Ribonucleoprotein K [Homo 
+sapiens] 1ZZI_B Chain B, Heterogeneous Nuclear Ribonucleoprotein 
+K [Homo sapiens] 1ZZJ_A Chain A, Heterogeneous Nuclear 
+Ribonucleoprotein K [Homo sapiens] 1ZZJ_B Chain B, Heterogeneous 
+Nuclear Ribonucleoprotein K [Homo sapiens] 1ZZJ_C Chain 
+C, Heterogeneous Nuclear Ribonucleoprotein K [Homo sapiens] 
+1ZZK_A Chain A, Crystal Structure Of The Third Kh Domain 
+Of Hnrnp K At 0.95a Resolution [Homo sapiens]
+Length=82
+
+ Score = 37.4 bits (85),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 21/71 (30%), Positives = 35/71 (49%), Gaps = 0/71 (0%)
+
+Query  607  LIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDK  666
+            +I  ++ +PK L G +IGK G+ +  ++  SGA I I         +I  I G+Q  +  
+Sbjct  6    IITTQVTIPKDLAGSIIGKGGQRIKQIRHESGASIKIDEPLEGSEDRIITITGTQDQIQN  65
+
+Query  667  ALNLIGKKFKE  677
+            A  L+    K+
+Sbjct  66   AQYLLQNSVKQ  76
+
+
+>1J5K_A Chain A, Heterogeneous nuclear ribonucleoprotein K [Homo 
+sapiens]
+Length=89
+
+ Score = 37.7 bits (86),  Expect = 0.008, Method: Composition-based stats.
+ Identities = 21/71 (30%), Positives = 35/71 (49%), Gaps = 0/71 (0%)
+
+Query  607  LIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDK  666
+            +I  ++ +PK L G +IGK G+ +  ++  SGA I I         +I  I G+Q  +  
+Sbjct  13   IITTQVTIPKDLAGSIIGKGGQRIKQIRHESGASIKIDEPLEGSEDRIITITGTQDQIQN  72
+
+Query  667  ALNLIGKKFKE  677
+            A  L+    K+
+Sbjct  73   AQYLLQNSVKQ  83
+
+
+>1WVN_A Chain A, Poly(rC)-binding protein 1 [Homo sapiens]
+Length=82
+
+ Score = 36.6 bits (83),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 21/65 (32%), Positives = 36/65 (55%), Gaps = 0/65 (0%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNL  670
+            E+ +P +L+G +IG+QG  ++ ++Q SGA+I I+      S +   I GS   +  A  L
+Sbjct  9    ELTIPNNLIGCIIGRQGANINEIRQMSGAQIKIANPVEGSSGRQVTITGSAASISLAQYL  68
+
+Query  671  IGKKF  675
+            I  + 
+Sbjct  69   INARL  73
+
+
+>3BDL_A Chain A, Crystal Structure Of A Truncated Human Tudor-Sn 
+[Homo sapiens]
+Length=570
+
+ Score = 40.0 bits (92),  Expect = 0.016, Method: Compositional matrix adjust.
+ Identities = 32/111 (29%), Positives = 48/111 (43%), Gaps = 5/111 (5%)
+
+Query  764  ICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVT--LPFQG  821
+             C A   DG W+RA+ V   E   ++ + Y+DYG  + +    L  +   F T  LP Q 
+Sbjct  417  FCIAKFVDGEWYRAR-VEKVESPAKIHVFYIDYGNREVLPSTRLGTLSPAFSTRVLPAQA  475
+
+Query  822  AEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTALLAQVTSYSPTGLPLIQL  872
+             E     +    DDD  +   D+ + ++  NT  L  V   S  G P + L
+Sbjct  476  TEYAFAFIQVPQDDDARTDAVDSVVRDIQ-NTQCLLNVEHLS-AGCPHVTL  524
+
+
+>2O4X_A Chain A, Crystal Structure Of Human P100 Tudor Domain 
+[Homo sapiens]
+Length=217
+
+ Score = 38.9 bits (89),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 26/95 (27%), Positives = 41/95 (43%), Gaps = 3/95 (3%)
+
+Query  764  ICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVT--LPFQG  821
+             C A   DG W+RA+ V   E   ++ + Y+DYG  + +    L  +   F T  LP Q 
+Sbjct  57   FCIAKFVDGEWYRAR-VEKVESPAKIHVFYIDYGNREVLPSTRLGTLSPAFSTRVLPAQA  115
+
+Query  822  AEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTALL  856
+             E     +    DDD  +   D+ + ++     LL
+Sbjct  116  TEYAFAFIQVPQDDDARTDAVDSVVRDIQNTQCLL  150
+
+
+>5M9O_A Chain A, Staphylococcal Nuclease Domain-containing Protein 
+1 [Homo sapiens]
+Length=224
+
+ Score = 38.9 bits (89),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 32/111 (29%), Positives = 48/111 (43%), Gaps = 5/111 (5%)
+
+Query  764  ICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVT--LPFQG  821
+             C A   DG W+RA+ V   E   ++ + Y+DYG  + +    L  +   F T  LP Q 
+Sbjct  59   FCIAKFVDGEWYRAR-VEKVESPAKIHVFYIDYGNREVLPSTRLGTLSPAFSTRVLPAQA  117
+
+Query  822  AEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTALLAQVTSYSPTGLPLIQL  872
+             E     +    DDD  +   D+ + ++  NT  L  V   S  G P + L
+Sbjct  118  TEYAFAFIQVPQDDDARTDAVDSVVRDIQ-NTQCLLNVEHLS-AGCPHVTL  166
+
+
+>2HQE_A Chain A, Crystal Structure Of Human P100 Tudor Domain: 
+Large Fragment [Homo sapiens] 2HQE_B Chain B, Crystal Structure 
+Of Human P100 Tudor Domain: Large Fragment [Homo sapiens] 
+2HQX_A Chain A, Crystal Structure Of Human P100 Tudor Domain 
+Conserved Region [Homo sapiens] 2HQX_B Chain B, Crystal 
+Structure Of Human P100 Tudor Domain Conserved Region [Homo 
+sapiens]
+Length=246
+
+ Score = 38.9 bits (89),  Expect = 0.023, Method: Compositional matrix adjust.
+ Identities = 32/111 (29%), Positives = 48/111 (43%), Gaps = 5/111 (5%)
+
+Query  764  ICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVT--LPFQG  821
+             C A   DG W+RA+ V   E   ++ + Y+DYG  + +    L  +   F T  LP Q 
+Sbjct  71   FCIAKFVDGEWYRAR-VEKVESPAKIHVFYIDYGNREVLPSTRLGTLSPAFSTRVLPAQA  129
+
+Query  822  AEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTALLAQVTSYSPTGLPLIQL  872
+             E     +    DDD  +   D+ + ++  NT  L  V   S  G P + L
+Sbjct  130  TEYAFAFIQVPQDDDARTDAVDSVVRDIQ-NTQCLLNVEHLS-AGCPHVTL  178
+
+
+>3OMC_A Chain A, Staphylococcal nuclease domain-containing protein 
+1 [Homo sapiens] 3OMC_B Chain B, Staphylococcal nuclease 
+domain-containing protein 1 [Homo sapiens] 3OMG_A Chain A, 
+Staphylococcal nuclease domain-containing protein 1 [Homo sapiens] 
+3OMG_B Chain B, Staphylococcal nuclease domain-containing 
+protein 1 [Homo sapiens]
+Length=261
+
+ Score = 38.9 bits (89),  Expect = 0.025, Method: Compositional matrix adjust.
+ Identities = 32/111 (29%), Positives = 48/111 (43%), Gaps = 5/111 (5%)
+
+Query  764  ICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSDFVT--LPFQG  821
+             C A   DG W+RA+ V   E   ++ + Y+DYG  + +    L  +   F T  LP Q 
+Sbjct  86   FCIAKFVDGEWYRAR-VEKVESPAKIHVFYIDYGNREVLPSTRLGTLSPAFSTRVLPAQA  144
+
+Query  822  AEVLLDSVMPLSDDDQFSPEADAAMSEMTGNTALLAQVTSYSPTGLPLIQL  872
+             E     +    DDD  +   D+ + ++  NT  L  V   S  G P + L
+Sbjct  145  TEYAFAFIQVPQDDDARTDAVDSVVRDIQ-NTQCLLNVEHLS-AGCPHVTL  193
+
+
+>6QEY_A Chain A, Insulin-like growth factor 2 mRNA-binding protein 
+1 [Homo sapiens]
+Length=179
+
+ Score = 37.0 bits (84),  Expect = 0.057, Method: Composition-based stats.
+ Identities = 31/104 (30%), Positives = 51/104 (49%), Gaps = 5/104 (5%)
+
+Query  597  QAGSNPKKVDLIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLP----YTQSV  652
+            +   + K  D +  +I    + VGRLIGK+GR +  ++Q +  KI IS+L     Y    
+Sbjct  76   KEAKDTKTADEVPLKILAHNNFVGRLIGKEGRNLKKVEQDTETKITISSLQDLTLYNPER  135
+
+Query  653  QICHIEGSQHHVDKALNLIGKKFKELNLTNIYAPPLPSLALPSL  696
+             I  ++G+  +  +A   I KK +E    ++ A  L S  +P L
+Sbjct  136  TIT-VKGAIENCCRAEQEIMKKVREAYENDVAAMSLQSHLIPGL  178
+
+
+>1WE8_A Chain A, Tudor and KH domain containing protein [Mus musculus]
+Length=104
+
+ Score = 35.4 bits (80),  Expect = 0.058, Method: Compositional matrix adjust.
+ Identities = 24/75 (32%), Positives = 40/75 (53%), Gaps = 8/75 (11%)
+
+Query  608  IIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYI-----STLPYTQSVQICHIEGSQH  662
+            +  ++ VP+  VGR+IG+ G  +  + + SGAKI        TL  ++ ++   I G+Q 
+Sbjct  15   VFEQLSVPQRSVGRIIGRGGETIRSICKASGAKITCDKESEGTLLLSRLIK---ISGTQK  71
+
+Query  663  HVDKALNLIGKKFKE  677
+             V  A +LI +K  E
+Sbjct  72   EVAAAKHLILEKVSE  86
+
+
+>2P2R_A Chain A, Poly(rC)-binding protein 2 [Homo sapiens]
+Length=76
+
+ Score = 34.7 bits (78),  Expect = 0.070, Method: Composition-based stats.
+ Identities = 20/61 (33%), Positives = 34/61 (56%), Gaps = 0/61 (0%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNL  670
+            E+ +P  L+G +IG+QG  ++ ++Q SGA+I I+      + +   I GS   +  A  L
+Sbjct  8    ELTIPNDLIGCIIGRQGAKINEIRQXSGAQIKIANPVEGSTDRQVTITGSAASISLAQYL  67
+
+Query  671  I  671
+            I
+Sbjct  68   I  68
+
+
+>1X4N_A Chain A, Far upstream element binding protein 1 [Mus musculus]
+Length=92
+
+ Score = 34.3 bits (77),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 20/65 (31%), Positives = 34/65 (52%), Gaps = 0/65 (0%)
+
+Query  607  LIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDK  666
+            ++  E +VP  +VG +IG+ G  +S ++Q SG KI I+        + C + G+   V  
+Sbjct  14   VMTEEYKVPDGMVGFIIGRGGEQISRIQQESGCKIQIAPDSGGLPERSCMLTGTPESVQS  73
+
+Query  667  ALNLI  671
+            A  L+
+Sbjct  74   AKRLL  78
+
+
+>1KHM_A Chain A, PROTEIN (HNRNP K) [Homo sapiens]
+Length=89
+
+ Score = 33.9 bits (76),  Expect = 0.14, Method: Composition-based stats.
+ Identities = 20/71 (28%), Positives = 34/71 (48%), Gaps = 0/71 (0%)
+
+Query  607  LIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDK  666
+            +I  ++ +PK L   +IGK G+ +  ++  SGA I I         +I  I G+Q  +  
+Sbjct  13   IITTQVTIPKDLARSIIGKGGQRIKQIRHESGASIKIDEPLEGSEDRIITITGTQDQIQN  72
+
+Query  667  ALNLIGKKFKE  677
+            A  L+    K+
+Sbjct  73   AQYLLQNSVKQ  83
+
+
+>1EC6_A Chain A, Crystal Structure Of Nova-2 Kh3 K-Homology Rna-Binding 
+Domain Bound To 20-Mer Rna Hairpin [Homo sapiens] 
+1EC6_B Chain B, Crystal Structure Of Nova-2 Kh3 K-Homology Rna-Binding 
+Domain Bound To 20-Mer Rna Hairpin [Homo sapiens]
+Length=87
+
+ Score = 33.9 bits (76),  Expect = 0.15, Method: Composition-based stats.
+ Identities = 24/68 (35%), Positives = 40/68 (59%), Gaps = 5/68 (7%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYIST----LPYTQSVQICHIEGSQHHVDK  666
+            EI VP++LVG ++GK G+ +   ++ +GA+I IS     LP T++ ++  I GS      
+Sbjct  6    EIAVPENLVGAILGKGGKTLVEYQELTGARIQISKKGEFLPGTRNRRVT-ITGSPAATQA  64
+
+Query  667  ALNLIGKK  674
+            A  LI ++
+Sbjct  65   AQYLISQR  72
+
+
+>1DTJ_A Chain A, Crystal Structure Of Nova-2 Kh3 K-Homology Rna-Binding 
+Domain [Homo sapiens] 1DTJ_B Chain B, Crystal Structure 
+Of Nova-2 Kh3 K-Homology Rna-Binding Domain [Homo sapiens] 
+1DTJ_C Chain C, Crystal Structure Of Nova-2 Kh3 K-Homology 
+Rna-Binding Domain [Homo sapiens] 1DTJ_D Chain D, Crystal 
+Structure Of Nova-2 Kh3 K-Homology Rna-Binding Domain [Homo 
+sapiens]
+Length=76
+
+ Score = 33.5 bits (75),  Expect = 0.18, Method: Composition-based stats.
+ Identities = 23/68 (34%), Positives = 40/68 (59%), Gaps = 5/68 (7%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYIST----LPYTQSVQICHIEGSQHHVDK  666
+            E+ VP++LVG ++GK G+ +   ++ +GA+I IS     LP T++ ++  I GS      
+Sbjct  6    EMAVPENLVGAILGKGGKTLVEYQELTGARIQISKKGEFLPGTRNRRVT-ITGSPAATQA  64
+
+Query  667  ALNLIGKK  674
+            A  LI ++
+Sbjct  65   AQYLISQR  72
+
+
+>4B8T_A Chain A, KH-TYPE SPLICING REGULATORY PROTEIN [Homo sapiens]
+Length=106
+
+ Score = 34.3 bits (77),  Expect = 0.19, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 32/68 (47%), Gaps = 0/68 (0%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNL  670
+            ++ VP+H VG +IG+ G  +  ++  +G +I       T   +I HI G     + A  +
+Sbjct  14   DVPVPRHSVGVVIGRSGEMIKKIQNDAGVRIQFKQDDGTGPEKIAHIMGPPDRCEHAARI  73
+
+Query  671  IGKKFKEL  678
+            I    + L
+Sbjct  74   INDLLQSL  81
+
+
+>2HH3_A Chain A, KH-type splicing regulatory protein [Homo sapiens]
+Length=106
+
+ Score = 33.9 bits (76),  Expect = 0.22, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 32/68 (47%), Gaps = 0/68 (0%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNL  670
+            ++ VP+H VG +IG+ G  +  ++  +G +I       T   +I HI G     + A  +
+Sbjct  14   DVPVPRHSVGVVIGRSGEMIKKIQNDAGVRIQFKQDDGTGPEKIAHIMGPPDRCEHAARI  73
+
+Query  671  IGKKFKEL  678
+            I    + L
+Sbjct  74   INDLLQSL  81
+
+
+>4LIJ_A Chain A, Far upstream element-binding protein 1 [Homo 
+sapiens] 4LIJ_B Chain B, Far upstream element-binding protein 
+1 [Homo sapiens] 4LIJ_C Chain C, Far upstream element-binding 
+protein 1 [Homo sapiens]
+Length=90
+
+ Score = 33.5 bits (75),  Expect = 0.25, Method: Compositional matrix adjust.
+ Identities = 20/61 (33%), Positives = 31/61 (51%), Gaps = 0/61 (0%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNL  670
+            E +VP   VG +IG+ G  +S ++Q SG KI I+        + C + G+   V  A  L
+Sbjct  19   EYKVPDGXVGFIIGRGGEQISRIQQESGCKIQIAPDSGGLPERSCXLTGTPESVQSAKRL  78
+
+Query  671  I  671
+            +
+Sbjct  79   L  79
+
+
+>2JVZ_A Chain A, Far upstream element-binding protein 2 [Homo 
+sapiens]
+Length=164
+
+ Score = 34.3 bits (77),  Expect = 0.34, Method: Composition-based stats.
+ Identities = 18/68 (26%), Positives = 32/68 (47%), Gaps = 0/68 (0%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNL  670
+            ++ VP+H VG +IG+ G  +  ++  +G +I       T   +I HI G     + A  +
+Sbjct  94   DVPVPRHSVGVVIGRSGEMIKKIQNDAGVRIQFKQDDGTGPEKIAHIMGPPDRCEHAARI  153
+
+Query  671  IGKKFKEL  678
+            I    + L
+Sbjct  154  INDLLQSL  161
+
+
+ Score = 30.8 bits (68),  Expect = 4.9, Method: Composition-based stats.
+ Identities = 22/69 (32%), Positives = 37/69 (54%), Gaps = 13/69 (19%)
+
+Query  609  IWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQH-HVDKA  667
+            + EI +P    G +IGK G  +  L++ +G K+ +        +Q    +GSQ+ +VDK 
+Sbjct  3    VQEIMIPAGKAGLVIGKGGETIKQLQERAGVKMIL--------IQ----DGSQNTNVDKP  50
+
+Query  668  LNLIGKKFK  676
+            L +IG  +K
+Sbjct  51   LRIIGDPYK  59
+
+
+>2OPV_A Chain A, KHSRP protein [Homo sapiens]
+Length=85
+
+ Score = 32.7 bits (73),  Expect = 0.36, Method: Composition-based stats.
+ Identities = 26/83 (31%), Positives = 41/83 (49%), Gaps = 18/83 (22%)
+
+Query  595  NAQAGSNPKKVDLIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQI  654
+            NA  G N       + EI +P    G +IGK G  +  L++ +G K+ +        +Q 
+Sbjct  6    NANGGQNGT-----VQEIMIPAGKAGLVIGKGGETIKQLQERAGVKMIL--------IQ-  51
+
+Query  655  CHIEGSQH-HVDKALNLIGKKFK  676
+               +GSQ+ +VDK L +IG  +K
+Sbjct  52   ---DGSQNTNVDKPLRIIGDPYK  71
+
+
+>1DT4_A Chain A, Crystal Structure Of Nova-1 Kh3 K-Homology Rna-Binding 
+Domain [Homo sapiens]
+Length=73
+
+ Score = 32.0 bits (71),  Expect = 0.52, Method: Composition-based stats.
+ Identities = 22/68 (32%), Positives = 39/68 (57%), Gaps = 5/68 (7%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYIST----LPYTQSVQICHIEGSQHHVDK  666
+            EI VP++LVG ++GK G+ +   ++ +G +I IS     LP T++ ++  I G+      
+Sbjct  6    EIAVPENLVGAILGKGGKTLVEYQELTGCRIQISKKGEFLPGTRNRKVT-ITGTPAATQA  64
+
+Query  667  ALNLIGKK  674
+            A  LI ++
+Sbjct  65   AQYLITQR  72
+
+
+>2OPU_A Chain A, KHSRP protein [Homo sapiens]
+Length=89
+
+ Score = 32.3 bits (72),  Expect = 0.58, Method: Compositional matrix adjust.
+ Identities = 14/34 (41%), Positives = 22/34 (65%), Gaps = 0/34 (0%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYIS  644
+            E  VP  +VG +IG+ G  ++ ++Q SG K+ IS
+Sbjct  19   EYRVPDGMVGLIIGRGGEQINKIQQDSGCKVQIS  52
+
+
+>2O4X_B Chain B, Crystal Structure Of Human P100 Tudor Domain 
+[Homo sapiens]
+Length=91
+
+ Score = 32.0 bits (71),  Expect = 0.77, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 19/35 (54%), Gaps = 1/35 (3%)
+
+Query  764  ICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGG  798
+             C A   DG W+RA+ V   E   ++ + Y+DYG 
+Sbjct  31   FCIAKFVDGEWYRAR-VEKVESPAKIHVFYIDYGN  64
+
+
+>2ANN_A Chain A, Neuro-oncological Ventral Antigen 1 [Homo sapiens]
+Length=178
+
+ Score = 33.5 bits (75),  Expect = 0.87, Method: Compositional matrix adjust.
+ Identities = 19/72 (26%), Positives = 40/72 (56%), Gaps = 5/72 (7%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYIST----LPYTQSVQICHIEGSQHHVDK  666
+            ++ +P +  G +IGK G+ +  L++ +GA I +S      P T + ++C I+G+   ++ 
+Sbjct  9    KVLIPSYAAGSIIGKGGQTIVQLQKETGATIKLSKSKDFYPGT-TERVCLIQGTIEALNA  67
+
+Query  667  ALNLIGKKFKEL  678
+                I +K +E+
+Sbjct  68   VHGFIAEKIREM  79
+
+
+ Score = 32.7 bits (73),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 47/96 (49%), Gaps = 6/96 (6%)
+
+Query  586  SLKKTE--SFQNAQAGSNPKKVDLIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYI  643
+            ++ KTE  S    Q   NP + + +  +I VP    G +IGK G  V  + + SGA + +
+Sbjct  82   NVAKTEPVSILQPQTTVNPDRANQV--KIIVPNSTAGLIIGKGGATVKAIMEQSGAWVQL  139
+
+Query  644  STLPYTQSVQ--ICHIEGSQHHVDKALNLIGKKFKE  677
+            S  P   ++Q  +  + G      KA+ LI +K +E
+Sbjct  140  SQKPDGINLQNRVVTVSGEPEQNRKAVELIIQKIQE  175
+
+
+>1ZTG_A Chain A, Poly(rc)-binding Protein 1 [Homo sapiens] 1ZTG_B 
+Chain B, Poly(rc)-binding Protein 1 [Homo sapiens] 1ZTG_C 
+Chain C, Poly(rc)-binding Protein 1 [Homo sapiens] 1ZTG_D 
+Chain D, Poly(rc)-binding Protein 1 [Homo sapiens]
+Length=74
+
+ Score = 31.2 bits (69),  Expect = 0.97, Method: Composition-based stats.
+ Identities = 20/59 (34%), Positives = 33/59 (56%), Gaps = 2/59 (3%)
+
+Query  619  VGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNLIGKKFKE  677
+            VG +IGK+G  V  +++ SGA+I IS     +  +I  + G  + + KA  +I  K +E
+Sbjct  14   VGSIIGKKGESVKRIREESGARINISEGNCPE--RIITLTGPTNAIFKAFAMIIDKLEE  70
+
+
+>3VKE_A Chain A, Poly(rc)-binding Protein 1 [Homo sapiens] 3VKE_B 
+Chain B, Poly(rc)-binding Protein 1 [Homo sapiens] 3VKE_C 
+Chain C, Poly(rc)-binding Protein 1 [Homo sapiens] 3VKE_D 
+Chain D, Poly(rc)-binding Protein 1 [Homo sapiens]
+Length=76
+
+ Score = 31.2 bits (69),  Expect = 0.98, Method: Composition-based stats.
+ Identities = 20/59 (34%), Positives = 32/59 (54%), Gaps = 2/59 (3%)
+
+Query  619  VGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNLIGKKFKE  677
+            VG +IGK+G  V  +++ SGA+I IS        +I  + G  + + KA  +I  K +E
+Sbjct  14   VGSIIGKKGESVKRIREESGARINISE--GNSPERIITLTGPTNAIFKAFAMIIDKLEE  70
+
+
+>2ANR_A Chain A, Neuro-oncological Ventral Antigen 1 [Homo sapiens]
+Length=178
+
+ Score = 33.1 bits (74),  Expect = 0.99, Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 47/96 (49%), Gaps = 6/96 (6%)
+
+Query  586  SLKKTE--SFQNAQAGSNPKKVDLIIWEIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYI  643
+            ++ KTE  S    Q   NP + + +  +I VP    G +IGK G  V  + + SGA + +
+Sbjct  82   NVAKTEPVSILQPQTTVNPDRANQV--KIIVPNSTAGLIIGKGGATVKAIXEQSGAWVQL  139
+
+Query  644  STLPYTQSVQ--ICHIEGSQHHVDKALNLIGKKFKE  677
+            S  P   ++Q  +  + G      KA+ LI +K +E
+Sbjct  140  SQKPDGINLQNRVVTVSGEPEQNRKAVELIIQKIQE  175
+
+
+ Score = 32.3 bits (72),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 19/71 (27%), Positives = 39/71 (55%), Gaps = 5/71 (7%)
+
+Query  611  EIEVPKHLVGRLIGKQGRYVSFLKQTSGAKIYIST----LPYTQSVQICHIEGSQHHVDK  666
+            ++ +P +  G +IGK G+ +  L++ +GA I +S      P T + ++C I+G+   ++ 
+Sbjct  9    KVLIPSYAAGSIIGKGGQTIVQLQKETGATIKLSKSKDFYPGT-TERVCLIQGTIEALNA  67
+
+Query  667  ALNLIGKKFKE  677
+                I +K +E
+Sbjct  68   VHGFIAEKIRE  78
+
+
+>2E6N_A Chain A, Staphylococcal nuclease domain-containing protein 
+1 [Homo sapiens]
+Length=104
+
+ Score = 32.0 bits (71),  Expect = 1.2, Method: Compositional matrix adjust.
+ Identities = 13/35 (37%), Positives = 19/35 (54%), Gaps = 1/35 (3%)
+
+Query  764  ICAAPGADGAWWRAQVVASYEETNEVEIRYVDYGG  798
+             C A   DG W+RA+ V   E   ++ + Y+DYG 
+Sbjct  39   FCIAKFVDGEWYRAR-VEKVESPAKIHVFYIDYGN  72
+
+
+>2Y3A_A Chain A, PHOSPHATIDYLINOSITOL-4,5-BISPHOSPHATE 3-KINASE 
+CATALYTIC SUBUNIT BETA ISOFORM [Mus musculus]
+Length=1092
+
+ Score = 33.9 bits (76),  Expect = 1.3, Method: Compositional matrix adjust.
+ Identities = 15/55 (27%), Positives = 28/55 (51%), Gaps = 4/55 (7%)
+
+Query  702  LMLPDGITVEVIVVNQVNAGH----LFVQQHTHPTFHALRSLDQQMYLCYSQPGI  752
+             +LP GI +++ V  +    +    L+ Q H +P F+ L  +D  M+ C +Q  +
+Sbjct  56   FLLPTGIYIQLEVPREATISYIKQMLWKQVHNYPMFNLLMDIDSYMFACVNQTAV  110
+
+
+>2HH2_A Chain A, KH-type splicing regulatory protein [Homo sapiens]
+Length=107
+
+ Score = 30.8 bits (68),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 22/66 (33%), Positives = 34/66 (52%), Gaps = 3/66 (5%)
+
+Query  614  VPKHLVGRLIGKQGRYVSFLKQTSGAKIYIS-TLPYT--QSVQICHIEGSQHHVDKALNL  670
+            +P H  G +IG+ G  V  + Q +GA + IS  LP     + ++  I GS   +D A  L
+Sbjct  13   IPTHKCGLVIGRGGENVKAINQQTGAFVEISRQLPPNGDPNFKLFIIRGSPQQIDHAKQL  72
+
+Query  671  IGKKFK  676
+            I +K +
+Sbjct  73   IEEKIE  78
+
+
+>3PMT_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]
+Length=59
+
+ Score = 29.6 bits (65),  Expect = 2.4, Method: Composition-based stats.
+ Identities = 11/43 (26%), Positives = 26/43 (60%), Gaps = 0/43 (0%)
+
+Query  771  DGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSD  813
+            D  ++RA+V A +       ++++DYG Y+ V +  ++ I+++
+Sbjct  17   DNKFYRAEVEALHSSGMTAVVKFIDYGNYEEVLLSNIKPIQTE  59
+
+
+>2JZX_A Chain A, Poly(rC)-binding protein 2 [Homo sapiens]
+Length=160
+
+ Score = 31.6 bits (70),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 27/87 (31%), Positives = 45/87 (52%), Gaps = 6/87 (7%)
+
+Query  619  VGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQSVQICHIEGSQHHVDKALNLIGKKFKEL  678
+            VG +IGK+G  V  +++ SGA+I IS     +  +I  + G  + + KA  +I  K +E 
+Sbjct  16   VGSIIGKKGESVKKMREESGARINISEGNCPE--RIITLAGPTNAIFKAFAMIIDKLEE-  72
+
+Query  679  NLTNIYAPPLPSLALPSLPMTSWLMLP  705
+               +I +    S A    P+T  L++P
+Sbjct  73   ---DISSSMTNSTAASRPPVTLRLVVP  96
+
+
+>6Y24_A Chain A, Far upstream element-binding protein 1 [Homo 
+sapiens]
+Length=93
+
+ Score = 30.4 bits (67),  Expect = 2.9, Method: Composition-based stats.
+ Identities = 20/64 (31%), Positives = 32/64 (50%), Gaps = 3/64 (5%)
+
+Query  614  VPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQS---VQICHIEGSQHHVDKALNL  670
+            VP    G +IGK G  +  + Q SGA+I +   P   +   +++  I G+   +D A  L
+Sbjct  21   VPTGKTGLIIGKGGETIKSISQQSGARIELQRNPPPNADPNMKLFTIRGTPQQIDYARQL  80
+
+Query  671  IGKK  674
+            I +K
+Sbjct  81   IEEK  84
+
+
+>2QND_A Chain A, Fmr1 Protein [Homo sapiens] 2QND_B Chain B, Fmr1 
+Protein [Homo sapiens]
+Length=144
+
+ Score = 31.2 bits (69),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 12/27 (44%), Positives = 20/27 (74%), Gaps = 0/27 (0%)
+
+Query  612  IEVPKHLVGRLIGKQGRYVSFLKQTSG  638
+            I+VP++LVG++IGK G+ +  +   SG
+Sbjct  71   IQVPRNLVGKVIGKNGKLIQEIVDKSG  97
+
+
+>1J4W_A Chain A, FUSE binding protein [Homo sapiens]
+Length=174
+
+ Score = 30.8 bits (68),  Expect = 6.4, Method: Composition-based stats.
+ Identities = 20/64 (31%), Positives = 32/64 (50%), Gaps = 3/64 (5%)
+
+Query  614  VPKHLVGRLIGKQGRYVSFLKQTSGAKIYISTLPYTQS---VQICHIEGSQHHVDKALNL  670
+            VP    G +IGK G  +  + Q SGA+I +   P   +   +++  I G+   +D A  L
+Sbjct  110  VPTGKTGLIIGKGGETIKSISQQSGARIELQRNPPPNADPNMKLFTIRGTPQQIDYARQL  169
+
+Query  671  IGKK  674
+            I +K
+Sbjct  170  IEEK  173
+
+
+>3S6W_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]
+Length=54
+
+ Score = 28.1 bits (61),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  771  DGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQI  810
+            D  ++RA+V A +       ++++DYG Y+ V +  ++ I
+Sbjct  15   DNKFYRAEVEALHSSGMTAVVKFIDYGNYEEVLLSNIKPI  54
+
+
+>2LTO_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]
+Length=58
+
+ Score = 28.1 bits (61),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  771  DGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQI  810
+            D  ++RA+V A +       ++++DYG Y+ V +  ++ I
+Sbjct  17   DNKFYRAEVEALHSSGMTAVVKFIDYGNYEEVLLSNIKPI  56
+
+
+>5YJ8_A Chain A, Tudor domain-containing protein 3 [Homo sapiens]
+Length=60
+
+ Score = 28.1 bits (61),  Expect = 8.3, Method: Composition-based stats.
+ Identities = 11/40 (28%), Positives = 23/40 (58%), Gaps = 0/40 (0%)
+
+Query  771  DGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQI  810
+            D  ++RA+V A +       ++++DYG Y+ V +  ++ I
+Sbjct  21   DNKFYRAEVEALHSSGMTAVVKFIDYGNYEEVLLSNIKPI  60
+
+
+>3PNW_C Chain C, Tudor domain-containing protein 3 [Homo sapiens] 
+3PNW_F Chain F, Tudor domain-containing protein 3 [Homo 
+sapiens] 3PNW_I Chain I, Tudor domain-containing protein 3 [Homo 
+sapiens] 3PNW_L Chain L, Tudor domain-containing protein 
+3 [Homo sapiens] 3PNW_O Chain O, Tudor domain-containing protein 
+3 [Homo sapiens] 3PNW_R Chain R, Tudor domain-containing 
+protein 3 [Homo sapiens] 3PNW_U Chain U, Tudor domain-containing 
+protein 3 [Homo sapiens] 3PNW_X Chain X, Tudor domain-containing 
+protein 3 [Homo sapiens]
+Length=77
+
+ Score = 28.9 bits (63),  Expect = 8.5, Method: Composition-based stats.
+ Identities = 11/43 (26%), Positives = 26/43 (60%), Gaps = 0/43 (0%)
+
+Query  771  DGAWWRAQVVASYEETNEVEIRYVDYGGYKRVKVDVLRQIRSD  813
+            D  ++RA+V A +       ++++DYG Y+ V +  ++ I+++
+Sbjct  31   DNKFYRAEVEALHSSGMTAVVKFIDYGNYEEVLLSNIKPIQTE  73
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.130    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 14198577570
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

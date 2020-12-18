@@ -1,0 +1,223 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|P01160|ANF_HUMAN Natriuretic peptides A OS=Homo sapiens OX=9606
+GN=NPPA PE=1 SV=2
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+3N57_C Chain C, Atrial natriuretic factor [Homo sapiens] 3N57_D C...  61.6    2e-13
+1T34_H Chain H, Atrial natriuretic peptide factor [synthetic cons...  50.8    2e-09
+1YK0_E Chain E, Atrial Natriuretic Factor [synthetic construct]       50.8    2e-09
+1ANP_A Chain A, ATRIAL NATRIURETIC PEPTIDE [Homo sapiens]             46.6    9e-08
+3N56_C Chain C, Natriuretic peptides B [Homo sapiens] 3N56_D Chai...  38.1    2e-04
+1Q01_A Chain A, lebetin 2 isoform alpha [Macrovipera lebetina]        36.2    0.001
+1JDP_H Chain H, C-type Natriuretic Peptide [Homo sapiens]             32.7    0.013
+1YK1_E Chain E, Natriuretic Peptides B [synthetic construct]          32.7    0.014
+3DH7_A Chain A, Structure Of T. Thermophilus Idi-2 In Complex Wit...  32.0    0.27 
+1VCF_A Chain A, Isopentenyl-diphosphate Delta-isomerase [Thermus ...  31.2    0.49 
+3V93_A Chain A, Cyclic Nucleotide Specific Phosphodiesterase [Try...  28.5    3.7  
+
+
+>3N57_C Chain C, Atrial natriuretic factor [Homo sapiens] 3N57_D 
+Chain D, Atrial natriuretic factor [Homo sapiens]
+Length=28
+
+ Score = 61.6 bits (148),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 28/28 (100%), Positives = 28/28 (100%), Gaps = 0/28 (0%)
+
+Query  124  SLRRSSCFGGRMDRIGAQSGLGCNSFRY  151
+            SLRRSSCFGGRMDRIGAQSGLGCNSFRY
+Sbjct  1    SLRRSSCFGGRMDRIGAQSGLGCNSFRY  28
+
+
+>1T34_H Chain H, Atrial natriuretic peptide factor [synthetic 
+construct]
+Length=21
+
+ Score = 50.8 bits (120),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 20/21 (95%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+
+Query  130  CFGGRMDRIGAQSGLGCNSFR  150
+            CFGGR+DRIGAQSGLGCNSFR
+Sbjct  1    CFGGRIDRIGAQSGLGCNSFR  21
+
+
+>1YK0_E Chain E, Atrial Natriuretic Factor [synthetic construct]
+Length=21
+
+ Score = 50.8 bits (120),  Expect = 2e-09, Method: Composition-based stats.
+ Identities = 21/21 (100%), Positives = 21/21 (100%), Gaps = 0/21 (0%)
+
+Query  129  SCFGGRMDRIGAQSGLGCNSF  149
+            SCFGGRMDRIGAQSGLGCNSF
+Sbjct  1    SCFGGRMDRIGAQSGLGCNSF  21
+
+
+>1ANP_A Chain A, ATRIAL NATRIURETIC PEPTIDE [Homo sapiens]
+Length=28
+
+ Score = 46.6 bits (109),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 22/28 (79%), Positives = 23/28 (82%), Gaps = 0/28 (0%)
+
+Query  124  SLRRSSCFGGRMDRIGAQSGLGCNSFRY  151
+            SL RSSCF G +D I AQSGLGCNSFRY
+Sbjct  1    SLDRSSCFTGSLDSIRAQSGLGCNSFRY  28
+
+
+>3N56_C Chain C, Natriuretic peptides B [Homo sapiens] 3N56_D 
+Chain D, Natriuretic peptides B [Homo sapiens]
+Length=32
+
+ Score = 38.1 bits (87),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 15/30 (50%), Positives = 21/30 (70%), Gaps = 0/30 (0%)
+
+Query  121  APRSLRRSSCFGGRMDRIGAQSGLGCNSFR  150
+            +P+ ++ S CFG +MDRI + SGLGC   R
+Sbjct  1    SPKMVQGSGCFGRKMDRISSSSGLGCKVLR  30
+
+
+>1Q01_A Chain A, lebetin 2 isoform alpha [Macrovipera lebetina]
+Length=38
+
+ Score = 36.2 bits (82),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 14/26 (54%), Positives = 19/26 (73%), Gaps = 0/26 (0%)
+
+Query  122  PRSLRRSSCFGGRMDRIGAQSGLGCN  147
+            P+    + CFG ++DRIG+ SGLGCN
+Sbjct  6    PKKGPPNGCFGHKIDRIGSHSGLGCN  31
+
+
+>1JDP_H Chain H, C-type Natriuretic Peptide [Homo sapiens]
+Length=22
+
+ Score = 32.7 bits (73),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  130  CFGGRMDRIGAQSGLGC  146
+            CFG ++DRIG+ SGLGC
+Sbjct  6    CFGLKLDRIGSMSGLGC  22
+
+
+>1YK1_E Chain E, Natriuretic Peptides B [synthetic construct]
+Length=21
+
+ Score = 32.7 bits (73),  Expect = 0.014, Method: Composition-based stats.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  130  CFGGRMDRIGAQSGLGC  146
+            CFG +MDRI + SGLGC
+Sbjct  2    CFGRKMDRISSSSGLGC  18
+
+
+>3DH7_A Chain A, Structure Of T. Thermophilus Idi-2 In Complex 
+With Ppi [Thermus thermophilus HB8] 3DH7_B Chain B, Structure 
+Of T. Thermophilus Idi-2 In Complex With Ppi [Thermus thermophilus 
+HB8] 3DH7_C Chain C, Structure Of T. Thermophilus 
+Idi-2 In Complex With Ppi [Thermus thermophilus HB8] 3DH7_D 
+Chain D, Structure Of T. Thermophilus Idi-2 In Complex With 
+Ppi [Thermus thermophilus HB8]
+Length=332
+
+ Score = 32.0 bits (71),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 20/54 (37%), Positives = 28/54 (52%), Gaps = 1/54 (2%)
+
+Query  25   ANPMYNAVSNADLMDFKNLLDHLEEKMPLEDEVVPPQVLSEPNEEAGAALSPLP  78
+             NP+  AV   D  DF+ L++ L E +PL   V+  +V    + EA  AL  LP
+Sbjct  153  VNPLQEAVQRGD-TDFRGLVERLAELLPLPFPVMVKEVGHGLSREAALALRDLP  205
+
+
+>1VCF_A Chain A, Isopentenyl-diphosphate Delta-isomerase [Thermus 
+thermophilus] 1VCF_B Chain B, Isopentenyl-diphosphate Delta-isomerase 
+[Thermus thermophilus] 1VCG_A Chain A, Isopentenyl-diphosphate 
+Delta-isomerase [Thermus thermophilus] 1VCG_B 
+Chain B, Isopentenyl-diphosphate Delta-isomerase [Thermus 
+thermophilus] 1VCG_C Chain C, Isopentenyl-diphosphate Delta-isomerase 
+[Thermus thermophilus] 1VCG_D Chain D, Isopentenyl-diphosphate 
+Delta-isomerase [Thermus thermophilus]
+Length=332
+
+ Score = 31.2 bits (69),  Expect = 0.49, Method: Compositional matrix adjust.
+ Identities = 20/54 (37%), Positives = 27/54 (50%), Gaps = 1/54 (2%)
+
+Query  25   ANPMYNAVSNADLMDFKNLLDHLEEKMPLEDEVVPPQVLSEPNEEAGAALSPLP  78
+             NP+  AV   D  DF+ L++ L E +PL   V   +V    + EA  AL  LP
+Sbjct  153  VNPLQEAVQRGD-TDFRGLVERLAELLPLPFPVXVKEVGHGLSREAALALRDLP  205
+
+
+>3V93_A Chain A, Cyclic Nucleotide Specific Phosphodiesterase 
+[Trypanosoma cruzi] 3V93_B Chain B, Cyclic Nucleotide Specific 
+Phosphodiesterase [Trypanosoma cruzi] 3V93_C Chain C, Cyclic 
+Nucleotide Specific Phosphodiesterase [Trypanosoma cruzi] 
+3V93_D Chain D, Cyclic Nucleotide Specific Phosphodiesterase 
+[Trypanosoma cruzi] 3V93_E Chain E, Cyclic Nucleotide Specific 
+Phosphodiesterase [Trypanosoma cruzi] 3V93_F Chain F, 
+Cyclic Nucleotide Specific Phosphodiesterase [Trypanosoma cruzi] 
+3V93_G Chain G, Cyclic Nucleotide Specific Phosphodiesterase 
+[Trypanosoma cruzi] 3V93_H Chain H, Cyclic Nucleotide 
+Specific Phosphodiesterase [Trypanosoma cruzi] 3V94_A Chain 
+A, Cyclic Nucleotide Specific Phosphodiesterase [Trypanosoma 
+cruzi] 3V94_B Chain B, Cyclic Nucleotide Specific Phosphodiesterase 
+[Trypanosoma cruzi] 3V94_C Chain C, Cyclic Nucleotide 
+Specific Phosphodiesterase [Trypanosoma cruzi] 3V94_D Chain 
+D, Cyclic Nucleotide Specific Phosphodiesterase [Trypanosoma 
+cruzi] 3V94_E Chain E, Cyclic Nucleotide Specific Phosphodiesterase 
+[Trypanosoma cruzi] 3V94_F Chain F, Cyclic Nucleotide 
+Specific Phosphodiesterase [Trypanosoma cruzi] 3V94_G 
+Chain G, Cyclic Nucleotide Specific Phosphodiesterase [Trypanosoma 
+cruzi] 3V94_H Chain H, Cyclic Nucleotide Specific Phosphodiesterase 
+[Trypanosoma cruzi]
+Length=345
+
+ Score = 28.5 bits (62),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 16/45 (36%), Positives = 25/45 (56%), Gaps = 3/45 (7%)
+
+Query  16   AFQLLGQTRANPMYNAVSNADLMDFKNLLDHL--EEKMPLEDEVV  58
+            AF+LL  T  +   +++ NA  ++FKN++ HL     M L  E V
+Sbjct  177  AFELLNVTEFD-FTSSMDNASFLEFKNIVSHLIGHTDMSLHSETV  220
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1127433384
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

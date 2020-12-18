@@ -1,0 +1,176 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|P02655|APOC2_HUMAN Apolipoprotein C-II OS=Homo sapiens OX=9606
+GN=APOC2 PE=1 SV=1
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+1I5J_A Chain A, Nmr Structure Of Human Apolipoprotein C-Ii In The...  160     8e-53
+1BY6_A Chain A, APOLIPOPROTEIN C-II [Homo sapiens]                    74.3    4e-19
+2QYU_A Chain A, Secreted Effector Protein [Salmonella enterica su...  30.8    0.27 
+5BMO_A Chain A, LnmX protein, a putative GlcNAc-PI de-N-acetylase...  30.4    0.29 
+3SY2_A Chain A, E3 Ubiquitin-protein Ligase Sopa [Salmonella ente...  30.8    0.29 
+5IYS_A Chain A, Phytoene Synthase [Enterococcus hirae ATCC 9790]      26.9    5.0  
+1IRU_E Chain E, 20s Proteasome [Bos taurus] 1IRU_S Chain S, 20s P...  26.6    6.5  
+3GDN_A Chain A, R-oxynitrile Lyase Isoenzyme 1 [Prunus dulcis] 3G...  26.2    9.9  
+
+
+>1I5J_A Chain A, Nmr Structure Of Human Apolipoprotein C-Ii In 
+The Presence Of Sds [Homo sapiens] 1O8T_A Chain A, APOLIPOPROTEIN 
+C-II [Homo sapiens] 1SOH_A Chain A, Apolipoprotein C-II 
+[Homo sapiens]
+Length=79
+
+ Score = 160 bits (405),  Expect = 8e-53, Method: Compositional matrix adjust.
+ Identities = 79/79 (100%), Positives = 79/79 (100%), Gaps = 0/79 (0%)
+
+Query  23   TQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAM  82
+            TQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAM
+Sbjct  1    TQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAM  60
+
+Query  83   STYTGIFTDQVLSVLKGEE  101
+            STYTGIFTDQVLSVLKGEE
+Sbjct  61   STYTGIFTDQVLSVLKGEE  79
+
+
+>1BY6_A Chain A, APOLIPOPROTEIN C-II [Homo sapiens]
+Length=36
+
+ Score = 74.3 bits (181),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 36/36 (100%), Positives = 36/36 (100%), Gaps = 0/36 (0%)
+
+Query  66   AVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE  101
+            AVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE
+Sbjct  1    AVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKGEE  36
+
+
+>2QYU_A Chain A, Secreted Effector Protein [Salmonella enterica 
+subsp. enterica serovar Typhimurium str. SL1344]
+Length=627
+
+ Score = 30.8 bits (68),  Expect = 0.27, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 26/46 (57%), Gaps = 4/46 (9%)
+
+Query  54   AAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKG  99
+            A    Y++  LP     L D + +++AAM+T++G+F   +L  + G
+Sbjct  285  APDTYYQQRILPV----LLDSFDRNSAAMTTHSGLFNQVILHCMTG  326
+
+
+>5BMO_A Chain A, LnmX protein, a putative GlcNAc-PI de-N-acetylase 
+from Streptomyces atroolivaceus [Streptomyces atroolivaceus] 
+5BMO_B Chain B, LnmX protein, a putative GlcNAc-PI de-N-acetylase 
+from Streptomyces atroolivaceus [Streptomyces atroolivaceus] 
+5BMO_C Chain C, LnmX protein, a putative GlcNAc-PI 
+de-N-acetylase from Streptomyces atroolivaceus [Streptomyces 
+atroolivaceus]
+Length=246
+
+ Score = 30.4 bits (67),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 15/45 (33%), Positives = 20/45 (44%), Gaps = 0/45 (0%)
+
+Query  48   WESAKTAAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQ  92
+            W + K A       T+  AVD+  RD   +S AA   Y G  +D 
+Sbjct  169  WRAGKVAIAGSPHATHAVAVDDDSRDRAVRSLAAHDRYLGSLSDD  213
+
+
+>3SY2_A Chain A, E3 Ubiquitin-protein Ligase Sopa [Salmonella 
+enterica subsp. enterica serovar Typhimurium] 3SY2_B Chain B, 
+E3 Ubiquitin-protein Ligase Sopa [Salmonella enterica subsp. 
+enterica serovar Typhimurium]
+Length=621
+
+ Score = 30.8 bits (68),  Expect = 0.29, Method: Compositional matrix adjust.
+ Identities = 14/46 (30%), Positives = 26/46 (57%), Gaps = 4/46 (9%)
+
+Query  54   AAQNLYEKTYLPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSVLKG  99
+            A    Y++  LP     L D + +++AAM+T++G+F   +L  + G
+Sbjct  279  APDTYYQQRILPV----LLDSFDRNSAAMTTHSGLFNQVILHCMTG  320
+
+
+>5IYS_A Chain A, Phytoene Synthase [Enterococcus hirae ATCC 9790]
+Length=289
+
+ Score = 26.9 bits (58),  Expect = 5.0, Method: Compositional matrix adjust.
+ Identities = 18/62 (29%), Positives = 31/62 (50%), Gaps = 9/62 (15%)
+
+Query  39   QVKESLSSYWESAKTAAQNLYEKTY--LPAVDEKLRDLYSKSTAAMSTYTGIFTDQVLSV  96
+            Q +  L + WES    A+NLYE+++   P + E  R        A+++   I+ +Q+  V
+Sbjct  204  QAQTQLVALWESLAKQAENLYEESFEMFPLITEDCR-------QALASAAFIYREQLNIV  256
+
+Query  97   LK  98
+             K
+Sbjct  257  RK  258
+
+
+>1IRU_E Chain E, 20s Proteasome [Bos taurus] 1IRU_S Chain S, 20s 
+Proteasome [Bos taurus]
+Length=241
+
+ Score = 26.6 bits (57),  Expect = 6.5, Method: Compositional matrix adjust.
+ Identities = 17/52 (33%), Positives = 27/52 (52%), Gaps = 2/52 (4%)
+
+Query  11   LVLLVLGFEVQGTQQPQQDEMPSPTFLTQVKESLSSYWESAKTAAQNLYEKT  62
+            + LL  G + +G Q    D  PS TF+     ++ S  E A+++ Q LY K+
+Sbjct  139  VALLFGGVDEKGPQLFHMD--PSGTFVQCDARAIGSASEGAQSSLQELYHKS  188
+
+
+>3GDN_A Chain A, R-oxynitrile Lyase Isoenzyme 1 [Prunus dulcis] 
+3GDN_B Chain B, R-oxynitrile Lyase Isoenzyme 1 [Prunus dulcis] 
+3GDP_A Chain A, R-oxynitrile Lyase Isoenzyme 1 [Prunus 
+dulcis] 3GDP_B Chain B, R-oxynitrile Lyase Isoenzyme 1 [Prunus 
+dulcis]
+Length=521
+
+ Score = 26.2 bits (56),  Expect = 9.9, Method: Composition-based stats.
+ Identities = 13/34 (38%), Positives = 19/34 (56%), Gaps = 1/34 (3%)
+
+Query  15   VLGFEVQGTQQPQQDEMPSPTFLTQVKESLSSYW  48
+            V GF + G   P+ D+     F T  +ES++SYW
+Sbjct  426  VEGFNILGIPLPK-DQTDDAAFETFCRESVASYW  458
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.128    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 771293259
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

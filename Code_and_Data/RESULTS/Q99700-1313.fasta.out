@@ -1,0 +1,159 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|Q99700|ATX2_HUMAN Ataxin-2 OS=Homo sapiens OX=9606 GN=ATXN2 PE=1
+SV=2
+
+Length=1313
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+3KTR_B Chain B, Structural Basis Of Ataxin-2 Recognition By Poly(...  37.7    0.002
+5VSU_D Chain D, U6 snRNA-associated Sm-like protein LSm4 [Sacchar...  31.6    2.0  
+4M77_G Chain G, U6 Snrna-associated Sm-like Protein Lsm4 [Sacchar...  31.2    2.5  
+4C8Q_D Chain D, U6 Snrna-associated Sm-like Protein Lsm4 [Sacchar...  31.2    3.6  
+6RW4_1 Chain 1, 28S ribosomal protein S35, mitochondrial [Homo sa...  32.3    4.4  
+4M75_G Chain G, U6 Snrna-associated Sm-like Protein Lsm4 [Sacchar...  30.0    8.1  
+5AJ3_B Chain B, MITORIBOSOMAL PROTEIN US2M, MRPS2 [Sus scrofa]        31.2    10.0 
+
+
+>3KTR_B Chain B, Structural Basis Of Ataxin-2 Recognition By Poly(A)-Binding 
+[Homo sapiens]
+Length=17
+
+ Score = 37.7 bits (86),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 17/17 (100%), Positives = 17/17 (100%), Gaps = 0/17 (0%)
+
+Query  912  STLNPNAKEFNPRSFSQ  928
+            STLNPNAKEFNPRSFSQ
+Sbjct  1    STLNPNAKEFNPRSFSQ  17
+
+
+>5VSU_D Chain D, U6 snRNA-associated Sm-like protein LSm4 [Saccharomyces 
+cerevisiae S288C]
+Length=96
+
+ Score = 31.6 bits (70),  Expect = 2.0, Method: Composition-based stats.
+ Identities = 15/53 (28%), Positives = 29/53 (55%), Gaps = 0/53 (0%)
+
+Query  264  ANMRMVHILTSVVGSKCEVQVKNGGIYEGVFKTYSPKCDLVLDAAHEKSTESS  316
+             +M  +++LT+  G + ++++KNG I +G+        +L L    E S ES+
+Sbjct  2    GSMLPLYLLTNAKGQQMQIELKNGEIIQGILTNVDNWMNLTLSNVTEYSEESA  54
+
+
+>4M77_G Chain G, U6 Snrna-associated Sm-like Protein Lsm4 [Saccharomyces 
+cerevisiae S288C] 4M77_N Chain N, U6 Snrna-associated 
+Sm-like Protein Lsm4 [Saccharomyces cerevisiae S288C] 4M78_G 
+Chain G, U6 Snrna-associated Sm-like Protein Lsm4 [Saccharomyces 
+cerevisiae S288C] 4M78_N Chain N, U6 Snrna-associated 
+Sm-like Protein Lsm4 [Saccharomyces cerevisiae S288C] 4M7A_G 
+Chain G, U6 Snrna-associated Sm-like Protein Lsm4 [Saccharomyces 
+cerevisiae S288C] 4M7A_N Chain N, U6 Snrna-associated 
+Sm-like Protein Lsm4 [Saccharomyces cerevisiae S288C] 4M7D_G 
+Chain G, U6 Snrna-associated Sm-like Protein Lsm4 [Saccharomyces 
+cerevisiae S288C] 4M7D_N Chain N, U6 Snrna-associated 
+Sm-like Protein Lsm4 [Saccharomyces cerevisiae S288C] 6ASO_D 
+Chain D, U6 snRNA-associated Sm-like protein LSm4 [Saccharomyces 
+cerevisiae]
+Length=93
+
+ Score = 31.2 bits (69),  Expect = 2.5, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 28/51 (55%), Gaps = 0/51 (0%)
+
+Query  266  MRMVHILTSVVGSKCEVQVKNGGIYEGVFKTYSPKCDLVLDAAHEKSTESS  316
+            M  +++LT+  G + ++++KNG I +G+        +L L    E S ES+
+Sbjct  1    MLPLYLLTNAKGQQMQIELKNGEIIQGILTNVDNWMNLTLSNVTEYSEESA  51
+
+
+>4C8Q_D Chain D, U6 Snrna-associated Sm-like Protein Lsm4 [Saccharomyces 
+cerevisiae S288C] 4C92_D Chain D, U6 Snrna-associated 
+Sm-like Protein Lsm4 [Saccharomyces cerevisiae]
+Length=114
+
+ Score = 31.2 bits (69),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 15/51 (29%), Positives = 28/51 (55%), Gaps = 0/51 (0%)
+
+Query  266  MRMVHILTSVVGSKCEVQVKNGGIYEGVFKTYSPKCDLVLDAAHEKSTESS  316
+            M  +++LT+  G + ++++KNG I +G+        +L L    E S ES+
+Sbjct  1    MLPLYLLTNAKGQQMQIELKNGEIIQGILTNVDNWMNLTLSNVTEYSEESA  51
+
+
+>6RW4_1 Chain 1, 28S ribosomal protein S35, mitochondrial [Homo 
+sapiens] 6RW5_1 Chain 1, 28S ribosomal protein S35, mitochondrial 
+[Homo sapiens]
+Length=323
+
+ Score = 32.3 bits (72),  Expect = 4.4, Method: Compositional matrix adjust.
+ Identities = 22/55 (40%), Positives = 24/55 (44%), Gaps = 3/55 (5%)
+
+Query  20  FAAARWPGWRSLQ---RPARRSGRGGGGAAPGPYPSAAPPPPGPGPPPSRQSSPP  71
+            AAA  P W SLQ   R  R        A P P PS     PG   PP R++ PP
+Sbjct  1   MAAAALPAWLSLQSRARTLRAFSTAVYSATPVPTPSLPERTPGNERPPRRKALPP  55
+
+
+>4M75_G Chain G, U6 Snrna-associated Sm-like Protein Lsm4 [Saccharomyces 
+cerevisiae S288C] 4M75_N Chain N, U6 Snrna-associated 
+Sm-like Protein Lsm4 [Saccharomyces cerevisiae S288C]
+Length=122
+
+ Score = 30.0 bits (66),  Expect = 8.1, Method: Composition-based stats.
+ Identities = 14/48 (29%), Positives = 27/48 (56%), Gaps = 0/48 (0%)
+
+Query  269  VHILTSVVGSKCEVQVKNGGIYEGVFKTYSPKCDLVLDAAHEKSTESS  316
+            +++LT+  G + ++++KNG I +G+        +L L    E S ES+
+Sbjct  33   LYLLTNAKGQQXQIELKNGEIIQGILTNVDNWXNLTLSNVTEYSEESA  80
+
+
+>5AJ3_B Chain B, MITORIBOSOMAL PROTEIN US2M, MRPS2 [Sus scrofa]
+Length=289
+
+ Score = 31.2 bits (69),  Expect = 10.0, Method: Compositional matrix adjust.
+ Identities = 21/41 (51%), Positives = 26/41 (63%), Gaps = 3/41 (7%)
+
+Query  93   RLLGLGGPPRPFVVLLLPLASPGAPPAAPTRASPLGARASP  133
+            RLLG G P RP  + L+P A+PG  PA PT    LG+ A+P
+Sbjct  9    RLLGAGAPRRPLRLHLVPTATPG--PAGPT-GRTLGSNAAP  46
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.124    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 21082649679
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2874 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|D3ZSP7|TTC3_RAT E3 ubiquitin-protein ligase TTC3 OS=Rattus
+norvegicus OX=10116 GN=Ttc3 PE=3 SV=3
+
+Length=2000
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+1A17_A Chain A, Serine/threonine Protein Phosphatase 5 [Homo sapi...  71.2    2e-13
+2BUG_A Chain A, SERINE/THREONINE PROTEIN PHOSPHATASE 5 [Homo sapi...  68.9    7e-13
+4JA7_A Chain A, Serine/threonine-protein Phosphatase 5 [Rattus no...  71.2    8e-12
+1WAO_1 Chain 1, Serine/threonine Protein Phosphatase 5 [Homo sapi...  70.1    2e-11
+2VYI_A Chain A, Crystal Structure Of The Tpr Domain Of Human Sgt ...  62.8    8e-11
+2LNI_A Chain A, Stress-induced-phosphoprotein 1 [Homo sapiens]        62.4    1e-10
+5JJT_A Chain A, Serine/threonine-protein Phosphatase 5 [Arabidops...  67.4    1e-10
+5OBL_A Chain A, Serine/threonine-protein phosphatase 5 [Arabidops...  67.4    1e-10
+1ELW_A Chain A, TPR1-DOMAIN OF HOP [Homo sapiens] 1ELW_B Chain B,...  60.1    5e-10
+5LYP_A Chain A, Small glutamine-rich tetratricopeptide repeat-con...  60.5    6e-10
+4GCO_A Chain A, Protein STI-1 [Caenorhabditis elegans]                57.8    4e-09
+5LYN_A Chain A, Small glutamine-rich tetratricopeptide repeat-con...  57.4    6e-09
+6NSV_A Chain A, E3 ubiquitin-protein ligase CHIP [Homo sapiens] 6...  55.5    2e-08
+6EFK_A Chain A, E3 ubiquitin-protein ligase CHIP [Homo sapiens] 6...  55.5    3e-08
+4KBQ_A Chain A, E3 Ubiquitin-protein Ligase Chip [Homo sapiens] 4...  55.5    4e-08
+3Q47_B Chain B, Stip1 Homology And U Box-containing Protein 1 [Mu...  54.7    6e-08
+6GXZ_A Chain A, RNA polymerase II-associated protein 3 [Homo sapi...  53.9    2e-07
+2C2L_A Chain A, CARBOXY TERMINUS OF HSP70-INTERACTING PROTEIN [Mu...  55.5    3e-07
+6FDP_A Chain A, RNA polymerase II-associated protein 3 [Homo sapi...  50.8    8e-07
+4CGW_A Chain A, Rna Polymerase Ii-associated Protein 3 [Homo sapi...  50.4    1e-06
+6FO1_G Chain G, RNA polymerase II-associated protein 3 [Homo sapi...  54.7    1e-06
+2LXP_C Chain C, E3 ubiquitin-protein ligase AMFR [Homo sapiens]       46.2    8e-06
+2LXH_C Chain C, E3 ubiquitin-protein ligase AMFR [Homo sapiens]       46.6    1e-05
+1IYM_A Chain A, EL5 [Oryza sativa]                                    45.1    2e-05
+4V3K_C Chain C, E3 UBIQUITIN-PROTEIN LIGASE RNF38 [Homo sapiens] ...  45.8    2e-05
+6A3Z_A Chain A, E3 ubiquitin-protein ligase synoviolin [Homo sapi...  44.7    2e-05
+1X4J_A Chain A, RING finger protein 38 [Homo sapiens]                 44.3    5e-05
+4CGV_A Chain A, Rna Polymerase Ii-associated Protein 3 [Homo sapi...  45.8    7e-05
+4LAD_B Chain B, E3 ubiquitin-protein ligase AMFR [Homo sapiens]       45.8    8e-05
+6FD7_A Chain A, RNA polymerase II-associated protein 3 [Homo sapi...  44.7    1e-04
+6HPG_A Chain A, Outer envelope protein 64, mitochondrial [Arabido...  44.7    1e-04
+6Q3Q_A Chain A, Outer envelope protein 64, mitochondrial [Arabido...  44.3    2e-04
+6VL6_A Chain A, T33_dn2A [synthetic construct] 6VL6_C Chain C, T3...  43.9    2e-04
+3KD7_A Chain A, Ctpr390 [unidentified] 3KD7_B Chain B, Ctpr390 [u...  43.5    3e-04
+3SZ7_A Chain A, Hsc70 Cochaperone (sgt) [Aspergillus fumigatus Af...  43.9    5e-04
+3LCA_A Chain A, Protein TOM71 [Saccharomyces cerevisiae]              45.8    7e-04
+3FP2_A Chain A, Tpr Repeat-containing Protein Yhr117w [Saccharomy...  45.4    7e-04
+5HRZ_A Chain A, TPR domain protein 1na0C3_3 [synthetic construct]     42.4    8e-04
+6VFJ_B Chain B, I53_dn5B [synthetic construct]                        42.4    9e-04
+2WQH_A Chain A, CTPR3Y3 [synthetic construct]                         42.0    0.001
+2DBA_A Chain A, Smooth muscle cell associated protein-1, isoform ...  42.4    0.001
+1NA0_A Chain A, Designed Protein Ctpr3 [unidentified] 1NA0_B Chai...  41.6    0.001
+6W9A_B Chain B, E3 ubiquitin-protein ligase RLIM [Homo sapiens] 6...  40.8    0.001
+6W7Z_B Chain B, E3 ubiquitin-protein ligase RLIM [Homo sapiens]       40.8    0.001
+3UPV_A Chain A, Heat Shock Protein Sti1 [Saccharomyces cerevisiae...  41.6    0.001
+6I57_A Chain A, Sperm-associated antigen 1 [Homo sapiens]             41.6    0.002
+5V6P_A Chain A, ERAD-associated E3 ubiquitin-protein ligase HRD1 ...  43.9    0.002
+6VJY_B Chain B, ERAD-associated E3 ubiquitin-protein ligase HRD1 ...  43.9    0.002
+2GW1_A Chain A, Mitochondrial precursor proteins import receptor ...  43.9    0.002
+6VJZ_B Chain B, ERAD-associated E3 ubiquitin-protein ligase HRD1 ...  43.5    0.003
+5ULH_C Chain C, E3 Ubiquitin-protein Ligase Rnf165 [Homo sapiens]...  39.7    0.003
+6F98_A Chain A, E3 ubiquitin-protein ligase [Saccharomyces cerevi...  39.3    0.004
+3UQ3_A Chain A, Heat Shock Protein Sti1 [Saccharomyces cerevisiae...  42.0    0.005
+5D0M_C Chain C, Ring Finger Protein 165 [Homo sapiens]                38.9    0.006
+6HFT_A Chain A, Hsp70/Hsp90 co-chaperone CNS1 [Saccharomyces cere...  42.0    0.006
+5D0K_C Chain C, Ring Finger Protein 165 [Homo sapiens] 5D0K_F Cha...  38.9    0.007
+2EP4_A Chain A, RING finger protein 24 [Homo sapiens]                 38.1    0.009
+2KIZ_A Chain A, E3 ubiquitin-protein ligase Arkadia [Homo sapiens]    37.7    0.009
+5D0I_A Chain A, Ring Finger Protein 165 [Homo sapiens] 5D0I_B Cha...  38.5    0.010
+3NG2_A Chain A, Crystal Structure Of The Rnf4 Ring Domain Dimer [...  37.7    0.010
+4PPE_A Chain A, E3 Ubiquitin-protein Ligase Rnf4 [Homo sapiens] 4...  37.7    0.011
+6EOU_A Chain A, UDP-N-acetylglucosamine--peptide N-acetylglucosam...  41.2    0.012
+2XEU_A Chain A, Ring Finger Protein 4 [Homo sapiens]                  37.4    0.013
+2ECT_A Chain A, RING finger protein 126 [Mus musculus]                37.4    0.017
+2IF4_A Chain A, Crystal Structure Of A Multi-Domain Immunophilin ...  40.4    0.019
+2ECM_A Chain A, RING finger and CHY zinc finger domain-containing...  36.6    0.020
+2EA6_A Chain A, RING finger protein 4 [Homo sapiens]                  36.6    0.022
+2JRJ_A Chain A, Ring finger and CHY zinc finger domain containing...  36.2    0.022
+5MZU_A Chain A, UNC-45 [Caenorhabditis elegans]                       40.8    0.027
+2Y4T_A Chain A, Dnaj Homolog Subfamily C Member 3 [Homo sapiens] ...  40.0    0.038
+1W3B_A Chain A, Udp-n-acetylglucosamine--peptide N-acetylglucosam...  39.7    0.041
+6QDL_A Chain A, UNC-45 [Caenorhabditis elegans]                       40.0    0.042
+6QDM_A Chain A, UNC-45,UNC-45 [Caenorhabditis elegans] 6QDM_B Cha...  40.0    0.042
+2L0B_A Chain A, E3 ubiquitin-protein ligase Praja-1 [Homo sapiens]    36.6    0.043
+4AP4_A Chain A, E3 UBIQUITIN LIGASE RNF4 [Rattus norvegicus] 5AIT...  37.4    0.056
+6VL6_B Chain B, T33_dn2B [synthetic construct] 6VL6_N Chain N, T3...  37.0    0.056
+6QDK_A Chain A, UNC-45,UNC-45 [Caenorhabditis elegans]                39.7    0.058
+4I2W_A Chain A, Protein Unc-45 [Caenorhabditis elegans] 4I2Z_A Ch...  39.7    0.060
+6V8E_A Chain A, Designed protein [synthetic construct] 6V8E_B Cha...  36.6    0.085
+1IHG_A Chain A, Cyclophilin 40 [Bos taurus] 1IIP_A Chain A, Cyclo...  38.1    0.12 
+4R7E_A Chain A, E3 Ubiquitin-protein Ligase Bre1 [Saccharomyces c...  34.7    0.12 
+5ZBU_A Chain A, E3 ubiquitin-protein ligase RNF13 [Homo sapiens] ...  35.0    0.12 
+5YWR_B Chain B, E3 ubiquitin-protein ligase ZNRF1 [Homo sapiens]      35.0    0.12 
+6VFH_A Chain A, T33_dn10A [synthetic construct]                       35.8    0.13 
+5L0Y_A Chain A, Sec72-ssa1 c-terminal peptide fusion protein [Cha...  36.6    0.16 
+2Y4U_A Chain A, Dnaj Homolog Subfamily C Member 3 [Homo sapiens]      37.7    0.16 
+4GCN_A Chain A, Protein STI-1 [Caenorhabditis elegans] 4GCN_B Cha...  35.4    0.24 
+2FO7_A Chain A, SYNTHETIC CONSENSUS TPR PROTEIN [synthetic constr...  35.4    0.25 
+2L6J_A Chain A, TPR repeat-containing protein associated with Hsp...  34.7    0.30 
+2LSU_A Chain A, TPR repeat-containing protein associated with Hsp...  34.7    0.30 
+2ECL_A Chain A, RING-box protein 2 [Homo sapiens]                     33.9    0.31 
+3IEG_A Chain A, DnaJ homolog subfamily C member 3 [Mus musculus] ...  36.6    0.35 
+2DBD_A Chain A, Caspase recruitment domain protein 4 [Homo sapiens]   34.3    0.37 
+4AYC_B Chain B, E3 Ubiquitin-protein Ligase Rnf8 [Homo sapiens]       34.7    0.41 
+5LG0_A Chain A, E3 ubiquitin-protein ligase Arkadia [Homo sapiens]    33.1    0.48 
+4AYC_A Chain A, E3 Ubiquitin-protein Ligase Rnf8 [Homo sapiens]       34.3    0.55 
+4CGQ_A Chain A, Tpr Repeat-containing Protein Associated With Hsp...  33.9    0.57 
+5LG7_A Chain A, E3 ubiquitin-protein ligase Arkadia [Homo sapiens]    32.7    0.59 
+5L0W_B Chain B, Sec72 [Chaetomium thermophilum]                       35.4    0.61 
+4KC9_A Chain A, E3 Ubiquitin-protein Ligase Arih1 [Homo sapiens]      36.2    0.61 
+4CGU_A Chain A, Tpr Repeat-containing Protein Associated With Hsp...  33.9    0.62 
+2YUR_A Chain A, Retinoblastoma-binding protein 6 [Homo sapiens]       32.7    0.65 
+6V9I_R Chain R, RING-box protein 2 [Mus musculus]                     33.9    0.66 
+4ORH_C Chain C, E3 ubiquitin-protein ligase RNF8 [Homo sapiens] 4...  34.3    0.69 
+2Y43_A Chain A, E3 Ubiquitin-protein Ligase Rad18 [Homo sapiens] ...  33.1    0.74 
+2ECJ_A Chain A, Tripartite motif-containing protein 39 [Homo sapi...  32.0    0.84 
+1CHC_A Chain A, EQUINE HERPES VIRUS-1 RING DOMAIN [Equid alphaher...  32.3    0.89 
+6VFI_B Chain B, O43_dn18B [synthetic construct]                       33.5    0.92 
+5TTE_B Chain B, E3 ubiquitin-protein ligase ARIH1 [Homo sapiens]      35.4    1.0  
+4KBL_A Chain A, E3 Ubiquitin-protein Ligase Arih1 [Homo sapiens] ...  35.4    1.0  
+5UDH_A Chain A, E3 Ubiquitin-protein Ligase Arih1 [Homo sapiens] ...  35.0    1.1  
+6VFK_A Chain A, BG505-SOSIP-T33_dn10A [synthetic construct]           35.0    1.6  
+5LD2_D Chain D, RecBCD enzyme subunit RecD [Escherichia coli K-12...  34.7    1.6  
+2NSN_A Chain A, Caspase Recruitment Domain-containing Protein 4 [...  32.3    1.6  
+4A0C_D Chain D, E3 UBIQUITIN-PROTEIN LIGASE RBX1 [Mus musculus] 4...  32.3    1.7  
+3J92_0 Chain 0, Listerin [Homo sapiens] 3J92_w Chain w, Listerin ...  35.0    1.7  
+1W36_D Chain D, Exodeoxyribonuclease V Alpha Chain [Escherichia c...  34.7    1.7  
+2NZ7_A Chain A, Crystal Structure Analysis Of Caspase-Recruitment...  32.3    1.7  
+3ZTG_A Chain A, E3 UBIQUITIN-PROTEIN LIGASE RBBP6 [Homo sapiens] ...  32.0    1.8  
+6R7I_R Chain R, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]       32.0    1.8  
+4JQW_A Chain A, Nucleotide-binding Oligomerization Domain-contain...  32.3    1.8  
+1LDJ_B Chain B, Ring-box Protein 1 [Homo sapiens] 1LDK_C Chain C,...  32.0    1.8  
+6R6H_R Chain R, RBX1_HUMAN [Homo sapiens] 6R7N_R Chain R, RBX1 E3...  32.0    1.9  
+2B1W_A Chain A, Caspase recruitment domain protein 4 [Homo sapiens]   32.7    1.9  
+4E9M_A Chain A, Nucleotide-binding Oligomerization Domain-contain...  33.1    1.9  
+1U6G_B Chain B, Ring-box Protein 1 [Homo sapiens] 2HYE_D Chain D,...  32.3    2.1  
+4A0K_B Chain B, E3 UBIQUITIN-PROTEIN LIGASE RBX1 [Mus musculus]       32.3    2.1  
+6D7U_A Chain A, Hemagglutinin HA1 chain [Influenza A virus] 6D7U_...  33.9    2.1  
+3DPL_R Chain R, Structural Insights Into Nedd8 Activation Of Cull...  32.0    2.2  
+6TTU_R Chain R, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]       32.0    2.2  
+3DQV_R Chain R, Structural Insights Into Nedd8 Activation Of Cull...  32.0    2.2  
+5N4W_R Chain R, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]       32.0    2.3  
+4DJ6_A Chain A, Hemagglutinin [Influenza A virus (A/Netherlands/2...  33.9    2.4  
+6L6J_A Chain A, Oxidored_FMN domain-containing protein [[Pseudomo...  33.9    2.7  
+3ASG_A Chain A, Mama [Magnetospirillum magneticum AMB-1] 3ASG_B C...  32.7    3.3  
+6XT9_H Chain H, Tetratricopeptide repeat domain 8 isoform 2 [Homo...  33.5    3.5  
+2QON_A Chain A, Ephrin Receptor [Homo sapiens]                        33.5    3.5  
+2LGV_A Chain A, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]       31.2    3.6  
+2NC9_A Chain A, Stress-induced-phosphoprotein 1 [Homo sapiens]        32.0    3.7  
+4UZY_A Chain A, Flagellar Associated Protein [Chlamydomonas reinh...  33.5    3.9  
+3ESK_A Chain A, Stress-induced-phosphoprotein 1 [Homo sapiens]        31.6    4.2  
+3AS4_A Chain A, Mama [Magnetospirillum magneticum AMB-1] 3AS5_A C...  32.3    4.8  
+1ELR_A Chain A, TPR2A-DOMAIN OF HOP [Homo sapiens]                    31.6    4.8  
+3ASD_A Chain A, Mama [Magnetospirillum magneticum AMB-1]              32.3    5.2  
+5MJA_A Chain A, Ephrin type-B receptor 1 [Homo sapiens] 5MJA_B Ch...  32.7    5.4  
+3FXX_A Chain A, Ephrin type-A receptor 3 [Homo sapiens] 3FY2_A Ch...  32.7    5.7  
+5MJB_A Chain A, Ephrin Type-b Receptor 1 [Homo sapiens] 5MJB_B Ch...  32.7    5.8  
+2QOL_A Chain A, Ephrin Receptor [Homo sapiens]                        32.7    5.9  
+2QOF_A Chain A, Ephrin Receptor [Homo sapiens]                        32.7    6.0  
+2QOD_A Chain A, Ephrin Receptor [Homo sapiens]                        32.7    6.0  
+5ELN_A Chain A, Lysine--tRNA ligase [Cryptosporidium parvum Iowa ...  32.7    6.0  
+2QOI_A Chain A, Ephrin Receptor [Homo sapiens]                        32.7    6.1  
+2GSF_A Chain A, Ephrin Type-a Receptor 3 [Homo sapiens] 2QO2_A Ch...  32.7    6.2  
+2QOK_A Chain A, Ephrin Receptor [Homo sapiens]                        32.7    6.3  
+2QOO_A Chain A, Ephrin Receptor [Homo sapiens]                        32.3    7.0  
+2ECV_A Chain A, Tripartite motif-containing protein 5 [Homo sapiens]  30.0    7.3  
+2QO7_A Chain A, Ephrin Receptor [Homo sapiens] 2QOQ_A Chain A, Ep...  32.3    7.4  
+6IN0_A Chain A, Ephrin type-A receptor 3 [Homo sapiens]               32.3    7.8  
+5XEK_A Chain A, RING finger protein 141 [Homo sapiens]                28.9    7.9  
+5G04_F Chain F, Cell Division Cycle Protein 27 Homolog [Homo sapi...  32.7    8.3  
+4UI9_F Chain F, CELL DIVISION CYCLE PROTEIN 27 HOMOLOG [Homo sapi...  32.3    8.4  
+5A31_F Chain F, ANAPHASE-PROMOTING COMPLEX SUBUNIT 3 [Homo sapien...  32.3    8.4  
+3FWV_A Chain A, Hsc70/hsp90-organizing Protein [Homo sapiens] 3FW...  30.8    8.6  
+3DZQ_A Chain A, Eph Receptor A3 [Homo sapiens] 4G2F_A Chain A, Ep...  32.0    9.7  
+4RG9_A Chain A, Cell Division Cycle Protein 27 Homolog [Homo sapi...  32.3    9.8  
+
+
+>1A17_A Chain A, Serine/threonine Protein Phosphatase 5 [Homo 
+sapiens]
+Length=166
+
+ Score = 71.2 bits (173),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 35/94 (37%), Positives = 56/94 (60%), Gaps = 0/94 (0%)
+
+Query  246  CVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALS  305
+             +K+ E +K + N+ F  + +E A+ +Y++AIE  P N + YGNR+L +LR   +  AL 
+Sbjct  9    ALKRAEELKTQANDYFKAKDYENAIKFYSQAIELNPSNAIYYGNRSLAYLRTECYGYALG  68
+
+Query  306  DGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQ  339
+            D  RAI L   + KG+YR   +   LG++  AL+
+Sbjct  69   DATRAIELDKKYIKGYYRRAASNMALGKFRAALR  102
+
+
+>2BUG_A Chain A, SERINE/THREONINE PROTEIN PHOSPHATASE 5 [Homo 
+sapiens]
+Length=140
+
+ Score = 68.9 bits (167),  Expect = 7e-13, Method: Composition-based stats.
+ Identities = 35/93 (38%), Positives = 57/93 (61%), Gaps = 0/93 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            +K+ E +K + N+ F  + +E A+ +Y++AIE  P N + YGNR+L +LR   +  AL+D
+Sbjct  18   LKRAEELKTQANDYFKAKDYENAIKFYSQAIELNPSNAIYYGNRSLAYLRTECYGYALND  77
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQ  339
+              RAI L   + KG+YR   +   LG++  AL+
+Sbjct  78   ATRAIELDKKYIKGYYRRAASNMALGKFRAALR  110
+
+
+>4JA7_A Chain A, Serine/threonine-protein Phosphatase 5 [Rattus 
+norvegicus] 4JA9_A Chain A, Serine/threonine-protein Phosphatase 
+5 [Rattus norvegicus]
+Length=488
+
+ Score = 71.2 bits (173),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 38/108 (35%), Positives = 61/108 (56%), Gaps = 0/108 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            +K+ E +K + N+ F  + +E A+ +Y++AIE  P N + YGNR+L +LR   +  AL D
+Sbjct  14   LKRAEELKTQANDYFKAKDYENAIKFYSQAIELNPSNAIYYGNRSLAYLRTECYGYALGD  73
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEG  354
+              RAI L   + KG+YR   +   LG++  AL+      K+  ND + 
+Sbjct  74   ATRAIELDKKYIKGYYRRAASNMALGKFRAALRDYETVVKVKPNDKDA  121
+
+
+>1WAO_1 Chain 1, Serine/threonine Protein Phosphatase 5 [Homo 
+sapiens] 1WAO_2 Chain 2, Serine/threonine Protein Phosphatase 
+5 [Homo sapiens] 1WAO_3 Chain 3, Serine/threonine Protein 
+Phosphatase 5 [Homo sapiens] 1WAO_4 Chain 4, Serine/threonine 
+Protein Phosphatase 5 [Homo sapiens]
+Length=477
+
+ Score = 70.1 bits (170),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 35/94 (37%), Positives = 56/94 (60%), Gaps = 0/94 (0%)
+
+Query  246  CVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALS  305
+             +K+ E +K + N+ F  + +E A+ +Y++AIE  P N + YGNR+L +LR   +  AL 
+Sbjct  2    ALKRAEELKTQANDYFKAKDYENAIKFYSQAIELNPSNAIYYGNRSLAYLRTECYGYALG  61
+
+Query  306  DGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQ  339
+            D  RAI L   + KG+YR   +   LG++  AL+
+Sbjct  62   DATRAIELDKKYIKGYYRRAASNMALGKFRAALR  95
+
+
+>2VYI_A Chain A, Crystal Structure Of The Tpr Domain Of Human 
+Sgt [Homo sapiens] 2VYI_B Chain B, Crystal Structure Of The 
+Tpr Domain Of Human Sgt [Homo sapiens]
+Length=131
+
+ Score = 62.8 bits (151),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 37/105 (35%), Positives = 58/105 (55%), Gaps = 3/105 (3%)
+
+Query  249  QGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGK  308
+            + E +K  GNE+   E FE AV +Y +AIE  P N + + NRA  + ++G +  A+ D +
+Sbjct  11   EAERLKTEGNEQMKVENFEAAVHFYGKAIELNPANAVYFCNRAAAYSKLGNYAGAVQDCE  70
+
+Query  309  RAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPE  353
+            RAI +   + K + R   ALS L ++  A+    KA +L   DP+
+Sbjct  71   RAICIDPAYSKAYGRMGLALSSLNKHVEAVAYYKKALEL---DPD  112
+
+
+>2LNI_A Chain A, Stress-induced-phosphoprotein 1 [Homo sapiens]
+Length=133
+
+ Score = 62.4 bits (150),  Expect = 1e-10, Method: Composition-based stats.
+ Identities = 38/106 (36%), Positives = 60/106 (57%), Gaps = 3/106 (3%)
+
+Query  252  LMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAI  311
+            ++K +GNE F K  +  A+ +YT AI+  P++  LY NRA C+ ++ +F+ AL D +  I
+Sbjct  18   MVKNKGNECFQKGDYPQAMKHYTEAIKRNPKDAKLYSNRAACYTKLLEFQLALKDCEECI  77
+
+Query  312  VLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKL---CKNDPEG  354
+             L+ T+ KG+ R   AL  + +Y  A+    KA  L   CK   +G
+Sbjct  78   QLEPTFIKGYTRKAAALEAMKDYTKAMDVYQKALDLDSSCKEAADG  123
+
+
+>5JJT_A Chain A, Serine/threonine-protein Phosphatase 5 [Arabidopsis 
+thaliana] 5JJT_B Chain B, Serine/threonine-protein Phosphatase 
+5 [Arabidopsis thaliana]
+Length=479
+
+ Score = 67.4 bits (163),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 34/112 (30%), Positives = 61/112 (54%), Gaps = 0/112 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            V + E  K + NE F   K+  A+  YT+AIE    N + + NRA    ++ ++ +A+ D
+Sbjct  6    VSRAEEFKSQANEAFKGHKYSSAIDLYTKAIELNSNNAVYWANRAFAHTKLEEYGSAIQD  65
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+              +AI + + + KG+YR   A   +G++  AL+   + ++L  NDP+  + L
+Sbjct  66   ASKAIEVDSRYSKGYYRRGAAYLAMGKFKDALKDFQQVKRLSPNDPDATRKL  117
+
+
+>5OBL_A Chain A, Serine/threonine-protein phosphatase 5 [Arabidopsis 
+thaliana] 5OBL_B Chain B, Serine/threonine-protein phosphatase 
+5 [Arabidopsis thaliana]
+Length=505
+
+ Score = 67.4 bits (163),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 34/112 (30%), Positives = 61/112 (54%), Gaps = 0/112 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            V + E  K + NE F   K+  A+  YT+AIE    N + + NRA    ++ ++ +A+ D
+Sbjct  31   VSRAEEFKSQANEAFKGHKYSSAIDLYTKAIELNSNNAVYWANRAFAHTKLEEYGSAIQD  90
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+              +AI + + + KG+YR   A   +G++  AL+   + ++L  NDP+  + L
+Sbjct  91   ASKAIEVDSRYSKGYYRRGAAYLAMGKFKDALKDFQQVKRLSPNDPDATRKL  142
+
+
+>1ELW_A Chain A, TPR1-DOMAIN OF HOP [Homo sapiens] 1ELW_B Chain 
+B, TPR1-DOMAIN OF HOP [Homo sapiens]
+Length=118
+
+ Score = 60.1 bits (144),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 33/109 (30%), Positives = 59/109 (54%), Gaps = 3/109 (3%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K +GN+  +    + A+  Y+ AI+  P NH+LY NR+  + + G ++ A  DG + + 
+Sbjct  7    LKEKGNKALSVGNIDDALQCYSEAIKLDPHNHVLYSNRSAAYAKKGDYQKAYEDGCKTVD  66
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDP---EGIKDL  358
+            LK  W KG+ R   AL  L  ++ A +   +  K   N+P   EG++++
+Sbjct  67   LKPDWGKGYSRKAAALEFLNRFEEAKRTYEEGLKHEANNPQLKEGLQNM  115
+
+
+>5LYP_A Chain A, Small glutamine-rich tetratricopeptide repeat-containing 
+protein 2 [Saccharomyces cerevisiae]
+Length=140
+
+ Score = 60.5 bits (145),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 38/129 (29%), Positives = 67/129 (52%), Gaps = 8/129 (6%)
+
+Query  249  QGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGK  308
+            + E +KM+GN+  A + +E+A+  YT AI+  P N + Y NRA     + ++  A+ D +
+Sbjct  12   KAEDLKMQGNKAMANKDYELAINKYTEAIKVLPTNAIYYANRAAAHSSLKEYDQAVKDAE  71
+
+Query  309  RAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIK--------AQKLCKNDPEGIKDLIQ  360
+             AI +  ++ +G+ R   A    G+ + AL+A  K        A +  K D E  K  ++
+Sbjct  72   SAISIDPSYFRGYSRLGFAKYAQGKPEEALEAYKKVLDIEGDNATEAMKRDYESAKKKVE  131
+
+Query  361  QHIKLQKQI  369
+            Q + L+K +
+Sbjct  132  QSLNLEKTV  140
+
+
+>4GCO_A Chain A, Protein STI-1 [Caenorhabditis elegans]
+Length=126
+
+ Score = 57.8 bits (138),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 31/87 (36%), Positives = 48/87 (55%), Gaps = 0/87 (0%)
+
+Query  254  KMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVL  313
+            K +GNE F K  +  A+ +Y  A++  PEN +LY NRA C  ++ +F+ AL D    I L
+Sbjct  17   KNKGNEYFKKGDYPTAMRHYNEAVKRDPENAILYSNRAACLTKLMEFQRALDDCDTCIRL  76
+
+Query  314  KNTWPKGHYRYCDALSMLGEYDWALQA  340
+             + + KG+ R    L  + E+  A +A
+Sbjct  77   DSKFIKGYIRKAACLVAMREWSKAQRA  103
+
+
+>5LYN_A Chain A, Small glutamine-rich tetratricopeptide repeat-containing 
+protein 2 [Saccharomyces cerevisiae] 5LYN_B Chain 
+B, Small glutamine-rich tetratricopeptide repeat-containing 
+protein 2 [Saccharomyces cerevisiae]
+Length=133
+
+ Score = 57.4 bits (137),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 38/132 (29%), Positives = 66/132 (50%), Gaps = 8/132 (6%)
+
+Query  242  SCMQCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFR  301
+            S  +   + E +KM+GN+  A + +E+A+  YT AI+  P N + Y NRA     + ++ 
+Sbjct  2    SMAETKAKAEDLKMQGNKAMANKDYELAINKYTEAIKVLPTNAIYYANRAAAHSSLKEYD  61
+
+Query  302  NALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIK--------AQKLCKNDPE  353
+             A+ D + AI +  ++ +G+ R   A    G+ + AL+A  K        A +  K D E
+Sbjct  62   QAVKDAESAISIDPSYFRGYSRLGFAKYAQGKPEEALEAYKKVLDIEGDNATEAMKRDYE  121
+
+Query  354  GIKDLIQQHIKL  365
+              K  ++Q + L
+Sbjct  122  SAKKKVEQSLNL  133
+
+
+>6NSV_A Chain A, E3 ubiquitin-protein ligase CHIP [Homo sapiens] 
+6NSV_B Chain B, E3 ubiquitin-protein ligase CHIP [Homo sapiens]
+Length=130
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 37/116 (32%), Positives = 54/116 (47%), Gaps = 0/116 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K +GN  F   K+  A   Y RAI   P   + Y NRALC+L+M Q   AL+D +RA+ 
+Sbjct  7    LKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALE  66
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIKLQKQ  368
+            L     K H+        +  YD A+    +A  L K       D I   +++ K+
+Sbjct  67   LDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKK  122
+
+
+>6EFK_A Chain A, E3 ubiquitin-protein ligase CHIP [Homo sapiens] 
+6EFK_B Chain B, E3 ubiquitin-protein ligase CHIP [Homo sapiens]
+Length=132
+
+ Score = 55.5 bits (132),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 37/116 (32%), Positives = 54/116 (47%), Gaps = 0/116 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K +GN  F   K+  A   Y RAI   P   + Y NRALC+L+M Q   AL+D +RA+ 
+Sbjct  7    LKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALE  66
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIKLQKQ  368
+            L     K H+        +  YD A+    +A  L K       D I   +++ K+
+Sbjct  67   LDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKK  122
+
+
+>4KBQ_A Chain A, E3 Ubiquitin-protein Ligase Chip [Homo sapiens] 
+4KBQ_B Chain B, E3 Ubiquitin-protein Ligase Chip [Homo sapiens]
+Length=139
+
+ Score = 55.5 bits (132),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 37/116 (32%), Positives = 54/116 (47%), Gaps = 0/116 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K +GN  F   K+  A   Y RAI   P   + Y NRALC+L+M Q   AL+D +RA+ 
+Sbjct  14   LKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQHEQALADCRRALE  73
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIKLQKQ  368
+            L     K H+        +  YD A+    +A  L K       D I   +++ K+
+Sbjct  74   LDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKK  129
+
+
+>3Q47_B Chain B, Stip1 Homology And U Box-containing Protein 1 
+[Mus musculus] 3Q49_B Chain B, Stip1 Homology And U Box-containing 
+Protein 1 [Mus musculus] 3Q4A_B Chain B, Stip1 Homology 
+And U Box-containing Protein 1 [Mus musculus]
+Length=137
+
+ Score = 54.7 bits (130),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 37/116 (32%), Positives = 54/116 (47%), Gaps = 0/116 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K +GN  F   K+  A   Y RAI   P   + Y NRALC+L+M Q   AL+D +RA+ 
+Sbjct  12   LKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQPEQALADCRRALE  71
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIKLQKQ  368
+            L     K H+        +  YD A+    +A  L K       D I   +++ K+
+Sbjct  72   LDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKK  127
+
+
+>6GXZ_A Chain A, RNA polymerase II-associated protein 3 [Homo 
+sapiens] 6GXZ_C Chain C, RNA polymerase II-associated protein 
+3 [Homo sapiens]
+Length=165
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 31/86 (36%), Positives = 47/86 (55%), Gaps = 0/86 (0%)
+
+Query  254  KMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVL  313
+            K RGN  F + K+E A+  YTR I     N LL  NRA+ +L++ ++  A  D  +AI+L
+Sbjct  6    KDRGNGFFKEGKYERAIECYTRGIAADGANALLPANRAMAYLKIQKYEEAEKDCTQAILL  65
+
+Query  314  KNTWPKGHYRYCDALSMLGEYDWALQ  339
+              ++ K   R   A + LG+ + A Q
+Sbjct  66   DGSYSKAFARRGTARTFLGKLNEAKQ  91
+
+
+>2C2L_A Chain A, CARBOXY TERMINUS OF HSP70-INTERACTING PROTEIN 
+[Mus musculus] 2C2L_B Chain B, CARBOXY TERMINUS OF HSP70-INTERACTING 
+PROTEIN [Mus musculus] 2C2L_C Chain C, CARBOXY TERMINUS 
+OF HSP70-INTERACTING PROTEIN [Mus musculus] 2C2L_D Chain 
+D, CARBOXY TERMINUS OF HSP70-INTERACTING PROTEIN [Mus musculus]
+Length=281
+
+ Score = 55.5 bits (132),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 37/116 (32%), Positives = 54/116 (47%), Gaps = 0/116 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K +GN  F   K+  A   Y RAI   P   + Y NRALC+L+M Q   AL+D +RA+ 
+Sbjct  7    LKEQGNRLFVGRKYPEAAACYGRAITRNPLVAVYYTNRALCYLKMQQPEQALADCRRALE  66
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIKLQKQ  368
+            L     K H+        +  YD A+    +A  L K       D I   +++ K+
+Sbjct  67   LDGQSVKAHFFLGQCQLEMESYDEAIANLQRAYSLAKEQRLNFGDDIPSALRIAKK  122
+
+
+>6FDP_A Chain A, RNA polymerase II-associated protein 3 [Homo 
+sapiens] 6FDT_A Chain A, RNA polymerase II-associated protein 
+3 [Homo sapiens]
+Length=120
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Composition-based stats.
+ Identities = 31/86 (36%), Positives = 47/86 (55%), Gaps = 0/86 (0%)
+
+Query  254  KMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVL  313
+            K RGN  F + K+E A+  YTR I     N LL  NRA+ +L++ ++  A  D  +AI+L
+Sbjct  10   KDRGNGFFKEGKYERAIECYTRGIAADGANALLPANRAMAYLKIQKYEEAEKDCTQAILL  69
+
+Query  314  KNTWPKGHYRYCDALSMLGEYDWALQ  339
+              ++ K   R   A + LG+ + A Q
+Sbjct  70   DGSYSKAFARRGTARTFLGKLNEAKQ  95
+
+
+>4CGW_A Chain A, Rna Polymerase Ii-associated Protein 3 [Homo 
+sapiens] 4CGW_B Chain B, Rna Polymerase Ii-associated Protein 
+3 [Homo sapiens]
+Length=117
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 34/103 (33%), Positives = 53/103 (51%), Gaps = 0/103 (0%)
+
+Query  237  EFRRHSCMQCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLR  296
+            E ++    Q  +Q    K RGN  F + K+E A+  YTR I     N LL  NRA+ +L+
+Sbjct  5    ERKQIEAQQNKQQAISEKDRGNGFFKEGKYERAIECYTRGIAADGANALLPANRAMAYLK  64
+
+Query  297  MGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQ  339
+            + ++  A  D  +AI+L  ++ K   R   A + LG+ + A Q
+Sbjct  65   IQKYEEAEKDCTQAILLDGSYSKAFARRGTARTFLGKLNEAKQ  107
+
+
+>6FO1_G Chain G, RNA polymerase II-associated protein 3 [Homo 
+sapiens]
+Length=665
+
+ Score = 54.7 bits (130),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/103 (33%), Positives = 53/103 (51%), Gaps = 0/103 (0%)
+
+Query  237  EFRRHSCMQCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLR  296
+            E ++    Q  +Q    K RGN  F + K+E A+  YTR I     N LL  NRA+ +L+
+Sbjct  269  ERKQIEAQQNKQQAISEKDRGNGFFKEGKYERAIECYTRGIAADGANALLPANRAMAYLK  328
+
+Query  297  MGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQ  339
+            + ++  A  D  +AI+L  ++ K   R   A + LG+ + A Q
+Sbjct  329  IQKYEEAEKDCTQAILLDGSYSKAFARRGTARTFLGKLNEAKQ  371
+
+
+ Score = 47.4 bits (111),  Expect = 2e-04, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 56/107 (52%), Gaps = 0/107 (0%)
+
+Query  252  LMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAI  311
+            ++K +GN+ F + K++ A+  YT+ ++  P N +L  NRA  + R+ +F  A SD   A+
+Sbjct  135  VLKEKGNKYFKQGKYDEAIDCYTKGMDADPYNPVLPTNRASAYFRLKKFAVAESDCNLAV  194
+
+Query  312  VLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+             L  ++ K + R   A   L + + A +   +  +L  N+ E   +L
+Sbjct  195  ALNRSYTKAYSRRGAARFALQKLEEAKKDYERVLELEPNNFEATNEL  241
+
+
+>2LXP_C Chain C, E3 ubiquitin-protein ligase AMFR [Homo sapiens]
+Length=58
+
+ Score = 46.2 bits (108),  Expect = 8e-06, Method: Composition-based stats.
+ Identities = 19/49 (39%), Positives = 28/49 (57%), Gaps = 2/49 (4%)
+
+Query  1946  APDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTCGSS  1994
+             A + + C IC +  ++   R L CGH FH  C + WL+  ++CPTC  S
+Sbjct  9     AVNNDDCAICWDSMQAA--RKLPCGHLFHNSCLRSWLEQDTSCPTCRMS  55
+
+
+>2LXH_C Chain C, E3 ubiquitin-protein ligase AMFR [Homo sapiens]
+Length=81
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Composition-based stats.
+ Identities = 19/49 (39%), Positives = 28/49 (57%), Gaps = 2/49 (4%)
+
+Query  1946  APDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTCGSS  1994
+             A + + C IC +  ++   R L CGH FH  C + WL+  ++CPTC  S
+Sbjct  23    AVNNDDCAICWDSMQAA--RKLPCGHLFHNSCLRSWLEQDTSCPTCRMS  69
+
+
+>1IYM_A Chain A, EL5 [Oryza sativa]
+Length=55
+
+ Score = 45.1 bits (105),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 20/46 (43%), Positives = 24/46 (52%), Gaps = 2/46 (4%)
+
+Query  1948  DGNSCQIC-HEIFKSKNMRVL-KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             DG  C +C  E+   +  R L +CGH FH  C   WL   STCP C
+Sbjct  4     DGVECAVCLAELEDGEEARFLPRCGHGFHAECVDMWLGSHSTCPLC  49
+
+
+>4V3K_C Chain C, E3 UBIQUITIN-PROTEIN LIGASE RNF38 [Homo sapiens] 
+4V3K_F Chain F, E3 UBIQUITIN-PROTEIN LIGASE RNF38 [Homo 
+sapiens] 4V3L_C Chain C, E3 UBIQUITIN-PROTEIN LIGASE RNF38 [Homo 
+sapiens]
+Length=79
+
+ Score = 45.8 bits (107),  Expect = 2e-05, Method: Compositional matrix adjust.
+ Identities = 19/41 (46%), Positives = 25/41 (61%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFKSKNM-RVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C +C   F+S+ + RVL C H+FH  C  +WLK   TCP C
+Sbjct  27    CVVCMCDFESRQLLRVLPCNHEFHAKCVDKWLKANRTCPIC  67
+
+
+>6A3Z_A Chain A, E3 ubiquitin-protein ligase synoviolin [Homo 
+sapiens]
+Length=56
+
+ Score = 44.7 bits (104),  Expect = 2e-05, Method: Composition-based stats.
+ Identities = 19/42 (45%), Positives = 22/42 (52%), Gaps = 1/42 (2%)
+
+Query  1950  NSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             N C IC E   +   R L C H FH  C + W + Q TCPTC
+Sbjct  11    NVCIICREEMVTGAKR-LPCNHIFHTSCLRSWFQRQQTCPTC  51
+
+
+>1X4J_A Chain A, RING finger protein 38 [Homo sapiens]
+Length=75
+
+ Score = 44.3 bits (103),  Expect = 5e-05, Method: Compositional matrix adjust.
+ Identities = 19/41 (46%), Positives = 25/41 (61%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFKSKNM-RVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C +C   F+S+ + RVL C H+FH  C  +WLK   TCP C
+Sbjct  26    CVVCMCDFESRQLLRVLPCNHEFHAKCVDKWLKANRTCPIC  66
+
+
+>4CGV_A Chain A, Rna Polymerase Ii-associated Protein 3 [Homo 
+sapiens] 4CGV_B Chain B, Rna Polymerase Ii-associated Protein 
+3 [Homo sapiens] 4CGV_C Chain C, Rna Polymerase Ii-associated 
+Protein 3 [Homo sapiens] 4CGV_D Chain D, Rna Polymerase 
+Ii-associated Protein 3 [Homo sapiens]
+Length=136
+
+ Score = 45.8 bits (107),  Expect = 7e-05, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 42/72 (58%), Gaps = 0/72 (0%)
+
+Query  252  LMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAI  311
+            ++K +GN+ F + K++ A+  YT+ ++  P N +L  NRA  + R+ +F  A SD   A+
+Sbjct  16   VLKEKGNKYFKQGKYDEAIDCYTKGMDADPYNPVLPTNRASAYFRLKKFAVAESDCNLAV  75
+
+Query  312  VLKNTWPKGHYR  323
+             L  ++ K + R
+Sbjct  76   ALNRSYTKAYSR  87
+
+
+>4LAD_B Chain B, E3 ubiquitin-protein ligase AMFR [Homo sapiens]
+Length=150
+
+ Score = 45.8 bits (107),  Expect = 8e-05, Method: Composition-based stats.
+ Identities = 19/49 (39%), Positives = 28/49 (57%), Gaps = 2/49 (4%)
+
+Query  1946  APDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTCGSS  1994
+             A + + C IC +  ++   R L CGH FH  C + WL+  ++CPTC  S
+Sbjct  25    AVNNDDCAICWDSMQAA--RKLPCGHLFHNSCLRSWLEQDTSCPTCRMS  71
+
+
+>6FD7_A Chain A, RNA polymerase II-associated protein 3 [Homo 
+sapiens]
+Length=127
+
+ Score = 44.7 bits (104),  Expect = 1e-04, Method: Compositional matrix adjust.
+ Identities = 23/72 (32%), Positives = 42/72 (58%), Gaps = 0/72 (0%)
+
+Query  252  LMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAI  311
+            ++K +GN+ F + K++ A+  YT+ ++  P N +L  NRA  + R+ +F  A SD   A+
+Sbjct  7    VLKEKGNKYFKQGKYDEAIDCYTKGMDADPYNPVLPTNRASAYFRLKKFAVAESDCNLAV  66
+
+Query  312  VLKNTWPKGHYR  323
+             L  ++ K + R
+Sbjct  67   ALNRSYTKAYSR  78
+
+
+>6HPG_A Chain A, Outer envelope protein 64, mitochondrial [Arabidopsis 
+thaliana] 6HPG_B Chain B, Outer envelope protein 64, 
+mitochondrial [Arabidopsis thaliana] 6HPG_C Chain C, Outer 
+envelope protein 64, mitochondrial [Arabidopsis thaliana] 6HPG_D 
+Chain D, Outer envelope protein 64, mitochondrial [Arabidopsis 
+thaliana] 6HPG_E Chain E, Outer envelope protein 64, 
+mitochondrial [Arabidopsis thaliana] 6HPG_F Chain F, Outer 
+envelope protein 64, mitochondrial [Arabidopsis thaliana]
+Length=121
+
+ Score = 44.7 bits (104),  Expect = 1e-04, Method: Composition-based stats.
+ Identities = 28/91 (31%), Positives = 45/91 (49%), Gaps = 0/91 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            ++  E+MK +GN  +  +++  AV +YT AI+    N   Y NRA  FL +  F+ A  D
+Sbjct  3    MEASEVMKEKGNAAYKGKQWNKAVNFYTEAIKLNGANATYYCNRAAAFLELCCFQQAEQD  62
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWA  337
+              +A+++     K + R   A   L  Y  A
+Sbjct  63   CTKAMLIDKKNVKAYLRRGTARESLVRYKEA  93
+
+
+>6Q3Q_A Chain A, Outer envelope protein 64, mitochondrial [Arabidopsis] 
+6Q3Q_B Chain B, Outer envelope protein 64, mitochondrial 
+[Arabidopsis]
+Length=121
+
+ Score = 44.3 bits (103),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 28/91 (31%), Positives = 45/91 (49%), Gaps = 0/91 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            ++  E+MK +GN  +  +++  AV +YT AI+    N   Y NRA  FL +  F+ A  D
+Sbjct  3    MEASEVMKEKGNAAYKGKQWNKAVNFYTEAIKLNGANATYYCNRAAAFLELCCFQQAEQD  62
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWA  337
+              +A+++     K + R   A   L  Y  A
+Sbjct  63   CTKAMLIDKKNVKAYLRRGTAREELVRYKEA  93
+
+
+>6VL6_A Chain A, T33_dn2A [synthetic construct] 6VL6_C Chain C, 
+T33_dn2A [synthetic construct] 6VL6_D Chain D, T33_dn2A [synthetic 
+construct] 6VL6_E Chain E, T33_dn2A [synthetic construct] 
+6VL6_F Chain F, T33_dn2A [synthetic construct] 6VL6_G 
+Chain G, T33_dn2A [synthetic construct] 6VL6_H Chain H, T33_dn2A 
+[synthetic construct] 6VL6_I Chain I, T33_dn2A [synthetic 
+construct] 6VL6_J Chain J, T33_dn2A [synthetic construct] 
+6VL6_K Chain K, T33_dn2A [synthetic construct] 6VL6_L Chain 
+L, T33_dn2A [synthetic construct] 6VL6_M Chain M, T33_dn2A 
+[synthetic construct]
+Length=125
+
+ Score = 43.9 bits (102),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 31/115 (27%), Positives = 55/115 (48%), Gaps = 0/115 (0%)
+
+Query  250  GELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKR  309
+             E M   GN  + K ++ IA+I YT A+   P N   + N      + G++  A+   ++
+Sbjct  7    AEKMYKAGNAMYRKGQYTIAIIAYTLALLKDPNNAEAWYNLGNAAYKKGEYDEAIEAYQK  66
+
+Query  310  AIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIK  364
+            A+ L     +  Y   +A    G+YD A++   KA +L   + + I++LI+   K
+Sbjct  67   ALELDPNNAEAWYNLGNAYYKQGDYDEAIEYYKKALRLDPRNVDAIENLIEAEEK  121
+
+
+>3KD7_A Chain A, Ctpr390 [unidentified] 3KD7_B Chain B, Ctpr390 
+[unidentified] 3KD7_C Chain C, Ctpr390 [unidentified] 3KD7_D 
+Chain D, Ctpr390 [unidentified] 3KD7_E Chain E, Ctpr390 [unidentified]
+Length=125
+
+ Score = 43.5 bits (101),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 28/109 (26%), Positives = 53/109 (49%), Gaps = 0/109 (0%)
+
+Query  250  GELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKR  309
+             E  K  GN  + +  ++ A+ YY +A+E  P N   + N    + + G ++ A+   ++
+Sbjct  9    AEAWKNLGNAYYKQGDYQKAIEYYQKALELDPNNASAWYNLGNAYYKQGDYQKAIEYYQK  68
+
+Query  310  AIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+            A+ L     K  YR  +A    G+Y  A++   KA +L  N+ +  ++L
+Sbjct  69   ALELDPNNAKAWYRRGNAYYKQGDYQKAIEDYQKALELDPNNAKAKQNL  117
+
+
+>3SZ7_A Chain A, Hsc70 Cochaperone (sgt) [Aspergillus fumigatus 
+Af293]
+Length=164
+
+ Score = 43.9 bits (102),  Expect = 5e-04, Method: Compositional matrix adjust.
+ Identities = 30/126 (24%), Positives = 57/126 (45%), Gaps = 3/126 (2%)
+
+Query  243  CMQCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRN  302
+             M    + + +K  GN   A++++  A+  YT+A+   P N +   NRA  +   GQ   
+Sbjct  4    SMAPTPESDKLKSEGNAAMARKEYSKAIDLYTQALSIAPANPIYLSNRAAAYSASGQHEK  63
+
+Query  303  ALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQH  362
+            A  D + A V+   + K   R   A   + +Y  A +A    +K  + +  G  D +++ 
+Sbjct  64   AAEDAELATVVDPKYSKAWSRLGLARFDMADYKGAKEAY---EKGIEAEGNGGSDAMKRG  120
+
+Query  363  IKLQKQ  368
+            ++  K+
+Sbjct  121  LETTKR  126
+
+
+>3LCA_A Chain A, Protein TOM71 [Saccharomyces cerevisiae]
+Length=533
+
+ Score = 45.8 bits (107),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 38/86 (44%), Gaps = 0/86 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K RGN  F  + F  A+ YY  AIE  P   + Y N + C++  G     +    +A+ 
+Sbjct  24   LKNRGNHFFTAKNFNEAIKYYQYAIELDPNEPVFYSNISACYISTGDLEKVIEFTTKALE  83
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWAL  338
+            +K    K   R   A   LG +  A+
+Sbjct  84   IKPDHSKALLRRASANESLGNFTDAM  109
+
+
+>3FP2_A Chain A, Tpr Repeat-containing Protein Yhr117w [Saccharomyces 
+cerevisiae] 3FP3_A Chain A, Tpr Repeat-containing Protein 
+Yhr117w [Saccharomyces cerevisiae] 3FP4_A Chain A, Crystal 
+Structure Of Tom71 Complexed With Ssa1 C-Terminal Fragment 
+[Saccharomyces cerevisiae]
+Length=537
+
+ Score = 45.4 bits (106),  Expect = 7e-04, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 38/86 (44%), Gaps = 0/86 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K RGN  F  + F  A+ YY  AIE  P   + Y N + C++  G     +    +A+ 
+Sbjct  28   LKNRGNHFFTAKNFNEAIKYYQYAIELDPNEPVFYSNISACYISTGDLEKVIEFTTKALE  87
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWAL  338
+            +K    K   R   A   LG +  A+
+Sbjct  88   IKPDHSKALLRRASANESLGNFTDAM  113
+
+
+>5HRZ_A Chain A, TPR domain protein 1na0C3_3 [synthetic construct]
+Length=128
+
+ Score = 42.4 bits (98),  Expect = 8e-04, Method: Composition-based stats.
+ Identities = 30/109 (28%), Positives = 52/109 (48%), Gaps = 0/109 (0%)
+
+Query  250  GELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKR  309
+             E M   GN  + K ++ IA+I YT A+   P N   + N      + G++  A+   ++
+Sbjct  4    AEKMYKAGNAMYRKGQYTIAIIAYTLALLKDPNNAEAWYNLGNAAYKKGEYDEAIEAYQK  63
+
+Query  310  AIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+            A+ L     +  Y   +A    G+YD A++   KA +L  N+ E  ++L
+Sbjct  64   ALELDPNNAEAWYNLGNAYYKQGDYDEAIEYYQKALELDPNNAEAKQNL  112
+
+
+>6VFJ_B Chain B, I53_dn5B [synthetic construct]
+Length=128
+
+ Score = 42.4 bits (98),  Expect = 9e-04, Method: Composition-based stats.
+ Identities = 28/124 (23%), Positives = 65/124 (52%), Gaps = 2/124 (2%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            +++ EL  + G   +   ++ IA+  Y  A++  P N   + N    + + G++R A+  
+Sbjct  1    MEEAELAYLLGELAYKLGEYRIAIRAYRIALKRDPNNAEAWYNLGNAYYKQGRYREAIEY  60
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIKLQ  366
+             ++A+ L     +  Y   +A    GEY+ A++   KA +L  N+ + +++L+  + K++
+Sbjct  61   YQKALELDPNNAEAWYNLGNAYYERGEYEEAIEYYRKALRLDPNNADAMQNLL--NAKMR  118
+
+Query  367  KQIE  370
+            +++E
+Sbjct  119  EELE  122
+
+
+>2WQH_A Chain A, CTPR3Y3 [synthetic construct]
+Length=125
+
+ Score = 42.0 bits (97),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 50/102 (49%), Gaps = 0/102 (0%)
+
+Query  257  GNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVLKNT  316
+            GN  + +  ++ A+ YY +A+E  P N   + N    + + G +  A+   ++A+ L   
+Sbjct  16   GNAYYKQGDYDEAIEYYQKALELYPNNAEAWYNLGNAYYKQGDYDEAIEYYQKALELYPN  75
+
+Query  317  WPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+              +  Y   +A    G+YD A++   KA +L  N+ E  ++L
+Sbjct  76   NAEAWYNLGNAYYKQGDYDEAIEYYQKALELYPNNAEAKQNL  117
+
+
+>2DBA_A Chain A, Smooth muscle cell associated protein-1, isoform 
+2 [Homo sapiens]
+Length=148
+
+ Score = 42.4 bits (98),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 28/91 (31%), Positives = 46/91 (51%), Gaps = 3/91 (3%)
+
+Query  251  ELMKMRGNEEFAKEKFEIAVIYYTRAI--EYRPENH-LLYGNRALCFLRMGQFRNALSDG  307
+            E ++  GNE F    +  A+  YT+A+  +  P++  +L+ NRA C L++  +  A ++ 
+Sbjct  29   EQLRKEGNELFKCGDYGGALAAYTQALGLDATPQDQAVLHRNRAACHLKLEDYDKAETEA  88
+
+Query  308  KRAIVLKNTWPKGHYRYCDALSMLGEYDWAL  338
+             +AI       K  YR   AL  LG  D A+
+Sbjct  89   SKAIEKDGGDVKALYRRSQALEKLGRLDQAV  119
+
+
+>1NA0_A Chain A, Designed Protein Ctpr3 [unidentified] 1NA0_B 
+Chain B, Designed Protein Ctpr3 [unidentified]
+Length=125
+
+ Score = 41.6 bits (96),  Expect = 0.001, Method: Composition-based stats.
+ Identities = 26/102 (25%), Positives = 50/102 (49%), Gaps = 0/102 (0%)
+
+Query  257  GNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVLKNT  316
+            GN  + +  ++ A+ YY +A+E  P N   + N    + + G +  A+   ++A+ L   
+Sbjct  16   GNAYYKQGDYDEAIEYYQKALELDPNNAEAWYNLGNAYYKQGDYDEAIEYYQKALELDPN  75
+
+Query  317  WPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+              +  Y   +A    G+YD A++   KA +L  N+ E  ++L
+Sbjct  76   NAEAWYNLGNAYYKQGDYDEAIEYYQKALELDPNNAEAKQNL  117
+
+
+>6W9A_B Chain B, E3 ubiquitin-protein ligase RLIM [Homo sapiens] 
+6W9A_D Chain D, E3 ubiquitin-protein ligase RLIM [Homo sapiens] 
+6W9D_B Chain B, E3 ubiquitin-protein ligase RLIM [Homo 
+sapiens] 6W9D_E Chain E, E3 ubiquitin-protein ligase RLIM 
+[Homo sapiens] 6W9D_H Chain H, E3 ubiquitin-protein ligase RLIM 
+[Homo sapiens]
+Length=98
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 26/49 (53%), Gaps = 1/49 (2%)
+
+Query  1951  SCQIC-HEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTCGSSDLLS  1998
+             +C +C  E  +   +R L C H++H  C  +WL   STCP C  + L S
+Sbjct  44    TCSVCITEYTEGNKLRKLPCSHEYHVHCIDRWLSENSTCPICRRAVLAS  92
+
+
+>6W7Z_B Chain B, E3 ubiquitin-protein ligase RLIM [Homo sapiens]
+Length=99
+
+ Score = 40.8 bits (94),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 18/49 (37%), Positives = 26/49 (53%), Gaps = 1/49 (2%)
+
+Query  1951  SCQIC-HEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTCGSSDLLS  1998
+             +C +C  E  +   +R L C H++H  C  +WL   STCP C  + L S
+Sbjct  44    TCSVCITEYTEGNKLRKLPCSHEYHVHCIDRWLSENSTCPICRRAVLAS  92
+
+
+>3UPV_A Chain A, Heat Shock Protein Sti1 [Saccharomyces cerevisiae 
+S288C]
+Length=126
+
+ Score = 41.6 bits (96),  Expect = 0.001, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 43/91 (47%), Gaps = 0/91 (0%)
+
+Query  249  QGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGK  308
+            + E  ++ G E F K  +  AV  YT  I+  PE+   Y NRA    ++  F  A++D  
+Sbjct  3    KAEEARLEGKEYFTKSDWPNAVKAYTEMIKRAPEDARGYSNRAAALAKLMSFPEAIADCN  62
+
+Query  309  RAIVLKNTWPKGHYRYCDALSMLGEYDWALQ  339
+            +AI     + + + R   A   + EY  AL+
+Sbjct  63   KAIEKDPNFVRAYIRKATAQIAVKEYASALE  93
+
+
+>6I57_A Chain A, Sperm-associated antigen 1 [Homo sapiens]
+Length=125
+
+ Score = 41.6 bits (96),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 43/86 (50%), Gaps = 0/86 (0%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K  GN+    + ++ A+  Y+  ++   +   +Y NRALC+L++ QF  A  D  +A+ 
+Sbjct  9    LKEEGNQCVNDKNYKDALSKYSECLKINNKECAIYTNRALCYLKLCQFEEAKQDCDQALQ  68
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWAL  338
+            L +   K  YR   A   L  Y  +L
+Sbjct  69   LADGNVKAFYRRALAHKGLKNYQKSL  94
+
+
+>5V6P_A Chain A, ERAD-associated E3 ubiquitin-protein ligase HRD1 
+[Saccharomyces cerevisiae S288C] 5V6P_B Chain B, ERAD-associated 
+E3 ubiquitin-protein ligase HRD1 [Saccharomyces cerevisiae 
+S288C]
+Length=407
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 27/57 (47%), Gaps = 11/57 (19%)
+
+Query  1946  APDGNSCQIC---------HEIFKSKNMRV--LKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             A D N C IC          + +K+KN +   L CGH  H  C K W++   TCP C
+Sbjct  343   ANDDNICIICMDELIHSPNQQTWKNKNKKPKRLPCGHILHLSCLKNWMERSQTCPIC  399
+
+
+>6VJY_B Chain B, ERAD-associated E3 ubiquitin-protein ligase HRD1 
+[Saccharomyces cerevisiae]
+Length=430
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 27/57 (47%), Gaps = 11/57 (19%)
+
+Query  1946  APDGNSCQIC---------HEIFKSKNMRV--LKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             A D N C IC          + +K+KN +   L CGH  H  C K W++   TCP C
+Sbjct  343   ANDDNICIICMDELIHSPNQQTWKNKNKKPKRLPCGHILHLSCLKNWMERSQTCPIC  399
+
+
+>2GW1_A Chain A, Mitochondrial precursor proteins import receptor 
+[Saccharomyces cerevisiae] 2GW1_B Chain B, Mitochondrial 
+precursor proteins import receptor [Saccharomyces cerevisiae]
+Length=514
+
+ Score = 43.9 bits (102),  Expect = 0.002, Method: Compositional matrix adjust.
+ Identities = 24/86 (28%), Positives = 47/86 (55%), Gaps = 1/86 (1%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIV  312
+            +K +GN+ F  +K++ A+ YY  A+E + E+ + Y N + C++ +G  +  +    +A+ 
+Sbjct  9    LKDKGNQFFRNKKYDDAIKYYNWALELK-EDPVFYSNLSACYVSVGDLKKVVEMSTKALE  67
+
+Query  313  LKNTWPKGHYRYCDALSMLGEYDWAL  338
+            LK  + K   R   A   LG++  A+
+Sbjct  68   LKPDYSKVLLRRASANEGLGKFADAM  93
+
+
+>6VJZ_B Chain B, ERAD-associated E3 ubiquitin-protein ligase HRD1 
+[Saccharomyces cerevisiae] 6VK0_B Chain B, ERAD-associated 
+E3 ubiquitin-protein ligase HRD1 [Saccharomyces cerevisiae] 
+6VK1_B Chain B, ERAD-associated E3 ubiquitin-protein ligase 
+HRD1 [Saccharomyces cerevisiae]
+Length=480
+
+ Score = 43.5 bits (101),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 21/57 (37%), Positives = 27/57 (47%), Gaps = 11/57 (19%)
+
+Query  1946  APDGNSCQIC---------HEIFKSKNMRV--LKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             A D N C IC          + +K+KN +   L CGH  H  C K W++   TCP C
+Sbjct  343   ANDDNICIICMDELIHSPNQQTWKNKNKKPKRLPCGHILHLSCLKNWMERSQTCPIC  399
+
+
+>5ULH_C Chain C, E3 Ubiquitin-protein Ligase Rnf165 [Homo sapiens] 
+5ULK_C Chain C, E3 Ubiquitin-protein Ligase Rnf165 [Homo 
+sapiens]
+Length=92
+
+ Score = 39.7 bits (91),  Expect = 0.003, Method: Composition-based stats.
+ Identities = 16/41 (39%), Positives = 22/41 (54%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFKS-KNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC  + +  +++R L C H FH+ C  QWL     CP C
+Sbjct  40    CTICLSMLEDGEDVRRLPCAHLFHQLCVDQWLAMSKKCPIC  80
+
+
+>6F98_A Chain A, E3 ubiquitin-protein ligase [Saccharomyces cerevisiae]
+Length=78
+
+ Score = 39.3 bits (90),  Expect = 0.004, Method: Compositional matrix adjust.
+ Identities = 21/57 (37%), Positives = 27/57 (47%), Gaps = 11/57 (19%)
+
+Query  1946  APDGNSCQIC---------HEIFKSKNMR--VLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             A D N C IC          + +K+KN +   L CGH  H  C K W++   TCP C
+Sbjct  9     ANDDNICIICMDELIHSPNQQTWKNKNKKPKRLPCGHILHLSCLKNWMERSQTCPIC  65
+
+
+>3UQ3_A Chain A, Heat Shock Protein Sti1 [Saccharomyces cerevisiae 
+S288C]
+Length=258
+
+ Score = 42.0 bits (97),  Expect = 0.005, Method: Composition-based stats.
+ Identities = 27/92 (29%), Positives = 44/92 (48%), Gaps = 0/92 (0%)
+
+Query  248  KQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDG  307
+            ++ E  ++ G E F K  +  AV  YT  I+  PE+   Y NRA    ++  F  A++D 
+Sbjct  137  EKAEEARLEGKEYFTKSDWPNAVKAYTEMIKRAPEDARGYSNRAAALAKLMSFPEAIADC  196
+
+Query  308  KRAIVLKNTWPKGHYRYCDALSMLGEYDWALQ  339
+             +AI     + + + R   A   + EY  AL+
+Sbjct  197  NKAIEKDPNFVRAYIRKATAQIAVKEYASALE  228
+
+
+>5D0M_C Chain C, Ring Finger Protein 165 [Homo sapiens]
+Length=87
+
+ Score = 38.9 bits (89),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 20/54 (37%), Positives = 28/54 (52%), Gaps = 2/54 (4%)
+
+Query  1940  KKDDVPAPDGNS-CQICHEIFK-SKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             KKD+    D +  C IC  + +  +++R L C H FH+ C  QWL     CP C
+Sbjct  22    KKDEGEESDTDEKCTICLSMLEDGEDVRRLPCAHLFHQLCVDQWLAMSKKCPIC  75
+
+
+>6HFT_A Chain A, Hsp70/Hsp90 co-chaperone CNS1 [Saccharomyces 
+cerevisiae]
+Length=316
+
+ Score = 42.0 bits (97),  Expect = 0.006, Method: Compositional matrix adjust.
+ Identities = 31/109 (28%), Positives = 51/109 (47%), Gaps = 6/109 (6%)
+
+Query  250  GELMKMRGNEEFAKEKFEIAVIYYTRAI----EYRPENHLLYGNRALCFLRMGQFRNALS  305
+             E  K +GNE +  ++F+ A   Y++ +    E +  N  LY NRA C L +  +R  + 
+Sbjct  14   AENFKKQGNELYKAKRFKDARELYSKGLAVECEDKSINESLYANRAACELELKNYRRCIE  73
+
+Query  306  DGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEG  354
+            D  +A+ +     K +YR   A   L + + A  A   A +  + DPE 
+Sbjct  74   DCSKALTINPKNVKCYYRTSKAFFQLNKLEEAKSAATFANQ--RIDPEN  120
+
+
+>5D0K_C Chain C, Ring Finger Protein 165 [Homo sapiens] 5D0K_F 
+Chain F, Ring Finger Protein 165 [Homo sapiens] 5D0K_I Chain 
+I, Ring Finger Protein 165 [Homo sapiens] 5D0K_L Chain L, 
+Ring Finger Protein 165 [Homo sapiens]
+Length=92
+
+ Score = 38.9 bits (89),  Expect = 0.007, Method: Composition-based stats.
+ Identities = 16/41 (39%), Positives = 22/41 (54%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFKS-KNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC  + +  +++R L C H FH+ C  QWL     CP C
+Sbjct  40    CTICLSMLEDGEDVRRLPCMHLFHQLCVDQWLAMSKKCPIC  80
+
+
+>2EP4_A Chain A, RING finger protein 24 [Homo sapiens]
+Length=74
+
+ Score = 38.1 bits (87),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 15/41 (37%), Positives = 24/41 (59%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFKSKN-MRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C +C E FK ++ + +  C H FH+ C  +WL+ +  CP C
+Sbjct  18    CAVCLEDFKPRDELGICPCKHAFHRKCLIKWLEVRKVCPLC  58
+
+
+>2KIZ_A Chain A, E3 ubiquitin-protein ligase Arkadia [Homo sapiens]
+Length=69
+
+ Score = 37.7 bits (86),  Expect = 0.009, Method: Compositional matrix adjust.
+ Identities = 17/41 (41%), Positives = 22/41 (54%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFK-SKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC  I +  +++R L C H FH+ C  QWL     CP C
+Sbjct  17    CTICLSILEEGEDVRRLPCMHLFHQVCVDQWLITNKKCPIC  57
+
+
+>5D0I_A Chain A, Ring Finger Protein 165 [Homo sapiens] 5D0I_B 
+Chain B, Ring Finger Protein 165 [Homo sapiens]
+Length=97
+
+ Score = 38.5 bits (88),  Expect = 0.010, Method: Compositional matrix adjust.
+ Identities = 19/56 (34%), Positives = 28/56 (50%), Gaps = 1/56 (2%)
+
+Query  1937  KGQKKDDVPAPDGNSCQICHEIFK-SKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             KG+K +   +     C IC  + +  +++R L C H FH+ C  QWL     CP C
+Sbjct  30    KGKKDEGEESDTDEKCTICLSMLEDGEDVRRLPCMHLFHQLCVDQWLAMSKKCPIC  85
+
+
+>3NG2_A Chain A, Crystal Structure Of The Rnf4 Ring Domain Dimer 
+[Rattus norvegicus] 3NG2_B Chain B, Crystal Structure Of 
+The Rnf4 Ring Domain Dimer [Rattus norvegicus]
+Length=71
+
+ Score = 37.7 bits (86),  Expect = 0.010, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 28/51 (55%), Gaps = 6/51 (12%)
+
+Query  1947  PDGN-SCQICHEIFKS--KNMRVL---KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             P G  SC IC + +    +N R++   +CGH F   C +  LK  +TCPTC
+Sbjct  7     PSGTVSCPICMDGYSEIVQNGRLIVSTECGHVFCSQCLRDSLKNANTCPTC  57
+
+
+>4PPE_A Chain A, E3 Ubiquitin-protein Ligase Rnf4 [Homo sapiens] 
+4PPE_B Chain B, E3 Ubiquitin-protein Ligase Rnf4 [Homo sapiens]
+Length=76
+
+ Score = 37.7 bits (86),  Expect = 0.011, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 28/51 (55%), Gaps = 6/51 (12%)
+
+Query  1947  PDGN-SCQICHEIFKS--KNMRVL---KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             P G  SC IC + +    +N R++   +CGH F   C +  LK  +TCPTC
+Sbjct  12    PSGTVSCPICMDGYSEIVQNGRLIVSTECGHVFCSQCLRDSLKNANTCPTC  62
+
+
+>6EOU_A Chain A, UDP-N-acetylglucosamine--peptide N-acetylglucosaminyltransferase 
+110 kDa subunit [Homo sapiens]
+Length=388
+
+ Score = 41.2 bits (95),  Expect = 0.012, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 58/137 (42%), Gaps = 15/137 (11%)
+
+Query  222  YHITRVVTENCNLLEEFRRHSCMQCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRP  281
+            +H  + VT + N L+ +        +  G ++K           F+ AV  Y RA+ + P
+Sbjct  190  HHFEKAVTLDPNFLDAY--------INLGNVLK-------EARIFDRAVAAYLRALSFSP  234
+
+Query  282  ENHLLYGNRALCFLRMGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQAN  341
+             + +++GN A  +   G    A+   +RAI L+  +P  +    +AL   G    A    
+Sbjct  235  NHAVVHGNLACVYYEQGLIDLAIDTYRRAIELQPHFPDAYCNLANALKEKGSVAEAEDCY  294
+
+Query  342  IKAQKLCKNDPEGIKDL  358
+              A +LC    + + +L
+Sbjct  295  NTALRLCPTHADSLNNL  311
+
+
+ Score = 32.3 bits (72),  Expect = 7.0, Method: Composition-based stats.
+ Identities = 28/114 (25%), Positives = 49/114 (43%), Gaps = 5/114 (4%)
+
+Query  235  LEEFRRHSCMQCVKQGE----LMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNR  290
+             E   RH CMQ  +Q      ++ +  +  F   + + +  + T AI+  P     Y N 
+Sbjct  15   FEAAERH-CMQLWRQEPDNTGVLLLLSSIHFQCRRLDRSAHFSTLAIKQNPLLAEAYSNL  73
+
+Query  291  ALCFLRMGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKA  344
+               +   GQ + A+   + A+ LK  +  G+     AL   G+ + A+QA + A
+Sbjct  74   GNVYKERGQLQEAIEHYRHALRLKPDFIDGYINLAAALVAAGDMEGAVQAYVSA  127
+
+
+>2XEU_A Chain A, Ring Finger Protein 4 [Homo sapiens]
+Length=64
+
+ Score = 37.4 bits (85),  Expect = 0.013, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 26/46 (57%), Gaps = 5/46 (11%)
+
+Query  1951  SCQICHEIFKS--KNMRVL---KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             SC IC + +    +N R++   +CGH F   C +  LK  +TCPTC
+Sbjct  5     SCPICMDGYSEIVQNGRLIVSTECGHVFCSQCLRDSLKNANTCPTC  50
+
+
+>2ECT_A Chain A, RING finger protein 126 [Mus musculus]
+Length=78
+
+ Score = 37.4 bits (85),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 23/44 (52%), Gaps = 1/44 (2%)
+
+Query  1949  GNSCQICHEIFK-SKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             G  C +C E +   +++R L C H FH  C   WL+   +CP C
+Sbjct  15    GLECPVCKEDYALGESVRQLPCNHLFHDSCIVPWLEQHDSCPVC  58
+
+
+>2IF4_A Chain A, Crystal Structure Of A Multi-Domain Immunophilin 
+From Arabidopsis Thaliana [Arabidopsis thaliana]
+Length=338
+
+ Score = 40.4 bits (93),  Expect = 0.019, Method: Compositional matrix adjust.
+ Identities = 41/142 (29%), Positives = 62/142 (44%), Gaps = 21/142 (15%)
+
+Query  254  KMRGNEEFAKEKFEIAVIYYTRAIEYRPENHL--LYG---------------NRALCFLR  296
+            KM GN  F +EK E A+  Y  AI Y  ++ +  LYG               N A C ++
+Sbjct  183  KMDGNSLFKEEKLEEAMQQYEMAIAYMGDDFMFQLYGKYQDMALAVKNPCHLNIAACLIK  242
+
+Query  297  MGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDP---E  353
+            + ++  A+      +  +   PK  +R   A + LG+ D A     KAQK   +D     
+Sbjct  243  LKRYDEAIGHCNIVLTEEEKNPKALFRRGKAKAELGQMDSARDDFRKAQKYAPDDKAIRR  302
+
+Query  354  GIKDLIQQHIKL-QKQIEDLQG  374
+             ++ L +Q   L QKQ E  +G
+Sbjct  303  ELRALAEQEKALYQKQKEMYKG  324
+
+
+>2ECM_A Chain A, RING finger and CHY zinc finger domain-containing 
+protein 1 [Mus musculus]
+Length=55
+
+ Score = 36.6 bits (83),  Expect = 0.020, Method: Composition-based stats.
+ Identities = 16/44 (36%), Positives = 23/44 (52%), Gaps = 2/44 (5%)
+
+Query  1950  NSCQICHEIFKSKNM--RVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             + C IC E   +  +   VL CGH  H+ C+++ LK    CP C
+Sbjct  6     SGCPICLEDIHTSRVVAHVLPCGHLLHRTCYEEMLKEGYRCPLC  49
+
+
+>2EA6_A Chain A, RING finger protein 4 [Homo sapiens]
+Length=69
+
+ Score = 36.6 bits (83),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 20/51 (39%), Positives = 28/51 (55%), Gaps = 6/51 (12%)
+
+Query  1947  PDGN-SCQICHEIFKS--KNMRVL---KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             P G  SC IC + +    +N R++   +CGH F   C +  LK  +TCPTC
+Sbjct  12    PSGTVSCPICMDGYSEIVQNGRLIVSTECGHVFCSQCLRDSLKNANTCPTC  62
+
+
+>2JRJ_A Chain A, Ring finger and CHY zinc finger domain containing 
+protein 1 [Homo sapiens]
+Length=52
+
+ Score = 36.2 bits (82),  Expect = 0.022, Method: Composition-based stats.
+ Identities = 17/46 (37%), Positives = 24/46 (52%), Gaps = 2/46 (4%)
+
+Query  1951  SCQICHEIFKSKNM--RVLKCGHKFHKGCFKQWLKGQSTCPTCGSS  1994
+             +C IC E   +  +   VL CGH  H+ C+++ LK    CP C  S
+Sbjct  7     NCPICLEDIHTSRVVAHVLPCGHLLHRTCYEEMLKEGYRCPLCMHS  52
+
+
+>5MZU_A Chain A, UNC-45 [Caenorhabditis elegans]
+Length=961
+
+ Score = 40.8 bits (94),  Expect = 0.027, Method: Compositional matrix adjust.
+ Identities = 34/123 (28%), Positives = 56/123 (46%), Gaps = 6/123 (5%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENH-----LLYGNRALCFLRMGQFR  301
+            V+  E ++  GN     + +  A   YT A++   +       +LY NRA+  L+   F 
+Sbjct  5    VQTAEEIRDEGNAAVKDQDYIKADELYTEALQLTTDEDKALRPVLYRNRAMARLKRDDFE  64
+
+Query  302  NALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQ  361
+             A SD  +A+       K  +R   A   LG    A Q   +A +L  ND +GI +++Q+
+Sbjct  65   GAQSDCTKALEFDGADVKALFRRSLAREQLGNVGPAFQDAKEALRLSPND-KGIVEVLQR  123
+
+Query  362  HIK  364
+             +K
+Sbjct  124  LVK  126
+
+
+>2Y4T_A Chain A, Dnaj Homolog Subfamily C Member 3 [Homo sapiens] 
+2Y4T_B Chain B, Dnaj Homolog Subfamily C Member 3 [Homo 
+sapiens] 2Y4T_C Chain C, Dnaj Homolog Subfamily C Member 3 [Homo 
+sapiens]
+Length=450
+
+ Score = 40.0 bits (92),  Expect = 0.038, Method: Compositional matrix adjust.
+ Identities = 38/173 (22%), Positives = 71/173 (41%), Gaps = 23/173 (13%)
+
+Query  189  NWIKYTGDVTILPKLGSVDSGWP------MLSIFFTEYKYHITRVVTENCNLLE---EFR  239
+            N+I Y    T+   +G   +  P       L + FT  +     ++ +   L E   +F+
+Sbjct  59   NYIAYYRRATVFLAMGKSKAALPDLTKVIQLKMDFTAARLQRGHLLLKQGKLDEAEDDFK  118
+
+Query  240  R------------HSCMQCVKQGELMKMRGN--EEFAKEKFEIAVIYYTRAIEYRPENHL  285
+            +             +  Q +K  E+ ++R      F    +  A+ +  + +E    +  
+Sbjct  119  KVLKSNPSENEEKEAQSQLIKSDEMQRLRSQALNAFGSGDYTAAIAFLDKILEVCVWDAE  178
+
+Query  286  LYGNRALCFLRMGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWAL  338
+            L   RA CF++ G+ R A+SD K A  LKN   +  Y+       LG+++ +L
+Sbjct  179  LRELRAECFIKEGEPRKAISDLKAASKLKNDNTEAFYKISTLYYQLGDHELSL  231
+
+
+ Score = 35.8 bits (81),  Expect = 0.71, Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 46/96 (48%), Gaps = 3/96 (3%)
+
+Query  257  GNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVLKNT  316
+            G +  A  +   A+  +  A++  P+N++ Y  RA  FL MG+ + AL D  + I LK  
+Sbjct  33   GKKLLAAGQLADALSQFHAAVDGDPDNYIAYYRRATVFLAMGKSKAALPDLTKVIQLKMD  92
+
+Query  317  WPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDP  352
+            +     +    L   G+ D   +A    +K+ K++P
+Sbjct  93   FTAARLQRGHLLLKQGKLD---EAEDDFKKVLKSNP  125
+
+
+>1W3B_A Chain A, Udp-n-acetylglucosamine--peptide N-acetylglucosaminyltransferase 
+110 [Homo sapiens] 1W3B_B Chain B, Udp-n-acetylglucosamine--peptide 
+N-acetylglucosaminyltransferase 
+110 [Homo sapiens]
+Length=388
+
+ Score = 39.7 bits (91),  Expect = 0.041, Method: Composition-based stats.
+ Identities = 32/137 (23%), Positives = 57/137 (42%), Gaps = 15/137 (11%)
+
+Query  222  YHITRVVTENCNLLEEFRRHSCMQCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRP  281
+            +H  + VT + N L+ +        +  G ++K           F+ AV  Y RA+   P
+Sbjct  190  HHFEKAVTLDPNFLDAY--------INLGNVLK-------EARIFDRAVAAYLRALSLSP  234
+
+Query  282  ENHLLYGNRALCFLRMGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQAN  341
+             + +++GN A  +   G    A+   +RAI L+  +P  +    +AL   G    A    
+Sbjct  235  NHAVVHGNLACVYYEQGLIDLAIDTYRRAIELQPHFPDAYCNLANALKEKGSVAEAEDCY  294
+
+Query  342  IKAQKLCKNDPEGIKDL  358
+              A +LC    + + +L
+Sbjct  295  NTALRLCPTHADSLNNL  311
+
+
+ Score = 32.3 bits (72),  Expect = 7.1, Method: Composition-based stats.
+ Identities = 28/114 (25%), Positives = 49/114 (43%), Gaps = 5/114 (4%)
+
+Query  235  LEEFRRHSCMQCVKQGE----LMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNR  290
+             E   RH CMQ  +Q      ++ +  +  F   + + +  + T AI+  P     Y N 
+Sbjct  15   FEAAERH-CMQLWRQEPDNTGVLLLLSSIHFQCRRLDRSAHFSTLAIKQNPLLAEAYSNL  73
+
+Query  291  ALCFLRMGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKA  344
+               +   GQ + A+   + A+ LK  +  G+     AL   G+ + A+QA + A
+Sbjct  74   GNVYKERGQLQEAIEHYRHALRLKPDFIDGYINLAAALVAAGDMEGAVQAYVSA  127
+
+
+>6QDL_A Chain A, UNC-45 [Caenorhabditis elegans]
+Length=961
+
+ Score = 40.0 bits (92),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 34/123 (28%), Positives = 56/123 (46%), Gaps = 6/123 (5%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENH-----LLYGNRALCFLRMGQFR  301
+            V+  E ++  GN     + +  A   YT A++   +       +LY NRA+  L+   F 
+Sbjct  5    VQTAEEIRDEGNAAVKDQDYIKADELYTEALQLTTDEDKALRPVLYRNRAMARLKRDDFE  64
+
+Query  302  NALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQ  361
+             A SD  +A+       K  +R   A   LG    A Q   +A +L  ND +GI +++Q+
+Sbjct  65   GAQSDCTKALEFDGADVKALFRRSLAREQLGNVGPAFQDAKEALRLSPND-KGIVEVLQR  123
+
+Query  362  HIK  364
+             +K
+Sbjct  124  LVK  126
+
+
+>6QDM_A Chain A, UNC-45,UNC-45 [Caenorhabditis elegans] 6QDM_B 
+Chain B, UNC-45,UNC-45 [Caenorhabditis elegans]
+Length=963
+
+ Score = 40.0 bits (92),  Expect = 0.042, Method: Compositional matrix adjust.
+ Identities = 34/123 (28%), Positives = 56/123 (46%), Gaps = 6/123 (5%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENH-----LLYGNRALCFLRMGQFR  301
+            V+  E ++  GN     + +  A   YT A++   +       +LY NRA+  L+   F 
+Sbjct  5    VQTAEEIRDEGNAAVKDQDYIKADELYTEALQLTTDEDKALRPVLYRNRAMARLKRDDFE  64
+
+Query  302  NALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQ  361
+             A SD  +A+       K  +R   A   LG    A Q   +A +L  ND +GI +++Q+
+Sbjct  65   GAQSDCTKALEFDGADVKALFRRSLAREQLGNVGPAFQDAKEALRLSPND-KGIVEVLQR  123
+
+Query  362  HIK  364
+             +K
+Sbjct  124  LVK  126
+
+
+>2L0B_A Chain A, E3 ubiquitin-protein ligase Praja-1 [Homo sapiens]
+Length=91
+
+ Score = 36.6 bits (83),  Expect = 0.043, Method: Compositional matrix adjust.
+ Identities = 16/37 (43%), Positives = 17/37 (46%), Gaps = 0/37 (0%)
+
+Query  1955  CHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C E  K      L C H FHK C   WL+   TCP C
+Sbjct  47    CSEYVKGDVATELPCHHYFHKPCVSIWLQKSGTCPVC  83
+
+
+>4AP4_A Chain A, E3 UBIQUITIN LIGASE RNF4 [Rattus norvegicus] 
+5AIT_A Chain A, E3 UBIQUITIN-PROTEIN LIGASE RNF4 [Rattus norvegicus] 
+5AIU_A Chain A, E3 UBIQUITIN-PROTEIN LIGASE RNF4 [Rattus 
+norvegicus]
+Length=133
+
+ Score = 37.4 bits (85),  Expect = 0.056, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 26/46 (57%), Gaps = 5/46 (11%)
+
+Query  1951  SCQICHEIFKS--KNMRVL---KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             SC IC + +    +N R++   +CGH F   C +  LK  +TCPTC
+Sbjct  9     SCPICMDGYSEIVQNGRLIVSTECGHVFCSQCLRDSLKNANTCPTC  54
+
+
+ Score = 37.4 bits (85),  Expect = 0.056, Method: Composition-based stats.
+ Identities = 18/46 (39%), Positives = 26/46 (57%), Gaps = 5/46 (11%)
+
+Query  1951  SCQICHEIFKS--KNMRVL---KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             SC IC + +    +N R++   +CGH F   C +  LK  +TCPTC
+Sbjct  74    SCPICMDGYSEIVQNGRLIVSTECGHVFCSQCLRDSLKNANTCPTC  119
+
+
+>6VL6_B Chain B, T33_dn2B [synthetic construct] 6VL6_N Chain N, 
+T33_dn2B [synthetic construct] 6VL6_O Chain O, T33_dn2B [synthetic 
+construct] 6VL6_P Chain P, T33_dn2B [synthetic construct] 
+6VL6_Q Chain Q, T33_dn2B [synthetic construct] 6VL6_R 
+Chain R, T33_dn2B [synthetic construct] 6VL6_S Chain S, T33_dn2B 
+[synthetic construct] 6VL6_T Chain T, T33_dn2B [synthetic 
+construct] 6VL6_U Chain U, T33_dn2B [synthetic construct] 
+6VL6_V Chain V, T33_dn2B [synthetic construct] 6VL6_W Chain 
+W, T33_dn2B [synthetic construct] 6VL6_X Chain X, T33_dn2B 
+[synthetic construct]
+Length=128
+
+ Score = 37.0 bits (84),  Expect = 0.056, Method: Composition-based stats.
+ Identities = 28/112 (25%), Positives = 52/112 (46%), Gaps = 0/112 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSD  306
+            +++ EL  + G   +   ++ IA+  Y  A++  P N   + N    + + G +R A+  
+Sbjct  1    MEEAELAYLLGELAYKLGEYRIAIRAYRIALKRDPNNAEAWYNLGNAYYKQGDYREAIRY  60
+
+Query  307  GKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+              RA+ L     +  Y   +AL   G+YD A+ A   A +   N+ E  ++L
+Sbjct  61   YLRALKLDPENAEAWYNLGNALYKQGKYDLAIIAYQAALEEDPNNAEAKQNL  112
+
+
+>6QDK_A Chain A, UNC-45,UNC-45 [Caenorhabditis elegans]
+Length=964
+
+ Score = 39.7 bits (91),  Expect = 0.058, Method: Compositional matrix adjust.
+ Identities = 34/123 (28%), Positives = 55/123 (45%), Gaps = 6/123 (5%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENH-----LLYGNRALCFLRMGQFR  301
+            V+  E ++  GN     + +  A   YT A++   +       +LY NRA   L+   F 
+Sbjct  5    VQTAEEIRDEGNAAVKDQDYIKADELYTEALQLTTDEDKALRPVLYRNRAXARLKRDDFE  64
+
+Query  302  NALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQ  361
+             A SD  +A+       K  +R   A   LG    A Q   +A +L  ND +GI +++Q+
+Sbjct  65   GAQSDCTKALEFDGADVKALFRRSLAREQLGNVGPAFQDAKEALRLSPND-KGIVEVLQR  123
+
+Query  362  HIK  364
+             +K
+Sbjct  124  LVK  126
+
+
+>4I2W_A Chain A, Protein Unc-45 [Caenorhabditis elegans] 4I2Z_A 
+Chain A, Protein Unc-45 [Caenorhabditis elegans]
+Length=961
+
+ Score = 39.7 bits (91),  Expect = 0.060, Method: Compositional matrix adjust.
+ Identities = 34/123 (28%), Positives = 55/123 (45%), Gaps = 6/123 (5%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENH-----LLYGNRALCFLRMGQFR  301
+            V+  E ++  GN     + +  A   YT A++   +       +LY NRA   L+   F 
+Sbjct  5    VQTAEEIRDEGNAAVKDQDYIKADELYTEALQLTTDEDKALRPVLYRNRAXARLKRDDFE  64
+
+Query  302  NALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQ  361
+             A SD  +A+       K  +R   A   LG    A Q   +A +L  ND +GI +++Q+
+Sbjct  65   GAQSDCTKALEFDGADVKALFRRSLAREQLGNVGPAFQDAKEALRLSPND-KGIVEVLQR  123
+
+Query  362  HIK  364
+             +K
+Sbjct  124  LVK  126
+
+
+>6V8E_A Chain A, Designed protein [synthetic construct] 6V8E_B 
+Chain B, Designed protein [synthetic construct] 6V8E_C Chain 
+C, Designed protein [synthetic construct] 6V8E_D Chain D, 
+Designed protein [synthetic construct] 6V8E_E Chain E, Designed 
+protein [synthetic construct] 6V8E_F Chain F, Designed protein 
+[synthetic construct]
+Length=119
+
+ Score = 36.6 bits (83),  Expect = 0.085, Method: Composition-based stats.
+ Identities = 26/111 (23%), Positives = 52/111 (47%), Gaps = 0/111 (0%)
+
+Query  248  KQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDG  307
+            ++ EL  + G   +   ++ IA+  Y  A++  P N   + N    + + G +  A+   
+Sbjct  1    EEAELAYLLGELAYKLGEYRIAIRAYRIALKRDPNNAEAWYNLGNAYYKQGDYDEAIEYY  60
+
+Query  308  KRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+            ++A+ L     +  Y   +A    G+YD A++   KA +L  N+ E  ++L
+Sbjct  61   QKALELDPNNAEAWYNLGNAYYKQGDYDEAIEYYQKALELDPNNAEAKQNL  111
+
+
+>1IHG_A Chain A, Cyclophilin 40 [Bos taurus] 1IIP_A Chain A, Cyclophilin 
+40 [Bos taurus]
+Length=370
+
+ Score = 38.1 bits (87),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 37/138 (27%), Positives = 57/138 (41%), Gaps = 18/138 (13%)
+
+Query  251  ELMKMRGNEEFAKEKFEIAVIYYTRAIEY----------------RPENHLLYGNRALCF  294
+            E +K  GN  F  + +E+A+  YT+ + Y                +P       N   C 
+Sbjct  224  EDLKNIGNTFFKSQNWEMAIKKYTKVLRYVEGSRAAAEDADGAKLQPVALSCVLNIGACK  283
+
+Query  295  LRMGQFRNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEG  354
+            L+M  ++ A+     A+ +  +  K  YR       L EYD AL    KAQ++   D   
+Sbjct  284  LKMSDWQGAVDSCLEALEIDPSNTKALYRRAQGWQGLKEYDQALADLKKAQEIAPEDKAI  343
+
+Query  355  IKDL--IQQHIKLQKQIE  370
+              +L  ++Q IK QK  E
+Sbjct  344  QAELLKVKQKIKAQKDKE  361
+
+
+>4R7E_A Chain A, E3 Ubiquitin-protein Ligase Bre1 [Saccharomyces 
+cerevisiae]
+Length=69
+
+ Score = 34.7 bits (78),  Expect = 0.12, Method: Composition-based stats.
+ Identities = 20/52 (38%), Positives = 29/52 (56%), Gaps = 7/52 (13%)
+
+Query  1952  CQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQ-STCPTC----GSSDLLS  1998
+             C +C + +K  NM +  CGH F + C K+ L  +   CPTC     S+DLL+
+Sbjct  17    CSLCSKNWK--NMAIKTCGHVFCENCCKERLAARMRKCPTCNKAFSSNDLLT  66
+
+
+>5ZBU_A Chain A, E3 ubiquitin-protein ligase RNF13 [Homo sapiens] 
+5ZBU_D Chain D, E3 ubiquitin-protein ligase RNF13 [Homo 
+sapiens] 5ZC4_A Chain A, E3 ubiquitin-protein ligase RNF13 [Homo 
+sapiens] 5ZC4_D Chain D, E3 ubiquitin-protein ligase RNF13 
+[Homo sapiens]
+Length=76
+
+ Score = 35.0 bits (79),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 25/44 (57%), Gaps = 2/44 (5%)
+
+Query  1950  NSCQICHEIFKSKN-MRVLKCGHKFHKGCFKQWL-KGQSTCPTC  1991
+             + C IC + ++  + +R+L C H +H  C   WL K + TCP C
+Sbjct  24    DVCAICLDEYEDGDKLRILPCSHAYHCKCVDPWLTKTKKTCPVC  67
+
+
+>5YWR_B Chain B, E3 ubiquitin-protein ligase ZNRF1 [Homo sapiens]
+Length=89
+
+ Score = 35.0 bits (79),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 17/57 (30%), Positives = 25/57 (44%), Gaps = 1/57 (2%)
+
+Query  1934  AKTKGQKKDDVPAPDGNSCQIC-HEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCP  1989
+             +K +    DDV   D   C IC  E+ +   +  L C   +HK C   W +   +CP
+Sbjct  28    SKPRLSYNDDVLTKDAGECVICLEELLQGDTIARLPCLCIYHKSCIDSWFEVNRSCP  84
+
+
+>6VFH_A Chain A, T33_dn10A [synthetic construct]
+Length=121
+
+ Score = 35.8 bits (81),  Expect = 0.13, Method: Composition-based stats.
+ Identities = 27/111 (24%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  248  KQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDG  307
+            ++ EL  + G   +   ++ IA+  Y  A++  P N   + N    + + G +  A+   
+Sbjct  3    EEAELAYLLGELAYKLGEYRIAIRAYRIALKRDPNNAEAWYNLGNAYYKQGDYDEAIEYY  62
+
+Query  308  KRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+            ++A+ L     +  Y   +A    G+YD A++   KA +L   DPE ++ L
+Sbjct  63   QKALELDPNNAEAWYNLGNAYYKQGDYDEAIEYYEKALEL---DPENLEAL  110
+
+
+>5L0Y_A Chain A, Sec72-ssa1 c-terminal peptide fusion protein 
+[Chaetomium thermophilum var. thermophilum DSM 1495] 5L0Y_B 
+Chain B, Sec72-ssa1 c-terminal peptide fusion protein [Chaetomium 
+thermophilum var. thermophilum DSM 1495] 5L0Y_C Chain 
+C, Sec72-ssa1 c-terminal peptide fusion protein [Chaetomium 
+thermophilum var. thermophilum DSM 1495] 5L0Y_D Chain D, Sec72-ssa1 
+c-terminal peptide fusion protein [Chaetomium thermophilum 
+var. thermophilum DSM 1495] 5L0Y_E Chain E, Sec72-ssa1 
+c-terminal peptide fusion protein [Chaetomium thermophilum 
+var. thermophilum DSM 1495] 5L0Y_F Chain F, Sec72-ssa1 c-terminal 
+peptide fusion protein [Chaetomium thermophilum var. 
+thermophilum DSM 1495] 5L0Y_G Chain G, Sec72-ssa1 c-terminal 
+peptide fusion protein [Chaetomium thermophilum var. thermophilum 
+DSM 1495] 5L0Y_H Chain H, Sec72-ssa1 c-terminal peptide 
+fusion protein [Chaetomium thermophilum var. thermophilum 
+DSM 1495]
+Length=159
+
+ Score = 36.6 bits (83),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 19/69 (28%), Positives = 35/69 (51%), Gaps = 13/69 (19%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIEY-------------RPENHLLYGNRALCFLRMGQ  299
+            ++  GN E+ K+++  A+  YT  ++              R E H LY NRA  ++++GQ
+Sbjct  12   LRESGNAEYRKQRYGDAIKLYTLGLQMALTRPAWEPAGLVRDEIHQLYSNRAQAYMQLGQ  71
+
+Query  300  FRNALSDGK  308
+            +  A +D +
+Sbjct  72   WPEAAADAE  80
+
+
+>2Y4U_A Chain A, Dnaj Homolog Subfamily C Member 3 [Homo sapiens]
+Length=450
+
+ Score = 37.7 bits (86),  Expect = 0.16, Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 45/96 (47%), Gaps = 2/96 (2%)
+
+Query  245  QCVKQGELMKMRGN--EEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRN  302
+            Q +K  E  ++R      F    +  A+ +  + +E    +  L   RA CF++ G+ R 
+Sbjct  136  QLIKSDEXQRLRSQALNAFGSGDYTAAIAFLDKILEVCVWDAELRELRAECFIKEGEPRK  195
+
+Query  303  ALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWAL  338
+            A+SD K A  LKN   +  Y+       LG+++ +L
+Sbjct  196  AISDLKAASKLKNDNTEAFYKISTLYYQLGDHELSL  231
+
+
+>4GCN_A Chain A, Protein STI-1 [Caenorhabditis elegans] 4GCN_B 
+Chain B, Protein STI-1 [Caenorhabditis elegans]
+Length=127
+
+ Score = 35.4 bits (80),  Expect = 0.24, Method: Compositional matrix adjust.
+ Identities = 15/44 (34%), Positives = 24/44 (55%), Gaps = 0/44 (0%)
+
+Query  257  GNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQF  300
+            GN  + ++ FE A ++Y +AIE  P N   Y N+A  +    +F
+Sbjct  15   GNAAYKQKDFEKAHVHYDKAIELDPSNITFYNNKAAVYFEEKKF  58
+
+
+>2FO7_A Chain A, SYNTHETIC CONSENSUS TPR PROTEIN [synthetic construct] 
+2HYZ_A Chain A, SYNTHETIC CONSENSUS TPR PROTEIN [synthetic 
+construct]
+Length=136
+
+ Score = 35.4 bits (80),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 25/108 (23%), Positives = 49/108 (45%), Gaps = 0/108 (0%)
+
+Query  257  GNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVLKNT  316
+            GN  + +  ++ A+ YY +A+E  P +   + N    + + G +  A+   ++A+ L   
+Sbjct  8    GNAYYKQGDYDEAIEYYQKALELDPRSAEAWYNLGNAYYKQGDYDEAIEYYQKALELDPR  67
+
+Query  317  WPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDLIQQHIK  364
+              +  Y   +A    G+YD A++   KA +L     E   +L   + K
+Sbjct  68   SAEAWYNLGNAYYKQGDYDEAIEYYQKALELDPRSAEAWYNLGNAYYK  115
+
+
+ Score = 35.4 bits (80),  Expect = 0.25, Method: Composition-based stats.
+ Identities = 22/91 (24%), Positives = 44/91 (48%), Gaps = 0/91 (0%)
+
+Query  257  GNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGKRAIVLKNT  316
+            GN  + +  ++ A+ YY +A+E  P +   + N    + + G +  A+   ++A+ L   
+Sbjct  42   GNAYYKQGDYDEAIEYYQKALELDPRSAEAWYNLGNAYYKQGDYDEAIEYYQKALELDPR  101
+
+Query  317  WPKGHYRYCDALSMLGEYDWALQANIKAQKL  347
+              +  Y   +A    G+YD A++   KA +L
+Sbjct  102  SAEAWYNLGNAYYKQGDYDEAIEYYQKALEL  132
+
+
+>2L6J_A Chain A, TPR repeat-containing protein associated with 
+Hsp90 [Saccharomyces cerevisiae]
+Length=111
+
+ Score = 34.7 bits (78),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 17/58 (29%), Positives = 33/58 (57%), Gaps = 0/58 (0%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNAL  304
+            + Q E  K +GN  F +  +  AV  Y + I  +P+N + Y N+A+  +++G++  A+
+Sbjct  1    MSQFEKQKEQGNSLFKQGLYREAVHCYDQLITAQPQNPVGYSNKAMALIKLGEYTQAI  58
+
+
+>2LSU_A Chain A, TPR repeat-containing protein associated with 
+Hsp90 [Saccharomyces cerevisiae S288C] 2LSV_A Chain A, TPR 
+repeat-containing protein associated with Hsp90 [Saccharomyces 
+cerevisiae S288C]
+Length=110
+
+ Score = 34.7 bits (78),  Expect = 0.30, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 32/56 (57%), Gaps = 0/56 (0%)
+
+Query  249  QGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNAL  304
+            Q E  K +GN  F +  +  AV  Y + I  +P+N + Y N+A+  +++G++  A+
+Sbjct  2    QFEKQKEQGNSLFKQGLYREAVHCYDQLITAQPQNPVGYSNKAMALIKLGEYTQAI  57
+
+
+>2ECL_A Chain A, RING-box protein 2 [Homo sapiens]
+Length=81
+
+ Score = 33.9 bits (76),  Expect = 0.31, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 22/44 (50%), Gaps = 2/44 (5%)
+
+Query  1950  NSCQICHEIFKSKNMRVL--KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             ++C  C    K ++  V+  +C H FH  C   W+K  + CP C
+Sbjct  27    DACLRCQAENKQEDCVVVWGECNHSFHNCCMSLWVKQNNRCPLC  70
+
+
+>3IEG_A Chain A, DnaJ homolog subfamily C member 3 [Mus musculus] 
+3IEG_B Chain B, DnaJ homolog subfamily C member 3 [Mus musculus]
+Length=359
+
+ Score = 36.6 bits (83),  Expect = 0.35, Method: Compositional matrix adjust.
+ Identities = 26/96 (27%), Positives = 46/96 (48%), Gaps = 2/96 (2%)
+
+Query  245  QCVKQGELMKMRGN--EEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRN  302
+            Q VK  E  ++R    + F    +  A+ +  + +E    +  L   RA CF++ G+ R 
+Sbjct  113  QLVKADEXQRLRSQALDAFDGADYTAAITFLDKILEVCVWDAELRELRAECFIKEGEPRK  172
+
+Query  303  ALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWAL  338
+            A+SD K A  LK+   +  Y+       LG+++ +L
+Sbjct  173  AISDLKAASKLKSDNTEAFYKISTLYYQLGDHELSL  208
+
+
+>2DBD_A Chain A, Caspase recruitment domain protein 4 [Homo sapiens]
+Length=107
+
+ Score = 34.3 bits (77),  Expect = 0.37, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 42/90 (47%), Gaps = 8/90 (9%)
+
+Query  841  LQCIKQNADKIKSVVLNTSTLLKELLSWKVLSTED---YTTCFSSKNFVHEAVDYVIGHL  897
+            +Q +K N + + + + NT  L+  LL     S ED      C +  + V + +D     L
+Sbjct  11   IQLLKSNRELLVTHIRNTQCLVDNLLKNDYFSAEDAEIVCACPTQPDKVRKILD-----L  65
+
+Query  898  IQEKNRVKTRIFLHVLSELKELDPKLAPWI  927
+            +Q K    +  FL++L +L +    L PW+
+Sbjct  66   VQSKGEEVSEFFLYLLQQLADAYVDLRPWL  95
+
+
+>4AYC_B Chain B, E3 Ubiquitin-protein Ligase Rnf8 [Homo sapiens]
+Length=138
+
+ Score = 34.7 bits (78),  Expect = 0.41, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 18/40 (45%), Gaps = 2/40 (5%)
+
+Query  1952  CQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC E F       L C H F   C  +W+K +  CP C
+Sbjct  56    CIICSEYFIE--AVTLNCAHSFCSYCINEWMKRKIECPIC  93
+
+
+>5LG0_A Chain A, E3 ubiquitin-protein ligase Arkadia [Homo sapiens]
+Length=69
+
+ Score = 33.1 bits (74),  Expect = 0.48, Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 21/41 (51%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFK-SKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC  I +  +++R L C H FH+ C  Q L     CP C
+Sbjct  17    CTICLSILEEGEDVRRLPCMHLFHQVCVDQALITNKKCPIC  57
+
+
+>4AYC_A Chain A, E3 Ubiquitin-protein Ligase Rnf8 [Homo sapiens]
+Length=138
+
+ Score = 34.3 bits (77),  Expect = 0.55, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 18/40 (45%), Gaps = 2/40 (5%)
+
+Query  1952  CQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC E F       L C H F   C  +W+K +  CP C
+Sbjct  56    CIICSEYFIE--AVTLNCAHSFCSYCINEWMKRKIECPIC  93
+
+
+>4CGQ_A Chain A, Tpr Repeat-containing Protein Associated With 
+Hsp90 [Saccharomyces cerevisiae]
+Length=111
+
+ Score = 33.9 bits (76),  Expect = 0.57, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 36/68 (53%), Gaps = 0/68 (0%)
+
+Query  249  QGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGK  308
+            Q E  K +GN  F +  +  AV  Y + I  +P+N + Y N+A   +++G++  A+   +
+Sbjct  3    QFEKQKEQGNSLFKQGLYREAVHCYDQLITAQPQNPVGYSNKAXALIKLGEYTQAIQXCQ  62
+
+Query  309  RAIVLKNT  316
+            + +   +T
+Sbjct  63   QGLRYTST  70
+
+
+>5LG7_A Chain A, E3 ubiquitin-protein ligase Arkadia [Homo sapiens]
+Length=69
+
+ Score = 32.7 bits (73),  Expect = 0.59, Method: Compositional matrix adjust.
+ Identities = 16/41 (39%), Positives = 21/41 (51%), Gaps = 1/41 (2%)
+
+Query  1952  CQICHEIFK-SKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC  I +  +++R L C H FH+ C  Q L     CP C
+Sbjct  17    CTICLSILEEGEDVRRLPCMHLFHQVCVDQRLITNKKCPIC  57
+
+
+>5L0W_B Chain B, Sec72 [Chaetomium thermophilum]
+Length=214
+
+ Score = 35.4 bits (80),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 19/69 (28%), Positives = 34/69 (49%), Gaps = 13/69 (19%)
+
+Query  253  MKMRGNEEFAKEKFEIAVIYYTRAIE-------------YRPENHLLYGNRALCFLRMGQ  299
+            ++  GN E+ K+++  A+  YT  ++              R E H LY NRA  + ++GQ
+Sbjct  79   LRESGNAEYRKQRYGDAIKLYTLGLQXALTRPAWEPAGLVRDEIHQLYSNRAQAYXQLGQ  138
+
+Query  300  FRNALSDGK  308
+            +  A +D +
+Sbjct  139  WPEAAADAE  147
+
+
+>4KC9_A Chain A, E3 Ubiquitin-protein Ligase Arih1 [Homo sapiens]
+Length=559
+
+ Score = 36.2 bits (82),  Expect = 0.61, Method: Compositional matrix adjust.
+ Identities = 21/78 (27%), Positives = 38/78 (49%), Gaps = 9/78 (12%)
+
+Query  1931  GPSAKTKGQKKDDVPAPDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWL--------  1982
+              PS K++ ++ +   +     CQIC+  + +     L+CGHKF   C+ ++L        
+Sbjct  167   NPSKKSRTRQXNTRSSAQDXPCQICYLNYPNSYFTGLECGHKFCXQCWSEYLTTKIXEEG  226
+
+Query  1983  KGQS-TCPTCGSSDLLSE  1999
+              GQ+ +CP  G   L+ +
+Sbjct  227   XGQTISCPAHGCDILVDD  244
+
+
+>4CGU_A Chain A, Tpr Repeat-containing Protein Associated With 
+Hsp90 [Saccharomyces cerevisiae]
+Length=112
+
+ Score = 33.9 bits (76),  Expect = 0.62, Method: Compositional matrix adjust.
+ Identities = 18/68 (26%), Positives = 36/68 (53%), Gaps = 0/68 (0%)
+
+Query  249  QGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDGK  308
+            Q E  K +GN  F +  +  AV  Y + I  +P+N + Y N+A   +++G++  A+   +
+Sbjct  4    QFEKQKEQGNSLFKQGLYREAVHCYDQLITAQPQNPVGYSNKAXALIKLGEYTQAIQXCQ  63
+
+Query  309  RAIVLKNT  316
+            + +   +T
+Sbjct  64   QGLRYTST  71
+
+
+>2YUR_A Chain A, Retinoblastoma-binding protein 6 [Homo sapiens]
+Length=74
+
+ Score = 32.7 bits (73),  Expect = 0.65, Method: Compositional matrix adjust.
+ Identities = 19/63 (30%), Positives = 31/63 (49%), Gaps = 3/63 (5%)
+
+Query  1936  TKGQKKDDVPAPDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWL--KGQSTCPTCGS  1993
+             + G   +D P PD   C IC +I  +  + +  CG+ +   C +  L    + TCPTC  
+Sbjct  2     SSGSSGEDDPIPDELLCLICKDIM-TDAVVIPCCGNSYCDECIRTALLESDEHTCPTCHQ  60
+
+Query  1994  SDL  1996
+             +D+
+Sbjct  61    NDV  63
+
+
+>6V9I_R Chain R, RING-box protein 2 [Mus musculus]
+Length=113
+
+ Score = 33.9 bits (76),  Expect = 0.66, Method: Composition-based stats.
+ Identities = 14/44 (32%), Positives = 22/44 (50%), Gaps = 2/44 (5%)
+
+Query  1950  NSCQICHEIFKSKNMRVL--KCGHKFHKGCFKQWLKGQSTCPTC  1991
+             ++C  C    K ++  V+  +C H FH  C   W+K  + CP C
+Sbjct  59    DACLRCQAENKQEDCVVVWGECNHSFHNCCMSLWVKQNNRCPLC  102
+
+
+>4ORH_C Chain C, E3 ubiquitin-protein ligase RNF8 [Homo sapiens] 
+4ORH_G Chain G, E3 ubiquitin-protein ligase RNF8 [Homo sapiens] 
+4ORH_H Chain H, E3 ubiquitin-protein ligase RNF8 [Homo 
+sapiens] 4ORH_K Chain K, E3 ubiquitin-protein ligase RNF8 
+[Homo sapiens] 4ORH_L Chain L, E3 ubiquitin-protein ligase RNF8 
+[Homo sapiens] 4WHV_C Chain C, E3 ubiquitin-protein ligase 
+RNF8 [Homo sapiens] 4WHV_D Chain D, E3 ubiquitin-protein 
+ligase RNF8 [Homo sapiens] 4WHV_I Chain I, E3 ubiquitin-protein 
+ligase RNF8 [Homo sapiens] 4WHV_J Chain J, E3 ubiquitin-protein 
+ligase RNF8 [Homo sapiens]
+Length=149
+
+ Score = 34.3 bits (77),  Expect = 0.69, Method: Compositional matrix adjust.
+ Identities = 15/40 (38%), Positives = 18/40 (45%), Gaps = 2/40 (5%)
+
+Query  1952  CQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC E F       L C H F   C  +W+K +  CP C
+Sbjct  67    CIICSEYFIE--AVTLNCAHSFCSYCINEWMKRKIECPIC  104
+
+
+>2Y43_A Chain A, E3 Ubiquitin-protein Ligase Rad18 [Homo sapiens] 
+2Y43_B Chain B, E3 Ubiquitin-protein Ligase Rad18 [Homo 
+sapiens]
+Length=99
+
+ Score = 33.1 bits (74),  Expect = 0.74, Method: Compositional matrix adjust.
+ Identities = 14/40 (35%), Positives = 22/40 (55%), Gaps = 1/40 (3%)
+
+Query  1952  CQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC E F    M + +C H +   C +++L  ++ CPTC
+Sbjct  25    CGICFEYFNIA-MIIPQCSHNYCSLCIRKFLSYKTQCPTC  63
+
+
+>2ECJ_A Chain A, Tripartite motif-containing protein 39 [Homo 
+sapiens]
+Length=58
+
+ Score = 32.0 bits (71),  Expect = 0.84, Method: Compositional matrix adjust.
+ Identities = 16/44 (36%), Positives = 22/44 (50%), Gaps = 5/44 (11%)
+
+Query  1951  SCQICHEIFKSKNMRVLKCGHKFHKGCFKQW---LKGQSTCPTC  1991
+             SC +C E  K     +++CGH F K C  +W   L+    CP C
+Sbjct  17    SCSVCLEYLKEP--VIIECGHNFCKACITRWWEDLERDFPCPVC  58
+
+
+>1CHC_A Chain A, EQUINE HERPES VIRUS-1 RING DOMAIN [Equid alphaherpesvirus 
+1]
+Length=68
+
+ Score = 32.3 bits (72),  Expect = 0.89, Method: Composition-based stats.
+ Identities = 15/40 (38%), Positives = 20/40 (50%), Gaps = 1/40 (3%)
+
+Query  1952  CQICHEIFKSKNMRVLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             C IC E   + +M  L C H F   C  +W++   TCP C
+Sbjct  8     CPICLEDPSNYSM-ALPCLHAFCYVCITRWIRQNPTCPLC  46
+
+
+>6VFI_B Chain B, O43_dn18B [synthetic construct]
+Length=121
+
+ Score = 33.5 bits (75),  Expect = 0.92, Method: Composition-based stats.
+ Identities = 25/108 (23%), Positives = 49/108 (45%), Gaps = 3/108 (3%)
+
+Query  248  KQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDG  307
+            ++ EL  + G   +   ++ IA+  Y  A++  P N   + N    + + G +  A+   
+Sbjct  3    EEAELAYLLGELAYKLGEYRIAIRAYRIALKRDPNNAEAWYNLGNAYYKQGDYDEAIEYY  62
+
+Query  308  KRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGI  355
+            ++A+ L     +  Y   +A    G+YD A++   KA +L   DP  +
+Sbjct  63   QKALELDPNNAEAWYNLGNAYYKQGDYDEAIEYYQKALEL---DPSNL  107
+
+
+>5TTE_B Chain B, E3 ubiquitin-protein ligase ARIH1 [Homo sapiens]
+Length=558
+
+ Score = 35.4 bits (80),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 21/78 (27%), Positives = 38/78 (49%), Gaps = 9/78 (12%)
+
+Query  1931  GPSAKTKGQKKDDVPAPDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWLK-------  1983
+              PS K++ ++ +   +     CQIC+  + +     L+CGHKF   C+ ++L        
+Sbjct  166   NPSKKSRTRQMNTRSSAQDMPCQICYLNYPNSYFTGLECGHKFCMQCWSEYLTTKIMEEG  225
+
+Query  1984  -GQS-TCPTCGSSDLLSE  1999
+              GQ+ +CP  G   L+ +
+Sbjct  226   MGQTISCPAHGCDILVDD  243
+
+
+>4KBL_A Chain A, E3 Ubiquitin-protein Ligase Arih1 [Homo sapiens] 
+4KBL_B Chain B, E3 Ubiquitin-protein Ligase Arih1 [Homo 
+sapiens]
+Length=559
+
+ Score = 35.4 bits (80),  Expect = 1.0, Method: Compositional matrix adjust.
+ Identities = 21/78 (27%), Positives = 38/78 (49%), Gaps = 9/78 (12%)
+
+Query  1931  GPSAKTKGQKKDDVPAPDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWLK-------  1983
+              PS K++ ++ +   +     CQIC+  + +     L+CGHKF   C+ ++L        
+Sbjct  167   NPSKKSRTRQMNTRSSAQDMPCQICYLNYPNSYFTGLECGHKFCMQCWSEYLTTKIMEEG  226
+
+Query  1984  -GQS-TCPTCGSSDLLSE  1999
+              GQ+ +CP  G   L+ +
+Sbjct  227   MGQTISCPAHGCDILVDD  244
+
+
+>5UDH_A Chain A, E3 Ubiquitin-protein Ligase Arih1 [Homo sapiens] 
+5UDH_B Chain B, E3 Ubiquitin-protein Ligase Arih1 [Homo 
+sapiens]
+Length=470
+
+ Score = 35.0 bits (79),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 21/78 (27%), Positives = 38/78 (49%), Gaps = 9/78 (12%)
+
+Query  1931  GPSAKTKGQKKDDVPAPDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWLK-------  1983
+              PS K++ ++ +   +     CQIC+  + +     L+CGHKF   C+ ++L        
+Sbjct  78    NPSKKSRTRQMNTRSSAQDMPCQICYLNYPNSYFTGLECGHKFCMQCWSEYLTTKIMEEG  137
+
+Query  1984  -GQS-TCPTCGSSDLLSE  1999
+              GQ+ +CP  G   L+ +
+Sbjct  138   MGQTISCPAHGCDILVDD  155
+
+
+>6VFK_A Chain A, BG505-SOSIP-T33_dn10A [synthetic construct]
+Length=789
+
+ Score = 35.0 bits (79),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 27/111 (24%), Positives = 52/111 (47%), Gaps = 3/111 (3%)
+
+Query  248  KQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNALSDG  307
+            ++ EL  + G   +   ++ IA+  Y  A++  P N   + N    + + G +  A+   
+Sbjct  671  EEAELAYLLGELAYKLGEYRIAIRAYRIALKRDPNNAEAWYNLGNAYYKQGDYDEAIEYY  730
+
+Query  308  KRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLCKNDPEGIKDL  358
+            ++A+ L     +  Y   +A    G+YD A++   KA +L   DPE ++ L
+Sbjct  731  QKALELDPNNAEAWYNLGNAYYKQGDYDEAIEYYEKALEL---DPENLEAL  778
+
+
+>5LD2_D Chain D, RecBCD enzyme subunit RecD [Escherichia coli 
+K-12] 5MBV_D Chain D, RecBCD enzyme subunit RecD [Escherichia 
+coli]
+Length=609
+
+ Score = 34.7 bits (78),  Expect = 1.6, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 45/103 (44%), Gaps = 12/103 (12%)
+
+Query  301  RNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLC--KNDPEGIKDL  358
+            +  L  G+  I +      G+ RY D L    E D  +QA  + Q LC  +  P G+   
+Sbjct  396  KRLLQSGEDYIAMLEEALAGYGRYLDLLQARAEPDLIIQAFNEYQLLCALREGPFGVAG-  454
+
+Query  359  IQQHIKLQKQIEDL--QGRTSNRNPIKAFYESR-AYIPRNSSA  398
+                  L ++IE    Q R  +R+P   +YE R   I RN SA
+Sbjct  455  ------LNERIEQFMQQKRKIHRHPHSRWYEGRPVMIARNDSA  491
+
+
+>2NSN_A Chain A, Caspase Recruitment Domain-containing Protein 
+4 [Homo sapiens]
+Length=95
+
+ Score = 32.3 bits (72),  Expect = 1.6, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 42/90 (47%), Gaps = 8/90 (9%)
+
+Query  841  LQCIKQNADKIKSVVLNTSTLLKELLSWKVLSTED---YTTCFSSKNFVHEAVDYVIGHL  897
+            +Q +K N + + + + NT  L+  LL     S ED      C +  + V + +D     L
+Sbjct  5    IQLLKSNRELLVTHIRNTQCLVDNLLKNDYFSAEDAEIVCACPTQPDKVRKILD-----L  59
+
+Query  898  IQEKNRVKTRIFLHVLSELKELDPKLAPWI  927
+            +Q K    +  FL++L +L +    L PW+
+Sbjct  60   VQSKGEEVSEFFLYLLQQLADAYVDLRPWL  89
+
+
+>4A0C_D Chain D, E3 UBIQUITIN-PROTEIN LIGASE RBX1 [Mus musculus] 
+4A0C_F Chain F, E3 UBIQUITIN-PROTEIN LIGASE RBX1 [Mus musculus] 
+4A0L_F Chain F, E3 UBIQUITIN-PROTEIN LIGASE RBX1 [Mus 
+musculus] 4A0L_I Chain I, E3 UBIQUITIN-PROTEIN LIGASE RBX1 
+[Mus musculus]
+Length=98
+
+ Score = 32.3 bits (72),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  65    CNHAFHFHCISRWLKTRQVCP  85
+
+
+>3J92_0 Chain 0, Listerin [Homo sapiens] 3J92_w Chain w, Listerin 
+[Homo sapiens] 3J92_z Chain z, Listerin [Homo sapiens]
+Length=1766
+
+ Score = 35.0 bits (79),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 16/47 (34%), Positives = 20/47 (43%), Gaps = 7/47 (15%)
+
+Query  1952  CQICHEIFKSKNMRVLK-----CGHKFHKGCFKQWL--KGQSTCPTC  1991
+             C IC  +    N  + K     C  KFH  C  +W     +STCP C
+Sbjct  1715  CMICFSVIHGFNYSLPKKACRTCKKKFHSACLYKWFTSSNKSTCPLC  1761
+
+
+>1W36_D Chain D, Exodeoxyribonuclease V Alpha Chain [Escherichia 
+coli] 1W36_G Chain G, Exodeoxyribonuclease V Alpha Chain 
+[Escherichia coli] 3K70_D Chain D, Exodeoxyribonuclease V Alpha 
+Chain [Escherichia coli K-12] 3K70_G Chain G, Exodeoxyribonuclease 
+V Alpha Chain [Escherichia coli K-12] 6SJB_D Chain 
+D, RecBCD enzyme subunit RecD [Escherichia coli] 6SJE_D Chain 
+D, RecBCD enzyme subunit RecD [Escherichia coli] 6SJF_D 
+Chain D, RecBCD enzyme subunit RecD [Escherichia coli] 6SJG_D 
+Chain D, RecBCD enzyme subunit RecD [Escherichia coli] 6T2U_D 
+Chain D, RecBCD enzyme subunit RecD [Escherichia coli] 6T2V_D 
+Chain D, RecBCD enzyme subunit RecD [Escherichia coli]
+Length=608
+
+ Score = 34.7 bits (78),  Expect = 1.7, Method: Composition-based stats.
+ Identities = 32/103 (31%), Positives = 45/103 (44%), Gaps = 12/103 (12%)
+
+Query  301  RNALSDGKRAIVLKNTWPKGHYRYCDALSMLGEYDWALQANIKAQKLC--KNDPEGIKDL  358
+            +  L  G+  I +      G+ RY D L    E D  +QA  + Q LC  +  P G+   
+Sbjct  395  KRLLQSGEDYIAMLEEALAGYGRYLDLLQARAEPDLIIQAFNEYQLLCALREGPFGVAG-  453
+
+Query  359  IQQHIKLQKQIEDL--QGRTSNRNPIKAFYESR-AYIPRNSSA  398
+                  L ++IE    Q R  +R+P   +YE R   I RN SA
+Sbjct  454  ------LNERIEQFMQQKRKIHRHPHSRWYEGRPVMIARNDSA  490
+
+
+>2NZ7_A Chain A, Crystal Structure Analysis Of Caspase-Recruitment 
+Domain (Card) Of Nod1 [Homo sapiens] 2NZ7_B Chain B, Crystal 
+Structure Analysis Of Caspase-Recruitment Domain (Card) 
+Of Nod1 [Homo sapiens]
+Length=98
+
+ Score = 32.3 bits (72),  Expect = 1.7, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 42/90 (47%), Gaps = 8/90 (9%)
+
+Query  841  LQCIKQNADKIKSVVLNTSTLLKELLSWKVLSTED---YTTCFSSKNFVHEAVDYVIGHL  897
+            +Q +K N + + + + NT  L+  LL     S ED      C +  + V + +D     L
+Sbjct  12   IQLLKSNRELLVTHIRNTQCLVDNLLKNDYFSAEDAEIVCACPTQPDKVRKILD-----L  66
+
+Query  898  IQEKNRVKTRIFLHVLSELKELDPKLAPWI  927
+            +Q K    +  FL++L +L +    L PW+
+Sbjct  67   VQSKGEEVSEFFLYLLQQLADAYVDLRPWL  96
+
+
+>3ZTG_A Chain A, E3 UBIQUITIN-PROTEIN LIGASE RBBP6 [Homo sapiens] 
+3ZTG_B Chain B, E3 UBIQUITIN-PROTEIN LIGASE RBBP6 [Homo 
+sapiens]
+Length=92
+
+ Score = 32.0 bits (71),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 18/57 (32%), Positives = 29/57 (51%), Gaps = 3/57 (5%)
+
+Query  1942  DDVPAPDGNSCQICHEIFKSKNMRVLKCGHKFHKGCFKQWL--KGQSTCPTCGSSDL  1996
+             +D P PD   C IC +I  +  + +  CG+ +   C +  L    + TCPTC  +D+
+Sbjct  6     EDDPIPDELLCLICKDIM-TDAVVIPCCGNSYCDECIRTALLESDEHTCPTCHQNDV  61
+
+
+>6R7I_R Chain R, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]
+Length=85
+
+ Score = 32.0 bits (71),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  58    CNHAFHFHCISRWLKTRQVCP  78
+
+
+>4JQW_A Chain A, Nucleotide-binding Oligomerization Domain-containing 
+Protein 1 [Homo sapiens]
+Length=102
+
+ Score = 32.3 bits (72),  Expect = 1.8, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 42/90 (47%), Gaps = 8/90 (9%)
+
+Query  841  LQCIKQNADKIKSVVLNTSTLLKELLSWKVLSTED---YTTCFSSKNFVHEAVDYVIGHL  897
+            +Q +K N + + + + NT  L+  LL     S ED      C +  + V + +D     L
+Sbjct  6    IQLLKSNRELLVTHIRNTQCLVDNLLKNDYFSAEDAEIVXACPTQPDKVRKILD-----L  60
+
+Query  898  IQEKNRVKTRIFLHVLSELKELDPKLAPWI  927
+            +Q K    +  FL++L +L +    L PW+
+Sbjct  61   VQSKGEEVSEFFLYLLQQLADAYVDLRPWL  90
+
+
+>1LDJ_B Chain B, Ring-box Protein 1 [Homo sapiens] 1LDK_C Chain 
+C, ring-box protein 1 [Homo sapiens] 6R7F_R Chain R, E3 ubiquitin-protein 
+ligase RBX1 [Homo sapiens] 6R7H_R Chain R, E3 
+ubiquitin-protein ligase RBX1 [Homo sapiens]
+Length=90
+
+ Score = 32.0 bits (71),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  57    CNHAFHFHCISRWLKTRQVCP  77
+
+
+>6R6H_R Chain R, RBX1_HUMAN [Homo sapiens] 6R7N_R Chain R, RBX1 
+E3 ubiquitin-protein ligase [Homo sapiens]
+Length=86
+
+ Score = 32.0 bits (71),  Expect = 1.9, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  59    CNHAFHFHCISRWLKTRQVCP  79
+
+
+>2B1W_A Chain A, Caspase recruitment domain protein 4 [Homo sapiens]
+Length=127
+
+ Score = 32.7 bits (73),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 42/90 (47%), Gaps = 8/90 (9%)
+
+Query  841  LQCIKQNADKIKSVVLNTSTLLKELLSWKVLSTED---YTTCFSSKNFVHEAVDYVIGHL  897
+            +Q +K N + + + + NT  L+  LL     S ED      C +  + V + +D     L
+Sbjct  9    IQLLKSNRELLVTHIRNTQCLVDNLLKNDYFSAEDAEIVCACPTQPDKVRKILD-----L  63
+
+Query  898  IQEKNRVKTRIFLHVLSELKELDPKLAPWI  927
+            +Q K    +  FL++L +L +    L PW+
+Sbjct  64   VQSKGEEVSEFFLYLLQQLADAYVDLRPWL  93
+
+
+>4E9M_A Chain A, Nucleotide-binding Oligomerization Domain-containing 
+Protein 1 [Homo sapiens] 4E9M_B Chain B, Nucleotide-binding 
+Oligomerization Domain-containing Protein 1 [Homo sapiens] 
+4E9M_C Chain C, Nucleotide-binding Oligomerization Domain-containing 
+Protein 1 [Homo sapiens] 4E9M_D Chain D, Nucleotide-binding 
+Oligomerization Domain-containing Protein 1 
+[Homo sapiens] 4E9M_E Chain E, Nucleotide-binding Oligomerization 
+Domain-containing Protein 1 [Homo sapiens] 4E9M_F Chain 
+F, Nucleotide-binding Oligomerization Domain-containing Protein 
+1 [Homo sapiens]
+Length=144
+
+ Score = 33.1 bits (74),  Expect = 1.9, Method: Compositional matrix adjust.
+ Identities = 24/90 (27%), Positives = 42/90 (47%), Gaps = 8/90 (9%)
+
+Query  841  LQCIKQNADKIKSVVLNTSTLLKELLSWKVLSTED---YTTCFSSKNFVHEAVDYVIGHL  897
+            +Q +K N + + + + NT  L+  LL     S ED      C +  + V + +D     L
+Sbjct  26   IQLLKSNRELLVTHIRNTQCLVDNLLKNDYFSAEDAEIVCACPTQPDKVRKILD-----L  80
+
+Query  898  IQEKNRVKTRIFLHVLSELKELDPKLAPWI  927
+            +Q K    +  FL++L +L +    L PW+
+Sbjct  81   VQSKGEEVSEFFLYLLQQLADAYVDLRPWL  110
+
+
+>1U6G_B Chain B, Ring-box Protein 1 [Homo sapiens] 2HYE_D Chain 
+D, Ring-box Protein 1 [Homo sapiens]
+Length=108
+
+ Score = 32.3 bits (72),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  75    CNHAFHFHCISRWLKTRQVCP  95
+
+
+>4A0K_B Chain B, E3 UBIQUITIN-PROTEIN LIGASE RBX1 [Mus musculus]
+Length=117
+
+ Score = 32.3 bits (72),  Expect = 2.1, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  84    CNHAFHFHCISRWLKTRQVCP  104
+
+
+>6D7U_A Chain A, Hemagglutinin HA1 chain [Influenza A virus] 6D7U_C 
+Chain C, Hemagglutinin HA1 chain [Influenza A virus] 6D7U_E 
+Chain E, Hemagglutinin HA1 chain [Influenza A virus]
+Length=316
+
+ Score = 33.9 bits (76),  Expect = 2.1, Method: Compositional matrix adjust.
+ Identities = 44/187 (24%), Positives = 76/187 (41%), Gaps = 16/187 (9%)
+
+Query  1606  QPDQSLGISSALTDEKAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVA  1665
+             Q DQ L  S+ L  E+ +  +    GK + EE+  R +  E   ++  KE       G+ 
+Sbjct  65    QCDQFLEFSADLIIERREGSDVCYPGKFVNEEAL-RQILRESGGID--KEPMGFTYNGIR  121
+
+Query  1666  TQA--EACLKSLK---------LMNSDSAAYPDVECDILSWETFLSTVTEEIENTKCQFE  1714
+             T     AC +S           L N+D+AA+P +     +     + +   I ++     
+Sbjct  122   TNGATSACRRSGSSFYAEMKWLLSNTDNAAFPQMTKSYKNTRESPAIIVWGIHHS-VSTA  180
+
+Query  1715  EQIKAIKSGSRLSDLSSVQVSELLFPACSMIHPQLLSESSRHEDHGLVACVDSMTGAVLN  1774
+             EQ K   SG++L  + S    +   P+     PQ+  +S R + H L+   +       N
+Sbjct  181   EQTKLYGSGNKLVTVGSSNYQQSFVPSPGA-RPQVNGQSGRIDFHWLILNPNDTVTFSFN  239
+
+Query  1775  DPYVGPD  1781
+               ++ PD
+Sbjct  240   GAFIAPD  246
+
+
+>3DPL_R Chain R, Structural Insights Into Nedd8 Activation Of 
+Cullin-Ring Ligases: Conformational Control Of Conjugation. 
+[Homo sapiens] 3RTR_B Chain B, E3 Ubiquitin-protein Ligase Rbx1 
+[Homo sapiens] 3RTR_D Chain D, E3 Ubiquitin-protein Ligase 
+Rbx1 [Homo sapiens] 3RTR_F Chain F, E3 Ubiquitin-protein 
+Ligase Rbx1 [Homo sapiens] 3RTR_H Chain H, E3 Ubiquitin-protein 
+Ligase Rbx1 [Homo sapiens] 4F52_B Chain B, E3 Ubiquitin-protein 
+Ligase Rbx1 [Homo sapiens] 4F52_D Chain D, E3 Ubiquitin-protein 
+Ligase Rbx1 [Homo sapiens] 4P5O_B Chain B, E3 ubiquitin-protein 
+ligase RBX1 [Homo sapiens] 4P5O_D Chain D, E3 
+ubiquitin-protein ligase RBX1 [Homo sapiens]
+Length=106
+
+ Score = 32.0 bits (71),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  73    CNHAFHFHCISRWLKTRQVCP  93
+
+
+>6TTU_R Chain R, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]
+Length=108
+
+ Score = 32.0 bits (71),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  75    CNHAFHFHCISRWLKTRQVCP  95
+
+
+>3DQV_R Chain R, Structural Insights Into Nedd8 Activation Of 
+Cullin-Ring Ligases: Conformational Control Of Conjugation [Homo 
+sapiens] 3DQV_Y Chain Y, Structural Insights Into Nedd8 
+Activation Of Cullin-Ring Ligases: Conformational Control Of 
+Conjugation [Homo sapiens]
+Length=106
+
+ Score = 32.0 bits (71),  Expect = 2.2, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  73    CNHAFHFHCISRWLKTRQVCP  93
+
+
+>5N4W_R Chain R, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]
+Length=102
+
+ Score = 32.0 bits (71),  Expect = 2.3, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  75    CNHAFHFHCISRWLKTRQVCP  95
+
+
+>4DJ6_A Chain A, Hemagglutinin [Influenza A virus (A/Netherlands/219/2003(H7N7))] 
+4DJ6_C Chain C, Hemagglutinin [Influenza 
+A virus (A/Netherlands/219/2003(H7N7))] 4DJ6_E Chain E, Hemagglutinin 
+[Influenza A virus (A/Netherlands/219/2003(H7N7))] 
+4DJ7_A Chain A, Hemagglutinin [Influenza A virus (A/Netherlands/219/2003(H7N7))] 
+4DJ7_C Chain C, Hemagglutinin [Influenza 
+A virus (A/Netherlands/219/2003(H7N7))] 4DJ7_E Chain E, 
+Hemagglutinin [Influenza A virus (A/Netherlands/219/2003(H7N7))] 
+4DJ8_A Chain A, Hemagglutinin [Influenza A virus (A/Netherlands/219/2003(H7N7))] 
+4DJ8_C Chain C, Hemagglutinin [Influenza 
+A virus (A/Netherlands/219/2003(H7N7))] 4DJ8_E Chain 
+E, Hemagglutinin [Influenza A virus (A/Netherlands/219/2003(H7N7))]
+Length=327
+
+ Score = 33.9 bits (76),  Expect = 2.4, Method: Compositional matrix adjust.
+ Identities = 44/187 (24%), Positives = 76/187 (41%), Gaps = 16/187 (9%)
+
+Query  1606  QPDQSLGISSALTDEKAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVA  1665
+             Q DQ L  S+ L  E+ +  +    GK + EE+  R +  E   ++  KE       G+ 
+Sbjct  69    QCDQFLEFSADLIIERREGSDVCYPGKFVNEEAL-RQILRESGGID--KETMGFTYSGIR  125
+
+Query  1666  TQA--EACLKSLK---------LMNSDSAAYPDVECDILSWETFLSTVTEEIENTKCQFE  1714
+             T     AC +S           L N+D+AA+P +     +     + +   I ++     
+Sbjct  126   TNGTTSACRRSGSSFYAEMKWLLSNTDNAAFPQMTKSYKNTRKDPALIIWGIHHSGST-T  184
+
+Query  1715  EQIKAIKSGSRLSDLSSVQVSELLFPACSMIHPQLLSESSRHEDHGLVACVDSMTGAVLN  1774
+             EQ K   SG++L  + S    +   P+     PQ+  +S R + H L+   +       N
+Sbjct  185   EQTKLYGSGNKLITVGSSNYQQSFVPSPGA-RPQVNGQSGRIDFHWLILNPNDTVTFSFN  243
+
+Query  1775  DPYVGPD  1781
+               ++ PD
+Sbjct  244   GAFIAPD  250
+
+
+>6L6J_A Chain A, Oxidored_FMN domain-containing protein [[Pseudomonas] 
+geniculata N1]
+Length=672
+
+ Score = 33.9 bits (76),  Expect = 2.7, Method: Compositional matrix adjust.
+ Identities = 13/32 (41%), Positives = 20/32 (63%), Gaps = 0/32 (0%)
+
+Query  71   YKDYAQSEKNLEYDICNIWCSKPLSILQDYCD  102
+            Y+D A   K   +DI  ++C+  LS+LQD+ D
+Sbjct  152  YRDAALRAKRAGFDIVYVYCAHNLSLLQDFLD  183
+
+
+>3ASG_A Chain A, Mama [Magnetospirillum magneticum AMB-1] 3ASG_B 
+Chain B, Mama [Magnetospirillum magneticum AMB-1] 3ASH_A 
+Chain A, Mama [Magnetospirillum magneticum AMB-1] 3ASH_B Chain 
+B, Mama [Magnetospirillum magneticum AMB-1]
+Length=186
+
+ Score = 32.7 bits (73),  Expect = 3.3, Method: Composition-based stats.
+ Identities = 30/84 (36%), Positives = 39/84 (46%), Gaps = 7/84 (8%)
+
+Query  542  PQKIKQLNLAMINYVLVVYGLAVSLLGIGRPEELSEAENQFKRIIEHYPNEGLDCLAYCG  601
+            P  IK      IN+  V + L V+L  +GR     EA + FK  +   PNEG     +  
+Sbjct  97   PLLIKVAEANPINFN-VRFRLGVALKNLGR---FDEAIDSFKIALGLRPNEGK---VHRA  149
+
+Query  602  IGKVYLKKNRFLEALNHFEKAKTL  625
+            I   Y +  R  EAL HF+KA  L
+Sbjct  150  IAFSYEQMGRHEEALPHFKKANEL  173
+
+
+>6XT9_H Chain H, Tetratricopeptide repeat domain 8 isoform 2 [Homo 
+sapiens]
+Length=517
+
+ Score = 33.5 bits (75),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 24/92 (26%), Positives = 41/92 (45%), Gaps = 2/92 (2%)
+
+Query  224  ITRVVTENCNL--LEEFRRHSCMQCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRP  281
+            I R+  E  N+    E+ +    Q     E +   G+  F  ++ EIA+ +Y R ++   
+Sbjct  300  IARIYEEMNNMSSAAEYYKEVLKQDNTHVEAIACIGSNHFYSDQPEIALRFYRRLLQMGI  359
+
+Query  282  ENHLLYGNRALCFLRMGQFRNALSDGKRAIVL  313
+             N  L+ N  LC     Q+   L+  +RA+ L
+Sbjct  360  YNGQLFNNLGLCCFYAQQYDMTLTSFERALSL  391
+
+
+>2QON_A Chain A, Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 33.5 bits (75),  Expect = 3.5, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 52/114 (46%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEXMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+ +V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGAVH  170
+
+
+>2LGV_A Chain A, E3 ubiquitin-protein ligase RBX1 [Homo sapiens]
+Length=100
+
+ Score = 31.2 bits (69),  Expect = 3.6, Method: Composition-based stats.
+ Identities = 10/21 (48%), Positives = 12/21 (57%), Gaps = 0/21 (0%)
+
+Query  1969  CGHKFHKGCFKQWLKGQSTCP  1989
+             C H FH  C  +WLK +  CP
+Sbjct  67    CNHAFHFHCISRWLKTRQVCP  87
+
+
+>2NC9_A Chain A, Stress-induced-phosphoprotein 1 [Homo sapiens]
+Length=131
+
+ Score = 32.0 bits (71),  Expect = 3.7, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 29/56 (52%), Gaps = 4/56 (7%)
+
+Query  245  QCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQF  300
+            Q +K+ EL    GN+ + K+ F+ A+ +Y +A E  P N     N+A  +   G +
+Sbjct  5    QALKEKEL----GNDAYKKKDFDTALKHYDKAKELDPTNMTYITNQAAVYFEKGDY  56
+
+
+>4UZY_A Chain A, Flagellar Associated Protein [Chlamydomonas reinhardtii]
+Length=651
+
+ Score = 33.5 bits (75),  Expect = 3.9, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 33/58 (57%), Gaps = 7/58 (12%)
+
+Query  247  VKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQFRNAL  304
+            V  G +M   G  E A++KF  AV    +A+ Y+PE  LLY N ALC+ +  QF  AL
+Sbjct  151  VNTGCIMFKEGKFEAARQKFNDAV----QALGYQPE--LLY-NIALCYYKTKQFGPAL  201
+
+
+>3ESK_A Chain A, Stress-induced-phosphoprotein 1 [Homo sapiens]
+Length=129
+
+ Score = 31.6 bits (70),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 29/56 (52%), Gaps = 4/56 (7%)
+
+Query  245  QCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQF  300
+            Q +K+ EL    GN+ + K+ F+ A+ +Y +A E  P N     N+A  +   G +
+Sbjct  3    QALKEKEL----GNDAYKKKDFDTALKHYDKAKELDPTNMTYITNQAAVYFEKGDY  54
+
+
+>3AS4_A Chain A, Mama [Magnetospirillum magneticum AMB-1] 3AS5_A 
+Chain A, Mama [Magnetospirillum magneticum AMB-1] 3AS5_B 
+Chain B, Mama [Magnetospirillum magneticum AMB-1]
+Length=186
+
+ Score = 32.3 bits (72),  Expect = 4.8, Method: Composition-based stats.
+ Identities = 30/84 (36%), Positives = 39/84 (46%), Gaps = 7/84 (8%)
+
+Query  542  PQKIKQLNLAMINYVLVVYGLAVSLLGIGRPEELSEAENQFKRIIEHYPNEGLDCLAYCG  601
+            P  IK      IN+  V + L V+L  +GR     EA + FK  +   PNEG     +  
+Sbjct  97   PLLIKVAEANPINFN-VRFRLGVALDNLGR---FDEAIDSFKIALGLRPNEGK---VHRA  149
+
+Query  602  IGKVYLKKNRFLEALNHFEKAKTL  625
+            I   Y +  R  EAL HF+KA  L
+Sbjct  150  IAFSYEQMGRHEEALPHFKKANEL  173
+
+
+>1ELR_A Chain A, TPR2A-DOMAIN OF HOP [Homo sapiens]
+Length=131
+
+ Score = 31.6 bits (70),  Expect = 4.8, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 29/56 (52%), Gaps = 4/56 (7%)
+
+Query  245  QCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQF  300
+            Q +K+ EL    GN+ + K+ F+ A+ +Y +A E  P N     N+A  +   G +
+Sbjct  3    QALKEKEL----GNDAYKKKDFDTALKHYDKAKELDPTNMTYITNQAAVYFEKGDY  54
+
+
+>3ASD_A Chain A, Mama [Magnetospirillum magneticum AMB-1]
+Length=200
+
+ Score = 32.3 bits (72),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 30/84 (36%), Positives = 39/84 (46%), Gaps = 7/84 (8%)
+
+Query  542  PQKIKQLNLAMINYVLVVYGLAVSLLGIGRPEELSEAENQFKRIIEHYPNEGLDCLAYCG  601
+            P  IK      IN+  V + L V+L  +GR     EA + FK  +   PNEG     +  
+Sbjct  97   PLLIKVAEANPINFN-VRFRLGVALDNLGR---FDEAIDSFKIALGLRPNEGK---VHRA  149
+
+Query  602  IGKVYLKKNRFLEALNHFEKAKTL  625
+            I   Y +  R  EAL HF+KA  L
+Sbjct  150  IAFSYEQMGRHEEALPHFKKANEL  173
+
+
+>5MJA_A Chain A, Ephrin type-B receptor 1 [Homo sapiens] 5MJA_B 
+Chain B, Ephrin type-B receptor 1 [Homo sapiens]
+Length=305
+
+ Score = 32.7 bits (73),  Expect = 5.4, Method: Compositional matrix adjust.
+ Identities = 14/58 (24%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLM  1678
+             K ++  +++  K  Y E Q+R   +E S++  +  R + +L+GV T++   +   + M
+Sbjct  52    KREIXVAIKTLKAGYSEKQRRDFLSEASIMGQFDHRNIIRLEGVVTKSRPVMIITEFM  109
+
+
+>3FXX_A Chain A, Ephrin type-A receptor 3 [Homo sapiens] 3FY2_A 
+Chain A, Ephrin type-A receptor 3 [Homo sapiens]
+Length=371
+
+ Score = 32.7 bits (73),  Expect = 5.7, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  69    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  128
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  129   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  168
+
+
+>5MJB_A Chain A, Ephrin Type-b Receptor 1 [Homo sapiens] 5MJB_B 
+Chain B, Ephrin Type-b Receptor 1 [Homo sapiens]
+Length=305
+
+ Score = 32.7 bits (73),  Expect = 5.8, Method: Compositional matrix adjust.
+ Identities = 14/58 (24%), Positives = 31/58 (53%), Gaps = 0/58 (0%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLM  1678
+             K ++  +++  K  Y E Q+R   +E S++  +  R + +L+GV T++   +   + M
+Sbjct  52    KREIXVAIKTLKAGYSEKQRRDFLSEASIMGQFDHRNIIRLEGVVTKSRPVMIITEFM  109
+
+
+>2QOL_A Chain A, Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.7 bits (73),  Expect = 5.9, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  170
+
+
+>2QOF_A Chain A, Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.7 bits (73),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  170
+
+
+>2QOD_A Chain A, Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.7 bits (73),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  170
+
+
+>5ELN_A Chain A, Lysine--tRNA ligase [Cryptosporidium parvum Iowa 
+II] 5ELN_B Chain B, Lysine--tRNA ligase [Cryptosporidium 
+parvum Iowa II] 5ELN_C Chain C, Lysine--tRNA ligase [Cryptosporidium 
+parvum Iowa II] 5ELN_D Chain D, Lysine--tRNA ligase 
+[Cryptosporidium parvum Iowa II] 5ELO_A Chain A, Lysine--tRNA 
+ligase [Cryptosporidium parvum Iowa II] 5ELO_B Chain B, 
+Lysine--tRNA ligase [Cryptosporidium parvum Iowa II] 5ELO_C 
+Chain C, Lysine--tRNA ligase [Cryptosporidium parvum Iowa II] 
+5ELO_D Chain D, Lysine--tRNA ligase [Cryptosporidium parvum 
+Iowa II] 6BNI_A Chain A, Lysine--tRNA ligase [Cryptosporidium 
+parvum Iowa II] 6BNI_B Chain B, Lysine--tRNA ligase [Cryptosporidium 
+parvum Iowa II] 6C86_A Chain A, Lysine--tRNA ligase 
+[Cryptosporidium parvum Iowa II] 6C86_B Chain B, Lysine--tRNA 
+ligase [Cryptosporidium parvum Iowa II] 6HCW_A Chain 
+A, Lysine--tRNA ligase [Cryptosporidium parvum Iowa II] 6HCW_B 
+Chain B, Lysine--tRNA ligase [Cryptosporidium parvum Iowa 
+II]
+Length=535
+
+ Score = 32.7 bits (73),  Expect = 6.0, Method: Compositional matrix adjust.
+ Identities = 28/98 (29%), Positives = 43/98 (44%), Gaps = 5/98 (5%)
+
+Query  1484  TEPYAPF---ERQQGDLSQKEKECHLLREQLQVACEECE--QMELRSSQETRDLEEKLQR  1538
+             T P+  F   E  +  L +K K     +E +    E CE  ++EL   +    L +KL  
+Sbjct  336   TTPWKRFSFVEEIESGLGEKLKRPLDSQENIDFMVEMCEKHEIELPHPRTAAKLLDKLAG  395
+
+Query  1539  HAEENKVSLPELQWALGKLDREIKKWHQEKKEIQERLK  1576
+             H  E K + P       +    + KWH+EK E+ ER +
+Sbjct  396   HFVETKCTNPSFIIDHPQTMSPLAKWHREKPEMTERFE  433
+
+
+>2QOI_A Chain A, Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.7 bits (73),  Expect = 6.1, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  170
+
+
+>2GSF_A Chain A, Ephrin Type-a Receptor 3 [Homo sapiens] 2QO2_A 
+Chain A, Ephrin Receptor [Homo sapiens] 2QO9_A Chain A, Ephrin 
+Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.7 bits (73),  Expect = 6.2, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  170
+
+
+>2QOK_A Chain A, Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.7 bits (73),  Expect = 6.3, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  170
+
+
+>2QOO_A Chain A, Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.3 bits (72),  Expect = 7.0, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGFVH  170
+
+
+>2ECV_A Chain A, Tripartite motif-containing protein 5 [Homo sapiens]
+Length=85
+
+ Score = 30.0 bits (66),  Expect = 7.3, Method: Compositional matrix adjust.
+ Identities = 18/47 (38%), Positives = 23/47 (49%), Gaps = 8/47 (17%)
+
+Query  1951  SCQICHEIFKSKNMRVLKCGHKFHKGCF-----KQWL-KGQSTCPTC  1991
+             +C IC E+        L CGH F + C      K  L KG+S+CP C
+Sbjct  21    TCPICLELLTQP--LSLDCGHSFCQACLTANHKKSMLDKGESSCPVC  65
+
+
+>2QO7_A Chain A, Ephrin Receptor [Homo sapiens] 2QOQ_A Chain A, 
+Ephrin Receptor [Homo sapiens]
+Length=373
+
+ Score = 32.3 bits (72),  Expect = 7.4, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  71    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEXMEN  130
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  131   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  170
+
+
+>6IN0_A Chain A, Ephrin type-A receptor 3 [Homo sapiens]
+Length=301
+
+ Score = 32.3 bits (72),  Expect = 7.8, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  34    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  93
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  94    GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  133
+
+
+>5XEK_A Chain A, RING finger protein 141 [Homo sapiens]
+Length=42
+
+ Score = 28.9 bits (63),  Expect = 7.9, Method: Composition-based stats.
+ Identities = 9/26 (35%), Positives = 12/26 (46%), Gaps = 0/26 (0%)
+
+Query  1966  VLKCGHKFHKGCFKQWLKGQSTCPTC  1991
+             +L C H F + C  +W      CP C
+Sbjct  15    ILPCAHSFCQKCIDKWSDRHRNCPIC  40
+
+
+>5G04_F Chain F, Cell Division Cycle Protein 27 Homolog [Homo 
+sapiens] 5G04_H Chain H, Cell Division Cycle Protein 27 Homolog 
+[Homo sapiens] 5G05_F Chain F, CELL DIVISION CYCLE PROTEIN 
+27 HOMOLOG [Homo sapiens] 5G05_H Chain H, CELL DIVISION CYCLE 
+PROTEIN 27 HOMOLOG [Homo sapiens] 5KHR_F Chain F, Cell 
+Division Cycle Protein 27 Homolog [Homo sapiens] 5KHR_H Chain 
+H, Cell Division Cycle Protein 27 Homolog [Homo sapiens] 5L9T_F 
+Chain F, Cell division cycle protein 27 homolog [Homo 
+sapiens] 5L9T_H Chain H, Cell division cycle protein 27 homolog 
+[Homo sapiens] 5L9U_F Chain F, Cell division cycle protein 
+27 homolog [Homo sapiens] 5L9U_H Chain H, Cell division cycle 
+protein 27 homolog [Homo sapiens] 5LCW_F Chain F, Cell 
+division cycle protein 27 homolog [Homo sapiens] 5LCW_H Chain 
+H, Cell division cycle protein 27 homolog [Homo sapiens] 6Q6G_J 
+Chain J, Cell division cycle protein 27 homolog [Homo 
+sapiens] 6Q6G_P Chain P, Cell division cycle protein 27 homolog 
+[Homo sapiens] 6Q6H_J Chain J, Cell division cycle protein 
+27 homolog [Homo sapiens] 6Q6H_P Chain P, Cell division cycle 
+protein 27 homolog [Homo sapiens] 6TLJ_F Chain F, Cell 
+division cycle protein 27 homolog [Homo sapiens] 6TLJ_H Chain 
+H, Cell division cycle protein 27 homolog [Homo sapiens] 6TM5_F 
+Chain F, Cell division cycle protein 27 homolog [Homo 
+sapiens] 6TM5_H Chain H, Cell division cycle protein 27 homolog 
+[Homo sapiens]
+Length=824
+
+ Score = 32.7 bits (73),  Expect = 8.3, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 32/65 (49%), Gaps = 5/65 (8%)
+
+Query  560  YGLAVSLLG--IGRPEELSEAENQFKRIIEHYPNEGLDCLAYCGIGKVYLKKNRFLEALN  617
+            Y  A +LLG      EEL +A   F+  I   P       A+ G+G +Y K+ +F  A  
+Sbjct  600  YAYAYTLLGHEFVLTEELDKALACFRNAIRVNPRH---YNAWYGLGMIYYKQEKFSLAEM  656
+
+Query  618  HFEKA  622
+            HF+KA
+Sbjct  657  HFQKA  661
+
+
+>4UI9_F Chain F, CELL DIVISION CYCLE PROTEIN 27 HOMOLOG [Homo 
+sapiens] 4UI9_H Chain H, CELL DIVISION CYCLE PROTEIN 27 HOMOLOG 
+[Homo sapiens]
+Length=824
+
+ Score = 32.3 bits (72),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 32/65 (49%), Gaps = 5/65 (8%)
+
+Query  560  YGLAVSLLG--IGRPEELSEAENQFKRIIEHYPNEGLDCLAYCGIGKVYLKKNRFLEALN  617
+            Y  A +LLG      EEL +A   F+  I   P       A+ G+G +Y K+ +F  A  
+Sbjct  600  YAYAYTLLGHEFVLTEELDKALACFRNAIRVNPRH---YNAWYGLGMIYYKQEKFSLAEM  656
+
+Query  618  HFEKA  622
+            HF+KA
+Sbjct  657  HFQKA  661
+
+
+>5A31_F Chain F, ANAPHASE-PROMOTING COMPLEX SUBUNIT 3 [Homo sapiens] 
+5A31_H Chain H, ANAPHASE-PROMOTING COMPLEX SUBUNIT 3 
+[Homo sapiens]
+Length=824
+
+ Score = 32.3 bits (72),  Expect = 8.4, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 32/65 (49%), Gaps = 5/65 (8%)
+
+Query  560  YGLAVSLLG--IGRPEELSEAENQFKRIIEHYPNEGLDCLAYCGIGKVYLKKNRFLEALN  617
+            Y  A +LLG      EEL +A   F+  I   P       A+ G+G +Y K+ +F  A  
+Sbjct  600  YAYAYTLLGHEFVLTEELDKALACFRNAIRVNPRH---YNAWYGLGMIYYKQEKFSLAEM  656
+
+Query  618  HFEKA  622
+            HF+KA
+Sbjct  657  HFQKA  661
+
+
+>3FWV_A Chain A, Hsc70/hsp90-organizing Protein [Homo sapiens] 
+3FWV_B Chain B, Hsc70/hsp90-organizing Protein [Homo sapiens]
+Length=128
+
+ Score = 30.8 bits (68),  Expect = 8.6, Method: Compositional matrix adjust.
+ Identities = 17/56 (30%), Positives = 29/56 (52%), Gaps = 4/56 (7%)
+
+Query  245  QCVKQGELMKMRGNEEFAKEKFEIAVIYYTRAIEYRPENHLLYGNRALCFLRMGQF  300
+            Q +K+ EL    GN+ + K+ F+ A+ +Y +A E  P N     N+A  +   G +
+Sbjct  3    QALKEKEL----GNDAYKKKDFDTALKHYDKAKELDPTNMTYIVNQAAVYFEKGDY  54
+
+
+>3DZQ_A Chain A, Eph Receptor A3 [Homo sapiens] 4G2F_A Chain A, 
+Eph Receptor A3 [Homo sapiens] 4GK2_A Chain A, EPH receptor 
+A3 [Homo sapiens] 4GK3_A Chain A, EPH receptor A3 [Homo sapiens] 
+4GK4_A Chain A, EPH receptor A3 [Homo sapiens] 4P4C_A 
+Chain A, EPH receptor A3 [Homo sapiens] 4P5Q_A Chain A, Ephrin 
+Type-a Receptor 3 [Homo sapiens] 4P5Z_A Chain A, Ephrin 
+type-A receptor 3 [Homo sapiens] 4TWN_A Chain A, Ephrin Type-a 
+Receptor 3 [Homo sapiens] 4TWO_A Chain A, Ephrin Type-a Receptor 
+3 [Homo sapiens]
+Length=361
+
+ Score = 32.0 bits (71),  Expect = 9.7, Method: Compositional matrix adjust.
+ Identities = 25/114 (22%), Positives = 51/114 (45%), Gaps = 15/114 (13%)
+
+Query  1621  KAKVEESVRKGKELYEESQQRAVAAEVSVLENWKEREVCKLQGVATQAEACLKSLKLMNS  1680
+             K ++  +++  K  Y E Q+R    E S++  +    + +L+GV T+++  +   + M +
+Sbjct  59    KKEISVAIKTLKVGYTEKQRRDFLGEASIMGQFDHPNIIRLEGVVTKSKPVMIVTEYMEN  118
+
+Query  1681  DSAAYPDVECDILSWETFLSTVTEEIENTKCQFEEQIKAIKSGSR-LSDLSSVQ  1733
+              S             ++FL     + + T  Q    ++ I SG + LSD+  V 
+Sbjct  119   GSL------------DSFLR--KHDAQFTVIQLVGMLRGIASGMKYLSDMGYVH  158
+
+
+>4RG9_A Chain A, Cell Division Cycle Protein 27 Homolog [Homo 
+sapiens] 4RG9_B Chain B, Cell Division Cycle Protein 27 Homolog 
+[Homo sapiens]
+Length=560
+
+ Score = 32.3 bits (72),  Expect = 9.8, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 32/65 (49%), Gaps = 5/65 (8%)
+
+Query  560  YGLAVSLLG--IGRPEELSEAENQFKRIIEHYPNEGLDCLAYCGIGKVYLKKNRFLEALN  617
+            Y  A +LLG      EEL +A   F+  I   P       A+ G+G +Y K+ +F  A  
+Sbjct  336  YAYAYTLLGHEFVLTEELDKALACFRNAIRVNPRHYN---AWYGLGXIYYKQEKFSLAEX  392
+
+Query  618  HFEKA  622
+            HF+KA
+Sbjct  393  HFQKA  397
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 32452763211
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

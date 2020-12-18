@@ -1,0 +1,311 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|Q969E4|TCAL3_HUMAN Transcription elongation factor A protein-like
+3 OS=Homo sapiens OX=9606 GN=TCEAL3 PE=1 SV=1
+
+Length=200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+5JCS_s Chain s, Midasin [Saccharomyces cerevisiae S288C] 6YLH_v C...  42.7    2e-04
+5FL8_s Chain s, Midasin [Saccharomyces cerevisiae S288C]              42.4    2e-04
+6I27_A Chain A, Midasin,Midasin,Midasin,Midasin,Midasin,Midasin,M...  42.4    3e-04
+6I26_A Chain A, Midasin,Midasin,Midasin,Midasin [Saccharomyces ce...  42.4    3e-04
+6HYP_A Chain A, Midasin,Midasin [Saccharomyces cerevisiae]            42.0    3e-04
+6OR5_A Chain A, Midasin [Schizosaccharomyces pombe] 6OR6_A Chain ...  30.8    1.8  
+1UJS_A Chain A, actin-binding LIM protein homologue [Homo sapiens]    28.1    3.0  
+
+
+>5JCS_s Chain s, Midasin [Saccharomyces cerevisiae S288C] 6YLH_v 
+Chain v, Midasin [Saccharomyces cerevisiae]
+Length=4910
+
+ Score = 42.7 bits (99),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 50/196 (26%), Positives = 84/196 (43%), Gaps = 28/196 (14%)
+
+Query  1     MEKPYNKNE-GNLENEGKPEDEVEPDDEGKSDEEEKPDVEGKTEC-----EGKREDEGEP  54
+             M    NK E GN + E K E  +E D+E  +DE    +  G+TE      EG  ED    
+Sbjct  4278  MPDDLNKEEVGNEDEEVKQESGIESDNE--NDEPGPEEDAGETETALDEEEGAEEDVDMT  4335
+
+Query  55    GDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPESQPRAA-----EKRPAEDYVPRK  109
+              DEG+ ++E   E+Q  S+ E   Q      ++ K   Q         EK   ED + ++
+Sbjct  4336  NDEGKEDEENGPEEQAMSDEEELKQDAAMEENKEKGGEQNTEGLDGVEEKADTED-IDQE  4394
+
+Query  110   AKRKTDRGTDDSPKDS-----QEDLQERHLSSEEMMRECGDVSRAQEELRKK--------  156
+             A  + D G+  +  D+     Q+D+     +      +  DV++  EE R++        
+Sbjct  4395  AAVQQDSGSKGAGADATDTQEQDDVGGSGTTQNTYEEDQEDVTKNNEESREEATAALKQL  4454
+
+Query  157   -QKMGGFHWMQRDVQD  171
+                M  +H  ++D+++
+Sbjct  4455  GDSMKEYHRRRQDIKE  4470
+
+
+ Score = 29.6 bits (65),  Expect = 3.4, Method: Composition-based stats.
+ Identities = 40/184 (22%), Positives = 68/184 (37%), Gaps = 35/184 (19%)
+
+Query  2     EKPYNKNEGNLENEGKP----------------------EDEVEPDDEGKSDEEEKPDVE  39
+             E+  +  EG  E+   P                      EDEV+ D+EG+  E   P++E
+Sbjct  4193  EQQRDNKEGGDEDPNAPEDGDEEIENDENAEEENDVGEQEDEVK-DEEGEDLEANVPEIE  4251
+
+Query  40    G-------KTECEGKREDEGEPGDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPES  92
+                       + E +  DE     +G  +D   +E     E   +  G        +P  
+Sbjct  4252  TLDLPEDMNLDSEHEESDEDVDMSDGMPDDLNKEEVGNEDEEVKQESGIESDNENDEPGP  4311
+
+Query  93    QPRAAEKRPAEDYVPRKAKRKTDRGTDDSPKDSQEDLQERHLSSEEMMRECGDVSRAQEE  152
+             +  A E   A D     A+   D   D+  +D +   +E+ +S EE +++      A EE
+Sbjct  4312  EEDAGETETALDE-EEGAEEDVDMTNDEGKEDEENGPEEQAMSDEEELKQ----DAAMEE  4366
+
+Query  153   LRKK  156
+              ++K
+Sbjct  4367  NKEK  4370
+
+
+>5FL8_s Chain s, Midasin [Saccharomyces cerevisiae S288C]
+Length=4914
+
+ Score = 42.4 bits (98),  Expect = 2e-04, Method: Composition-based stats.
+ Identities = 50/196 (26%), Positives = 84/196 (43%), Gaps = 28/196 (14%)
+
+Query  1     MEKPYNKNE-GNLENEGKPEDEVEPDDEGKSDEEEKPDVEGKTEC-----EGKREDEGEP  54
+             M    NK E GN + E K E  +E D+E  +DE    +  G+TE      EG  ED    
+Sbjct  4282  MPDDLNKEEVGNEDEEVKQESGIESDNE--NDEPGPEEDAGETETALDEEEGAEEDVDMT  4339
+
+Query  55    GDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPESQPRAA-----EKRPAEDYVPRK  109
+              DEG+ ++E   E+Q  S+ E   Q      ++ K   Q         EK   ED + ++
+Sbjct  4340  NDEGKEDEENGPEEQAMSDEEELKQDAAMEENKEKGGEQNTEGLDGVEEKADTED-IDQE  4398
+
+Query  110   AKRKTDRGTDDSPKDS-----QEDLQERHLSSEEMMRECGDVSRAQEELRKK--------  156
+             A  + D G+  +  D+     Q+D+     +      +  DV++  EE R++        
+Sbjct  4399  AAVQQDSGSKGAGADATDTQEQDDVGGSGTTQNTYEEDQEDVTKNNEESREEATAALKQL  4458
+
+Query  157   -QKMGGFHWMQRDVQD  171
+                M  +H  ++D+++
+Sbjct  4459  GDSMKEYHRRRQDIKE  4474
+
+
+ Score = 29.6 bits (65),  Expect = 4.0, Method: Composition-based stats.
+ Identities = 40/184 (22%), Positives = 68/184 (37%), Gaps = 35/184 (19%)
+
+Query  2     EKPYNKNEGNLENEGKP----------------------EDEVEPDDEGKSDEEEKPDVE  39
+             E+  +  EG  E+   P                      EDEV+ D+EG+  E   P++E
+Sbjct  4197  EQQRDNKEGGDEDPNAPEDGDEEIENDENAEEENDVGEQEDEVK-DEEGEDLEANVPEIE  4255
+
+Query  40    G-------KTECEGKREDEGEPGDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPES  92
+                       + E +  DE     +G  +D   +E     E   +  G        +P  
+Sbjct  4256  TLDLPEDMNLDSEHEESDEDVDMSDGMPDDLNKEEVGNEDEEVKQESGIESDNENDEPGP  4315
+
+Query  93    QPRAAEKRPAEDYVPRKAKRKTDRGTDDSPKDSQEDLQERHLSSEEMMRECGDVSRAQEE  152
+             +  A E   A D     A+   D   D+  +D +   +E+ +S EE +++      A EE
+Sbjct  4316  EEDAGETETALDE-EEGAEEDVDMTNDEGKEDEENGPEEQAMSDEEELKQ----DAAMEE  4370
+
+Query  153   LRKK  156
+              ++K
+Sbjct  4371  NKEK  4374
+
+
+>6I27_A Chain A, Midasin,Midasin,Midasin,Midasin,Midasin,Midasin,Midasin 
+[Saccharomyces cerevisiae]
+Length=4853
+
+ Score = 42.4 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 50/196 (26%), Positives = 84/196 (43%), Gaps = 28/196 (14%)
+
+Query  1     MEKPYNKNE-GNLENEGKPEDEVEPDDEGKSDEEEKPDVEGKTEC-----EGKREDEGEP  54
+             M    NK E GN + E K E  +E D+E  +DE    +  G+TE      EG  ED    
+Sbjct  4221  MPDDLNKEEVGNEDEEVKQESGIESDNE--NDEPGPEEDAGETETALDEEEGAEEDVDMT  4278
+
+Query  55    GDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPESQPRAA-----EKRPAEDYVPRK  109
+              DEG+ ++E   E+Q  S+ E   Q      ++ K   Q         EK   ED + ++
+Sbjct  4279  NDEGKEDEENGPEEQAMSDEEELKQDAAMEENKEKGGEQNTEGLDGVEEKADTED-IDQE  4337
+
+Query  110   AKRKTDRGTDDSPKDS-----QEDLQERHLSSEEMMRECGDVSRAQEELRKK--------  156
+             A  + D G+  +  D+     Q+D+     +      +  DV++  EE R++        
+Sbjct  4338  AAVQQDSGSKGAGADATDTQEQDDVGGSGTTQNTYEEDQEDVTKNNEESREEATAALKQL  4397
+
+Query  157   -QKMGGFHWMQRDVQD  171
+                M  +H  ++D+++
+Sbjct  4398  GDSMKEYHRRRQDIKE  4413
+
+
+ Score = 29.6 bits (65),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 40/184 (22%), Positives = 68/184 (37%), Gaps = 35/184 (19%)
+
+Query  2     EKPYNKNEGNLENEGKP----------------------EDEVEPDDEGKSDEEEKPDVE  39
+             E+  +  EG  E+   P                      EDEV+ D+EG+  E   P++E
+Sbjct  4136  EQQRDNKEGGDEDPNAPEDGDEEIENDENAEEENDVGEQEDEVK-DEEGEDLEANVPEIE  4194
+
+Query  40    G-------KTECEGKREDEGEPGDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPES  92
+                       + E +  DE     +G  +D   +E     E   +  G        +P  
+Sbjct  4195  TLDLPEDMNLDSEHEESDEDVDMSDGMPDDLNKEEVGNEDEEVKQESGIESDNENDEPGP  4254
+
+Query  93    QPRAAEKRPAEDYVPRKAKRKTDRGTDDSPKDSQEDLQERHLSSEEMMRECGDVSRAQEE  152
+             +  A E   A D     A+   D   D+  +D +   +E+ +S EE +++      A EE
+Sbjct  4255  EEDAGETETALDE-EEGAEEDVDMTNDEGKEDEENGPEEQAMSDEEELKQ----DAAMEE  4309
+
+Query  153   LRKK  156
+              ++K
+Sbjct  4310  NKEK  4313
+
+
+>6I26_A Chain A, Midasin,Midasin,Midasin,Midasin [Saccharomyces 
+cerevisiae]
+Length=4854
+
+ Score = 42.4 bits (98),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 50/196 (26%), Positives = 84/196 (43%), Gaps = 28/196 (14%)
+
+Query  1     MEKPYNKNE-GNLENEGKPEDEVEPDDEGKSDEEEKPDVEGKTEC-----EGKREDEGEP  54
+             M    NK E GN + E K E  +E D+E  +DE    +  G+TE      EG  ED    
+Sbjct  4222  MPDDLNKEEVGNEDEEVKQESGIESDNE--NDEPGPEEDAGETETALDEEEGAEEDVDMT  4279
+
+Query  55    GDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPESQPRAA-----EKRPAEDYVPRK  109
+              DEG+ ++E   E+Q  S+ E   Q      ++ K   Q         EK   ED + ++
+Sbjct  4280  NDEGKEDEENGPEEQAMSDEEELKQDAAMEENKEKGGEQNTEGLDGVEEKADTED-IDQE  4338
+
+Query  110   AKRKTDRGTDDSPKDS-----QEDLQERHLSSEEMMRECGDVSRAQEELRKK--------  156
+             A  + D G+  +  D+     Q+D+     +      +  DV++  EE R++        
+Sbjct  4339  AAVQQDSGSKGAGADATDTQEQDDVGGSGTTQNTYEEDQEDVTKNNEESREEATAALKQL  4398
+
+Query  157   -QKMGGFHWMQRDVQD  171
+                M  +H  ++D+++
+Sbjct  4399  GDSMKEYHRRRQDIKE  4414
+
+
+ Score = 29.6 bits (65),  Expect = 4.4, Method: Composition-based stats.
+ Identities = 40/184 (22%), Positives = 68/184 (37%), Gaps = 35/184 (19%)
+
+Query  2     EKPYNKNEGNLENEGKP----------------------EDEVEPDDEGKSDEEEKPDVE  39
+             E+  +  EG  E+   P                      EDEV+ D+EG+  E   P++E
+Sbjct  4137  EQQRDNKEGGDEDPNAPEDGDEEIENDENAEEENDVGEQEDEVK-DEEGEDLEANVPEIE  4195
+
+Query  40    G-------KTECEGKREDEGEPGDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPES  92
+                       + E +  DE     +G  +D   +E     E   +  G        +P  
+Sbjct  4196  TLDLPEDMNLDSEHEESDEDVDMSDGMPDDLNKEEVGNEDEEVKQESGIESDNENDEPGP  4255
+
+Query  93    QPRAAEKRPAEDYVPRKAKRKTDRGTDDSPKDSQEDLQERHLSSEEMMRECGDVSRAQEE  152
+             +  A E   A D     A+   D   D+  +D +   +E+ +S EE +++      A EE
+Sbjct  4256  EEDAGETETALDE-EEGAEEDVDMTNDEGKEDEENGPEEQAMSDEEELKQ----DAAMEE  4310
+
+Query  153   LRKK  156
+              ++K
+Sbjct  4311  NKEK  4314
+
+
+>6HYP_A Chain A, Midasin,Midasin [Saccharomyces cerevisiae]
+Length=4863
+
+ Score = 42.0 bits (97),  Expect = 3e-04, Method: Composition-based stats.
+ Identities = 50/196 (26%), Positives = 84/196 (43%), Gaps = 28/196 (14%)
+
+Query  1     MEKPYNKNE-GNLENEGKPEDEVEPDDEGKSDEEEKPDVEGKTEC-----EGKREDEGEP  54
+             M    NK E GN + E K E  +E D+E  +DE    +  G+TE      EG  ED    
+Sbjct  4231  MPDDLNKEEVGNEDEEVKQESGIESDNE--NDEPGPEEDAGETETALDEEEGAEEDVDMT  4288
+
+Query  55    GDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPESQPRAA-----EKRPAEDYVPRK  109
+              DEG+ ++E   E+Q  S+ E   Q      ++ K   Q         EK   ED + ++
+Sbjct  4289  NDEGKEDEENGPEEQAMSDEEELKQDAAMEENKEKGGEQNTEGLDGVEEKADTED-IDQE  4347
+
+Query  110   AKRKTDRGTDDSPKDS-----QEDLQERHLSSEEMMRECGDVSRAQEELRKK--------  156
+             A  + D G+  +  D+     Q+D+     +      +  DV++  EE R++        
+Sbjct  4348  AAVQQDSGSKGAGADATDTQEQDDVGGSGTTQNTYEEDQEDVTKNNEESREEATAALKQL  4407
+
+Query  157   -QKMGGFHWMQRDVQD  171
+                M  +H  ++D+++
+Sbjct  4408  GDSMKEYHRRRQDIKE  4423
+
+
+ Score = 29.3 bits (64),  Expect = 5.2, Method: Composition-based stats.
+ Identities = 40/184 (22%), Positives = 68/184 (37%), Gaps = 35/184 (19%)
+
+Query  2     EKPYNKNEGNLENEGKP----------------------EDEVEPDDEGKSDEEEKPDVE  39
+             E+  +  EG  E+   P                      EDEV+ D+EG+  E   P++E
+Sbjct  4146  EQQRDNKEGGDEDPNAPEDGDEEIENDENAEEENDVGEQEDEVK-DEEGEDLEANVPEIE  4204
+
+Query  40    G-------KTECEGKREDEGEPGDEGQLEDEGSQEKQGRSEGEGKPQGEGKPASQAKPES  92
+                       + E +  DE     +G  +D   +E     E   +  G        +P  
+Sbjct  4205  TLDLPEDMNLDSEHEESDEDVDMSDGMPDDLNKEEVGNEDEEVKQESGIESDNENDEPGP  4264
+
+Query  93    QPRAAEKRPAEDYVPRKAKRKTDRGTDDSPKDSQEDLQERHLSSEEMMRECGDVSRAQEE  152
+             +  A E   A D     A+   D   D+  +D +   +E+ +S EE +++      A EE
+Sbjct  4265  EEDAGETETALDE-EEGAEEDVDMTNDEGKEDEENGPEEQAMSDEEELKQ----DAAMEE  4319
+
+Query  153   LRKK  156
+              ++K
+Sbjct  4320  NKEK  4323
+
+
+>6OR5_A Chain A, Midasin [Schizosaccharomyces pombe] 6OR6_A Chain 
+A, Midasin [Schizosaccharomyces pombe] 6ORB_A Chain A, Midasin 
+[Schizosaccharomyces pombe]
+Length=4717
+
+ Score = 30.8 bits (68),  Expect = 1.8, Method: Composition-based stats.
+ Identities = 42/167 (25%), Positives = 66/167 (40%), Gaps = 43/167 (26%)
+
+Query  9     EGNLENEGKPEDEVEPDDEGK--SDEEEKPDVEGKTECEGKREDEGEPGDEGQLEDEGSQ  66
+             E  LE E K  ++   ++E    S E++   +E K   E  +EDE E  D+  ++DE   
+Sbjct  4010  EDLLETEQKSNEQSAANNESDLVSKEDDNKALEDKDRQE--KEDEEEMSDDVGIDDEIQP  4067
+
+Query  67    EKQGRSEGEGKPQGEGKPASQAKPESQPRAAEKRPAEDYVPRKAKRKTDRGTDDSPKDSQ  126
+             + Q  +             SQ  PE+          ED++      K D    D  KDS 
+Sbjct  4068  DIQENN-------------SQPPPEN----------EDHLDLPEDLKLDEKEGDVSKDS-  4103
+
+Query  127   EDLQERHLSSEEMMRECGDVSRAQEELRKKQKMGGFHWMQRDVQDPF  173
+              DL       E+M  E  D ++ + +  K + M       +D +DP 
+Sbjct  4104  -DL-------EDMDMEAADENKEEADAEKDEPM-------QDFEDPL  4135
+
+
+>1UJS_A Chain A, actin-binding LIM protein homologue [Homo sapiens]
+Length=88
+
+ Score = 28.1 bits (61),  Expect = 3.0, Method: Compositional matrix adjust.
+ Identities = 15/38 (39%), Positives = 18/38 (47%), Gaps = 0/38 (0%)
+
+Query  107  PRKAKRKTDRGTDDSPKDSQEDLQERHLSSEEMMRECG  144
+            P +    T RG +  PKD      ERHLS EE  +  G
+Sbjct  21   PYELLLVTTRGRNRLPKDVDRTRLERHLSQEEFYQVFG  58
+
+
+
+Lambda      K        H        a         alpha
+   0.303    0.130    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1984929871
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,417 @@
+BLASTP 2.11.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: ../../DB/pdbaa
+           119,992 sequences; 31,531,979 total letters
+
+
+
+Query= sp|P0CAQ9|CA14B_CONQU Alpha-conotoxin-like Qc1.4b (Fragment)
+OS=Conus quercinus OX=101313 PE=3 SV=1
+
+Length=40
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+2GCZ_A Chain A, Alpha-conotoxin OmIA [Conus omaria]                   30.0    0.011
+1ZLC_A Chain A, Alpha-conotoxin PIA [synthetic construct]             29.6    0.017
+5T90_F Chain F, LsIA [Conus] 5T90_G Chain G, LsIA [Conus] 5T90_H ...  29.3    0.024
+1MTQ_A Chain A, alpha-conotoxin GID [synthetic construct]             28.5    0.037
+5JME_F Chain F, Alpha-conotoxin Peia From Conus Pergrandis [Conus...  28.5    0.040
+5UG3_A Chain A, Alpha-conotoxin GID [Conus geographus]                28.1    0.064
+2MD6_A Chain A, ALPHA CONOTOXIN LO1A [Conasprella longurionis]        27.3    0.11 
+4TTL_A Chain A, Alpha-conotoxin Vc1A [Conus victoriae]                27.3    0.11 
+1K64_A Chain A, alpha-conotoxin EI [synthetic construct]              27.3    0.12 
+5UG5_A Chain A, Alpha-conotoxin GID [Conus geographus]                27.3    0.13 
+2MDQ_A Chain A, Alpha-conotoxin-like [Conus lividus] 5XGL_C Chain...  26.2    0.38 
+1A0M_A Chain A, 1.1 Angstrom Crystal Structure Of A-Conotoxin [ty...  25.8    0.53 
+2AJW_A Chain A, Alpha-conotoxin MII                                   25.4    0.64 
+2UZ6_K Chain K, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_L...  25.4    0.67 
+2AK0_A Chain A, Alpha-conotoxin MII                                   25.4    0.78 
+6CGX_A Chain A, Alpha-conotoxin Vc1A [Conus victoriae]                25.4    0.80 
+2NAY_A Chain A, Conotoxin Bt1.8 [Conus betulinus]                     25.0    1.1  
+6OTA_A Chain A, Alpha-conotoxin TxIA [Conus textile]                  24.6    1.5  
+1PEN_A Chain A, Alpha-Conotoxin Pni1 [Conus pennaceus]                24.3    2.3  
+2H8S_A Chain A, Alpha-conotoxin Vc1A [synthetic construct]            23.5    4.2  
+1AKG_A Chain A, Alpha-conotoxin Pnib [Conus pennaceus]                23.5    4.5  
+1UL2_A Chain A, alpha-conotoxin GIC [synthetic construct] 5CO5_C ...  23.1    4.9  
+2BR8_F Chain F, Crystal Structure Of Acetylcholine-Binding Protei...  23.1    6.7  
+5WJZ_A Chain A, Flagellin [Bacillus subtilis] 5WJZ_B Chain B, Fla...  23.9    9.7  
+
+
+>2GCZ_A Chain A, Alpha-conotoxin OmIA [Conus omaria]
+Length=18
+
+ Score = 30.0 bits (66),  Expect = 0.011, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 15/17 (88%), Gaps = 0/17 (0%)
+
+Query  21  GCCPNPSCSVNNPDICG  37
+           GCC +P+C+VNNP ICG
+Sbjct  1   GCCSHPACNVNNPHICG  17
+
+
+>1ZLC_A Chain A, Alpha-conotoxin PIA [synthetic construct]
+Length=19
+
+ Score = 29.6 bits (65),  Expect = 0.017, Method: Compositional matrix adjust.
+ Identities = 12/18 (67%), Positives = 14/18 (78%), Gaps = 0/18 (0%)
+
+Query  19  RDGCCPNPSCSVNNPDIC  36
+           RD CC NP C+V+NP IC
+Sbjct  1   RDPCCSNPVCTVHNPQIC  18
+
+
+>5T90_F Chain F, LsIA [Conus] 5T90_G Chain G, LsIA [Conus] 5T90_H 
+Chain H, LsIA [Conus] 5T90_I Chain I, LsIA [Conus] 5T90_J 
+Chain J, LsIA [Conus]
+Length=18
+
+ Score = 29.3 bits (64),  Expect = 0.024, Method: Compositional matrix adjust.
+ Identities = 12/17 (71%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  20  DGCCPNPSCSVNNPDIC  36
+            GCC NP+C VNNP+IC
+Sbjct  1   SGCCSNPACRVNNPNIC  17
+
+
+>1MTQ_A Chain A, alpha-conotoxin GID [synthetic construct]
+Length=19
+
+ Score = 28.5 bits (62),  Expect = 0.037, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 14/19 (74%), Gaps = 0/19 (0%)
+
+Query  18  LRDGCCPNPSCSVNNPDIC  36
+           +RD CC NP+C VNN  +C
+Sbjct  1   IRDXCCSNPACRVNNXHVC  19
+
+
+>5JME_F Chain F, Alpha-conotoxin Peia From Conus Pergrandis [Conus 
+pergrandis] 5JME_G Chain G, Alpha-conotoxin Peia From Conus 
+Pergrandis [Conus pergrandis] 5JME_H Chain H, Alpha-conotoxin 
+Peia From Conus Pergrandis [Conus pergrandis] 5JME_I 
+Chain I, Alpha-conotoxin Peia From Conus Pergrandis [Conus pergrandis]
+Length=17
+
+ Score = 28.5 bits (62),  Expect = 0.040, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC +P+CSVN+P++C
+Sbjct  1   GCCSHPACSVNHPELC  16
+
+
+>5UG3_A Chain A, Alpha-conotoxin GID [Conus geographus]
+Length=19
+
+ Score = 28.1 bits (61),  Expect = 0.064, Method: Compositional matrix adjust.
+ Identities = 11/19 (58%), Positives = 13/19 (68%), Gaps = 0/19 (0%)
+
+Query  18  LRDGCCPNPSCSVNNPDIC  36
+           +RD CC NP C VNN  +C
+Sbjct  1   IRDECCSNPVCRVNNXHVC  19
+
+
+>2MD6_A Chain A, ALPHA CONOTOXIN LO1A [Conasprella longurionis]
+Length=18
+
+ Score = 27.3 bits (59),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 9/17 (53%), Positives = 14/17 (82%), Gaps = 0/17 (0%)
+
+Query  20  DGCCPNPSCSVNNPDIC  36
+           +GCC NP+C  N+P++C
+Sbjct  1   EGCCSNPACRTNHPEVC  17
+
+
+>4TTL_A Chain A, Alpha-conotoxin Vc1A [Conus victoriae]
+Length=22
+
+ Score = 27.3 bits (59),  Expect = 0.11, Method: Compositional matrix adjust.
+ Identities = 10/18 (56%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  21  GCCPNPSCSVNNPDICGG  38
+           GCC +P C+ ++P+ICGG
+Sbjct  1   GCCSDPRCNYDHPEICGG  18
+
+
+>1K64_A Chain A, alpha-conotoxin EI [synthetic construct]
+Length=19
+
+ Score = 27.3 bits (59),  Expect = 0.12, Method: Compositional matrix adjust.
+ Identities = 10/18 (56%), Positives = 15/18 (83%), Gaps = 0/18 (0%)
+
+Query  19  RDGCCPNPSCSVNNPDIC  36
+           RD CC +P+C+++NP IC
+Sbjct  1   RDXCCYHPTCNMSNPQIC  18
+
+
+>5UG5_A Chain A, Alpha-conotoxin GID [Conus geographus]
+Length=19
+
+ Score = 27.3 bits (59),  Expect = 0.13, Method: Compositional matrix adjust.
+ Identities = 10/19 (53%), Positives = 13/19 (68%), Gaps = 0/19 (0%)
+
+Query  18  LRDGCCPNPSCSVNNPDIC  36
+           +RD CC NP+C  NN  +C
+Sbjct  1   IRDECCSNPACRYNNXHVC  19
+
+
+>2MDQ_A Chain A, Alpha-conotoxin-like [Conus lividus] 5XGL_C Chain 
+C, Alpha-conotoxin LvIA [Conus lividus] 5XGL_E Chain E, 
+Alpha-conotoxin LvIA [Conus lividus] 5XGL_F Chain F, Alpha-conotoxin 
+LvIA [Conus lividus] 5XGL_H Chain H, Alpha-conotoxin 
+LvIA [Conus lividus] 5XGL_J Chain J, Alpha-conotoxin LvIA 
+[Conus lividus]
+Length=17
+
+ Score = 26.2 bits (56),  Expect = 0.38, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 15/16 (94%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC +P+C+V++P+IC
+Sbjct  1   GCCSHPACNVDHPEIC  16
+
+
+>1A0M_A Chain A, 1.1 Angstrom Crystal Structure Of A-Conotoxin 
+[tyr15]-Epi [Conus episcopatus] 1A0M_B Chain B, 1.1 Angstrom 
+Crystal Structure Of A-Conotoxin [tyr15]-Epi [Conus episcopatus]
+Length=17
+
+ Score = 25.8 bits (55),  Expect = 0.53, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC +P C++NNPD C
+Sbjct  1   GCCSDPRCNMNNPDYC  16
+
+
+>2AJW_A Chain A, Alpha-conotoxin MII
+Length=22
+
+ Score = 25.4 bits (54),  Expect = 0.64, Method: Compositional matrix adjust.
+ Identities = 9/18 (50%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  21  GCCPNPSCSVNNPDICGG  38
+           GCC NP C + + ++CGG
+Sbjct  1   GCCSNPVCHLEHSNLCGG  18
+
+
+>2UZ6_K Chain K, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_L 
+Chain L, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_M 
+Chain M, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_N 
+Chain N, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_O 
+Chain O, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_P 
+Chain P, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_Q 
+Chain Q, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_R Chain 
+R, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_S Chain 
+S, Alpha-conotoxin Txia(a10l) [Conus textile] 2UZ6_T Chain 
+T, Alpha-conotoxin Txia(a10l) [Conus textile]
+Length=17
+
+ Score = 25.4 bits (54),  Expect = 0.67, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC  P C +NNPD+C
+Sbjct  1   GCCSRPPCILNNPDLC  16
+
+
+>2AK0_A Chain A, Alpha-conotoxin MII
+Length=23
+
+ Score = 25.4 bits (54),  Expect = 0.78, Method: Compositional matrix adjust.
+ Identities = 9/19 (47%), Positives = 13/19 (68%), Gaps = 0/19 (0%)
+
+Query  21  GCCPNPSCSVNNPDICGGG  39
+           GCC NP C + + ++CG G
+Sbjct  1   GCCSNPVCHLEHSNLCGAG  19
+
+
+>6CGX_A Chain A, Alpha-conotoxin Vc1A [Conus victoriae]
+Length=22
+
+ Score = 25.4 bits (54),  Expect = 0.80, Method: Compositional matrix adjust.
+ Identities = 10/18 (56%), Positives = 13/18 (72%), Gaps = 0/18 (0%)
+
+Query  21  GCCPNPSCSVNNPDICGG  38
+           GCC +P C+  +P ICGG
+Sbjct  1   GCCSDPRCNYAHPAICGG  18
+
+
+>2NAY_A Chain A, Conotoxin Bt1.8 [Conus betulinus]
+Length=17
+
+ Score = 25.0 bits (53),  Expect = 1.1, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC NP+C +NNP+ C
+Sbjct  1   GCCSNPACILNNPNQC  16
+
+
+>6OTA_A Chain A, Alpha-conotoxin TxIA [Conus textile]
+Length=16
+
+ Score = 24.6 bits (52),  Expect = 1.5, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC  P C  NNPD+C
+Sbjct  1   GCCSRPPCIANNPDLC  16
+
+
+>1PEN_A Chain A, Alpha-Conotoxin Pni1 [Conus pennaceus]
+Length=17
+
+ Score = 24.3 bits (51),  Expect = 2.3, Method: Compositional matrix adjust.
+ Identities = 10/16 (63%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC  P C+ NNPD C
+Sbjct  1   GCCSLPPCAANNPDYC  16
+
+
+>2H8S_A Chain A, Alpha-conotoxin Vc1A [synthetic construct]
+Length=17
+
+ Score = 23.5 bits (49),  Expect = 4.2, Method: Compositional matrix adjust.
+ Identities = 8/16 (50%), Positives = 13/16 (81%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC +P C+ ++P+IC
+Sbjct  1   GCCSDPRCNYDHPEIC  16
+
+
+>1AKG_A Chain A, Alpha-conotoxin Pnib [Conus pennaceus]
+Length=17
+
+ Score = 23.5 bits (49),  Expect = 4.5, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC  P C+++NPD C
+Sbjct  1   GCCSLPPCALSNPDYC  16
+
+
+>1UL2_A Chain A, alpha-conotoxin GIC [synthetic construct] 5CO5_C 
+Chain C, Alpha-conotoxin Gic [Conus geographus] 5CO5_E Chain 
+E, Alpha-conotoxin Gic [Conus geographus] 5CO5_F Chain 
+F, Alpha-conotoxin Gic [Conus geographus] 5CO5_H Chain H, Alpha-conotoxin 
+Gic [Conus geographus] 5CO5_J Chain J, Alpha-conotoxin 
+Gic [Conus geographus]
+Length=17
+
+ Score = 23.1 bits (48),  Expect = 4.9, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 12/16 (75%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC +P+C+ NN  IC
+Sbjct  1   GCCSHPACAGNNQHIC  16
+
+
+>2BR8_F Chain F, Crystal Structure Of Acetylcholine-Binding Protein 
+(Achbp) From Aplysia Californica In Complex With An Alpha- 
+Conotoxin Pnia Variant [Conus pennaceus] 2BR8_G Chain G, 
+Crystal Structure Of Acetylcholine-Binding Protein (Achbp) 
+From Aplysia Californica In Complex With An Alpha- Conotoxin 
+Pnia Variant [Conus pennaceus] 2BR8_H Chain H, Crystal Structure 
+Of Acetylcholine-Binding Protein (Achbp) From Aplysia 
+Californica In Complex With An Alpha- Conotoxin Pnia Variant 
+[Conus pennaceus] 2BR8_I Chain I, Crystal Structure Of Acetylcholine-Binding 
+Protein (Achbp) From Aplysia Californica 
+In Complex With An Alpha- Conotoxin Pnia Variant [Conus pennaceus] 
+2BR8_J Chain J, Crystal Structure Of Acetylcholine-Binding 
+Protein (Achbp) From Aplysia Californica In Complex With 
+An Alpha- Conotoxin Pnia Variant [Conus pennaceus]
+Length=17
+
+ Score = 23.1 bits (48),  Expect = 6.7, Method: Compositional matrix adjust.
+ Identities = 9/16 (56%), Positives = 11/16 (69%), Gaps = 0/16 (0%)
+
+Query  21  GCCPNPSCSVNNPDIC  36
+           GCC  P C++NNP  C
+Sbjct  1   GCCSLPPCALNNPKYC  16
+
+
+>5WJZ_A Chain A, Flagellin [Bacillus subtilis] 5WJZ_B Chain B, 
+Flagellin [Bacillus subtilis] 5WJZ_C Chain C, Flagellin [Bacillus 
+subtilis] 5WJZ_D Chain D, Flagellin [Bacillus subtilis] 
+5WJZ_E Chain E, Flagellin [Bacillus subtilis] 5WJZ_F Chain 
+F, Flagellin [Bacillus subtilis] 5WJZ_G Chain G, Flagellin 
+[Bacillus subtilis] 5WJZ_H Chain H, Flagellin [Bacillus subtilis] 
+5WJZ_I Chain I, Flagellin [Bacillus subtilis] 5WJZ_J 
+Chain J, Flagellin [Bacillus subtilis] 5WJZ_K Chain K, Flagellin 
+[Bacillus subtilis] 5WJZ_L Chain L, Flagellin [Bacillus 
+subtilis] 5WJZ_M Chain M, Flagellin [Bacillus subtilis] 5WJZ_N 
+Chain N, Flagellin [Bacillus subtilis] 5WJZ_O Chain O, Flagellin 
+[Bacillus subtilis] 5WJZ_P Chain P, Flagellin [Bacillus 
+subtilis] 5WJZ_Q Chain Q, Flagellin [Bacillus subtilis] 
+5WJZ_R Chain R, Flagellin [Bacillus subtilis] 5WJZ_S Chain 
+S, Flagellin [Bacillus subtilis] 5WJZ_T Chain T, Flagellin [Bacillus 
+subtilis] 5WJZ_U Chain U, Flagellin [Bacillus subtilis] 
+5WJZ_V Chain V, Flagellin [Bacillus subtilis] 5WJZ_W Chain 
+W, Flagellin [Bacillus subtilis] 5WJZ_X Chain X, Flagellin 
+[Bacillus subtilis] 5WJZ_Y Chain Y, Flagellin [Bacillus subtilis] 
+5WJZ_Z Chain Z, Flagellin [Bacillus subtilis] 5WJZ_a 
+Chain a, Flagellin [Bacillus subtilis] 5WJZ_b Chain b, Flagellin 
+[Bacillus subtilis] 5WJZ_c Chain c, Flagellin [Bacillus 
+subtilis] 5WJZ_d Chain d, Flagellin [Bacillus subtilis] 5WJZ_e 
+Chain e, Flagellin [Bacillus subtilis] 5WJZ_f Chain f, 
+Flagellin [Bacillus subtilis] 5WJZ_g Chain g, Flagellin [Bacillus 
+subtilis] 5WJZ_h Chain h, Flagellin [Bacillus subtilis] 
+5WJZ_i Chain i, Flagellin [Bacillus subtilis] 5WJZ_j Chain 
+j, Flagellin [Bacillus subtilis] 5WJZ_k Chain k, Flagellin 
+[Bacillus subtilis] 5WJZ_l Chain l, Flagellin [Bacillus subtilis] 
+5WJZ_m Chain m, Flagellin [Bacillus subtilis] 5WJZ_n 
+Chain n, Flagellin [Bacillus subtilis] 5WJZ_o Chain o, Flagellin 
+[Bacillus subtilis] 5WJZ_p Chain p, Flagellin [Bacillus 
+subtilis] 5WJZ_q Chain q, Flagellin [Bacillus subtilis] 5WJZ_r 
+Chain r, Flagellin [Bacillus subtilis] 5WJZ_s Chain s, Flagellin 
+[Bacillus subtilis] 5WJZ_t Chain t, Flagellin [Bacillus 
+subtilis]
+Length=304
+
+ Score = 23.9 bits (50),  Expect = 9.7, Method: Composition-based stats.
+ Identities = 9/17 (53%), Positives = 13/17 (76%), Gaps = 0/17 (0%)
+
+Query  5    NTAANDKASDLMALRDG  21
+            NT   DKA+DL +++DG
+Sbjct  99   NTGTQDKATDLQSIQDG  115
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.134    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 776154366
+
+
+  Database: ../../DB/pdbaa
+    Posted date:  Dec 10, 2020  5:34 PM
+  Number of letters in database: 31,531,979
+  Number of sequences in database:  119,992
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
