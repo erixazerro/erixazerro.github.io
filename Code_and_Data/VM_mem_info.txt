@@ -1,0 +1,54 @@
+student@scs-gpu-rezza:~/COMP5704/NCBI-BLAST+$ cat /proc/meminfo
+MemTotal:       24630564 kB
+MemFree:        13468112 kB
+MemAvailable:   22397612 kB
+Buffers:          346756 kB
+Cached:          5348028 kB
+SwapCached:            0 kB
+Active:          3794172 kB
+Inactive:        3411092 kB
+Active(anon):    1520824 kB
+Inactive(anon):    47484 kB
+Active(file):    2273348 kB
+Inactive(file):  3363608 kB
+Unevictable:       19944 kB
+Mlocked:           18392 kB
+SwapTotal:             0 kB
+SwapFree:              0 kB
+Dirty:                88 kB
+Writeback:             0 kB
+AnonPages:       1530420 kB
+Mapped:           394832 kB
+Shmem:             49648 kB
+KReclaimable:    3693332 kB
+Slab:            3823852 kB
+SReclaimable:    3693332 kB
+SUnreclaim:       130520 kB
+KernelStack:        6704 kB
+PageTables:        14228 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    12315280 kB
+Committed_AS:    4142376 kB
+VmallocTotal:   34359738367 kB
+VmallocUsed:       50300 kB
+VmallocChunk:          0 kB
+Percpu:             8160 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+ShmemHugePages:        0 kB
+ShmemPmdMapped:        0 kB
+FileHugePages:         0 kB
+FilePmdMapped:         0 kB
+CmaTotal:              0 kB
+CmaFree:               0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:       2048 kB
+Hugetlb:               0 kB
+DirectMap4k:      325488 kB
+DirectMap2M:    12257280 kB
+DirectMap1G:    14680064 kB
